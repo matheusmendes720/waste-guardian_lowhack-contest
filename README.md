@@ -118,6 +118,30 @@ Escolha seu caminho baseado na sua função no time:
 
 ---
 
+### 🎯 Gabriel — Designer / Creative
+
+> **Foco:** Identidade visual, Pitch Deck, roteiro de vídeo, design de slides com IA e materiais de marketing.
+
+**Caminho de Leitura (Full - 60min):**
+
+| # | Documento                                                                                                 | Por Que              | Tempo |
+| :-: | --------------------------------------------------------------------------------------------------------- | -------------------- | :---: |
+| 1 | **[base/scaffolding/pitch/roteiro-video-3min.md](base/scaffolding/pitch/roteiro-video-3min.md)**         | Roteiro e tom de voz | 20min |
+| 2 | **[base/scaffolding/tech/03-mendix-ui-wireframes.md](base/scaffolding/tech/03-mendix-ui-wireframes.md)** | UI/UX do Produto     | 15min |
+| 3 | **[base/docs/PRODUCT-DESIGN.md](base/docs/PRODUCT-DESIGN.md)**                                           | Visão do Produto     | 15min |
+| 4 | **[base/scaffolding/pitch/02-qna-defense-playbook.md](base/scaffolding/pitch/02-qna-defense-playbook.md)** | Defesa de Design     | 10min |
+
+**Caminho Express (10min):**
+
+1. **[base/scaffolding/pitch/roteiro-video-3min.md](base/scaffolding/pitch/roteiro-video-3min.md)** ← Essencial para o vídeo!
+2. **[base/scaffolding/tech/03-mendix-ui-wireframes.md](base/scaffolding/tech/03-mendix-ui-wireframes.md)** ← Referência visual do App.
+
+**Tasks:** Pitch Deck (Slides) → Video Script Polish → Visual Identity → AI Image/Slide Generation → Presentation Review
+
+**💡 Dica:** roteiro-video-3min = seu guia mestre de narrativa!
+
+---
+
 ### 📚 Leitura Extra por Área
 
 | Área              | Docs                                                                                                                                                       |
