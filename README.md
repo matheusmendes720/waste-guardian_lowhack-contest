@@ -192,11 +192,11 @@ Escolha seu ponto de entrada baseado no tempo disponível:
 
 ```bash
 # Clone o repositório (substitua pela URL real quando disponível)
-git clone https://github.com/<SEU-USUARIO>/lowhack_2026-hackaton.git
-cd lowhack_2026-hackaton
+git clone https://github.com/<SEU-USUARIO>/waste-guardian_lowhack-contest.git
+cd waste-guardian_lowhack-contest
 
 # Adicione o repositório original como upstream
-git remote add upstream https://github.com/matheusmendes720/lowhack_2026-hackaton.git
+git remote add upstream https://github.com/matheusmendes720/waste-guardian_lowhack-contest.git
 ```
 
 #### 2. Criar Branch

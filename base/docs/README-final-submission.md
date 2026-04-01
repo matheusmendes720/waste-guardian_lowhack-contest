@@ -24,7 +24,7 @@
 |---------|------|--------|
 | **🔗 Deploy (Mendix Cloud)** | `[INSERIR URL CLOUD AQUI]` | ⏳ |
 | **🎬 Pitch (YouTube Não Listado)** | `[INSERIR URL DO YOUTUBE AQUI]` | ⏳ |
-| **📁 Repositório (GitHub)** | `[INSERIR URL GITHUB]` | ⏳ |
+| **📁 Repositório (GitHub)** | [matheusmendes720/waste-guardian_lowhack-contest](https://github.com/matheusmendes720/waste-guardian_lowhack-contest) | ✅ |
 
 ---
 
