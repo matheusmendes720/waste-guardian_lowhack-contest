@@ -1,0 +1,11 @@
+UID_Evento,LinhaProducao_Nome,TempoTurno,TemperaturaMaquinario_Graus,QuilosDesperdicados,MotivoDaPerda
+E-001,Extratora Laranja A,Turno Noite,82.4,12.5,Falta de calibração na pressão das lâminas
+E-002,Extratora Laranja A,Turno Dia,85.1,3.0,Queda de energia causou interrupção da esteira
+E-003,Secagem / Pasteurizadora,Turno Dia,102.0,40.0,Sobrecarga de volume queimou lote
+E-004,Envasadora PET Linha B,Turno Noite,34.2,5.5,Desalinhamento da tampa gerou vazamento de 50L
+E-005,Estoque Temporário Seco,Turno Dia,28.0,150.0,Carga de polpa passou do tempo ideal e oxidou
+E-006,Extratora Laranja A,Turno Noite,84.0,22.0,Falta de calibração na pressão das lâminas
+E-007,Envasadora PET Linha C,Turno Tarde,40.1,2.0,Entupimento na válvula de injeção F40
+E-008,Secagem / Pasteurizadora,Turno Noite,101.5,18.0,Bomba de compressão indicou defeito térmico
+E-009,Fornos Iniciais,Turno Manha,180.0,0.0,Setup Operacional Padrão T2
+E-010,Envasadora PET Linha B,Turno Noite,38.9,8.4,Vazamento do anel de vedação inferior
