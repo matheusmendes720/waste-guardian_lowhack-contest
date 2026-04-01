@@ -34,6 +34,7 @@ Escolha seu caminho baseado na sua função no time:
 | **Rodrigo (Tech Lead)** | [🎯 Guia do Rodrigo](#-rodrigo-jeronimo--tech-lead--backend) |  80min  |
 | **Wesley (Business)**   | [🎯 Guia do Wesley](#-wesley-vitor--business--strategy)      |  80min  |
 | **Matheus (Coord/PO)**  | [🎯 Guia do Matheus](#-matheus-mendes--coordinator--po)      | 5-30min |
+| **Gabriel (Designer)**  | [🎯 Guia do Gabriel](#-gabriel--designer--creative)          |  60min  |
 | **Novo no projeto?**    | [📚 Nível 2: Onboarding](#-nível-2-onboarding-rápido)     |  5min  |
 
 ---
@@ -45,6 +46,8 @@ Escolha seu caminho baseado na sua função no time:
 | **Wesley Vitor**     | [@CodeByWesley](https://github.com/CodeByWesley)         | [LinkedIn](https://www.linkedin.com/in/wesleymendoncabr)          | Business/Strategy |
 | **Matheus Mendes**   | [@matheusmendes720](https://github.com/matheusmendes720) | [LinkedIn](https://www.linkedin.com/in/matheus-mendes-36ba58214/) | Coord/PO          |
 | **Rodrigo Jeronimo** | [@TheRodrig0](https://github.com/TheRodrig0)             | [LinkedIn](https://www.linkedin.com/in/rodrigo-jeronimo-qs)       | Tech Lead         |
+| **Gabriel**          | `[GITHUB_USER]`                                       | `[LINKEDIN_PROFILE]`                                           | Designer/Creative |
+
 
 ---
 
@@ -740,6 +743,55 @@ lowhack_2026/
 | **💻 Tech**          | [base/tech/INDEX.md](base/tech/INDEX.md)                                                               | Guias técnicos   |
 | **🎬 Pitch**         | [base/pitch/INDEX.md](base/pitch/INDEX.md)                                                             | Scripts           |
 | **💼 Business**      | [base/business/INDEX.md](base/business/INDEX.md)                                                       | Modelo            |
+
+
+---
+
+## 📜 Licença
+
+Este projeto é para fins educacionais e de competição. Veja o [LICENSE](LICENSE) para detalhes.
+
+---
+
+## 🙏 Agradecimentos
+
+- **Siemens Industry Software** — Promotor do evento
+- **TrueChange** — Parceiro tecnológico Mendix
+- **Comunidade Hackathon Brasil** — Organização
+- **OpenAI** — tecnologia de IA
+- **Você** — por contribuir! 🚀
+
+---
+
+<div align="center">
+
+*Made with ❤️ by Waste Guardian Team*
+
+*Última atualização: 31 de Março de 2026*
+
+</div>
+petição. Veja o [LICENSE](LICENSE) para detalhes.
+
+---
+
+## 🙏 Agradecimentos
+
+- **Siemens Industry Software** — Promotor do evento
+- **TrueChange** — Parceiro tecnológico Mendix
+- **Comunidade Hackathon Brasil** — Organização
+- **OpenAI** — tecnologia de IA
+- **Você** — por contribuir! 🚀
+
+---
+
+<div align="center">
+
+*Made with ❤️ by Waste Guardian Team*
+
+*Última atualização: 31 de Março de 2026*
+
+</div>
+         |
 
 
 ---
