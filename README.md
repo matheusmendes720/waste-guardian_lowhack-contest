@@ -251,12 +251,41 @@ git push origin feature/minha-nova-funcionalidade
 2. Clique em **"Compare & pull request"**
 3. Preencha o template:
    - **Título:** Use o prefixo correto (`feat:`, `fix:`, etc.)
-   - **Descrição:** Explique o que foi feito e por quê
+   - **Descrição:** Explique o que foi feito e por quê. **Sempre cite a Issue relacionada!** (Ex: `Fixes #10`)
    - **Checks:** Marque se applicable:
      - [ ] Testes adicionados
      - [ ] Documentação atualizada
      - [ ] Funciona localmente
-4. Solicite revisão de pelo menos 1 membro
+4. Solicite revisão de pelo menos 1 membro.
+5. **Aprovação Final:** Apenas o dono do projeto (@matheusmendes720) tem permissão para realizar o merge nas branches `main` ou `master` após revisão profunda.
+
+#### 6. Padrões de Desenvolvimento & Workflow
+
+Para garantir a integridade do código e a rastreabilidade do projeto, siga estes padrões:
+
+##### 🌿 Estratégia de Branches
+Cada nova funcionalidade ou correção **deve** ser feita em uma branch separada.
+- `feat-` : Novas funcionalidades (Ex: `feat-login-system`)
+- `fix-` : Correção de bugs (Ex: `fix-api-error`)
+- `hotfix-` : Correções críticas em produção (Ex: `hotfix-security-patch`)
+- `refactor-` : Refatoração de código existente
+- `docs-` : Apenas mudanças em documentação
+
+##### 💬 Padrões de Commit
+Utilizamos o padrão de Commits Semânticos:
+- `feat:` : Nova funcionalidade
+- `fix:` : Correção de bug
+- `hotfix:` : Correção crítica urgente
+- `chore:` : Mudanças em build, ferramentas, bibliotecas (sem mudar código)
+- `docs:` : Mudanças na documentação
+- `refactor:` : Mudanças de código que não corrigem bug nem adicionam feature
+
+##### 🛰️ Fluxo de Trabalho de Colaboração
+Toda atividade no projeto deve ser comunicada e registrada:
+1. **Issues:** Reporte bugs ou sugira melhorias via Issues antes de codar.
+2. **Discussions:** Use para debates arquiteturais ou dúvidas rápidas.
+3. **Wikis:** Documente conhecimentos de longo prazo e guias complexos aqui.
+4. **Pull Requests:** O único caminho para o código chegar na `main`.
 
 ### 🐛 Como Abrir Issues
 
