@@ -1,0 +1,187 @@
+{
+  "project": "WasteGuardian_Experimental",
+  "version": "1.0",
+  "description": "Estrutura de domínio simplificada para teste experimental",
+  "entities": {
+    "EventoDesperdicio": {
+      "generalization": "System.Entity",
+      "attributes": {
+        "LinhaProducao": {
+          "type": "String",
+          "length": 100,
+          "required": true
+        },
+        "DataHora": {
+          "type": "DateTime",
+          "required": true,
+          "default": "[%CurrentDateTime%]"
+        },
+        "QuantidadeProduzida": {
+          "type": "Decimal",
+          "required": true,
+          "minValue": 0
+        },
+        "QuantidadeDescartada": {
+          "type": "Decimal",
+          "required": true,
+          "minValue": 0
+        },
+        "Causa": {
+          "type": "String",
+          "length": 500,
+          "required": true
+        },
+        "Turno": {
+          "type": "Enumeration",
+          "values": ["Manhã", "Tarde", "Noite"],
+          "default": "Manhã"
+        },
+        "Status": {
+          "type": "Enumeration",
+          "values": ["Aberto", "Em_Análise", "Resolvido"],
+          "default": "Aberto"
+        },
+        "CustoEstimado": {
+          "type": "Decimal",
+          "minValue": 0,
+          "calculated": true
+        }
+      },
+      "validations": {
+        "QuantidadeDescartada": "QuantidadeDescartada <= QuantidadeProduzida"
+      }
+    },
+    "LinhaProducao": {
+      "generalization": "System.Entity",
+      "attributes": {
+        "Nome": {
+          "type": "String",
+          "length": 100,
+          "required": true,
+          "unique": true
+        },
+        "Capacidade": {
+          "type": "Decimal",
+          "required": true,
+          "minValue": 0
+        },
+        "StatusAtual": {
+          "type": "Enumeration",
+          "values": ["Ativa", "Manutenção", "Inativa"],
+          "default": "Ativa"
+        },
+        "UltimaManutencao": {
+          "type": "DateTime",
+          "required": false
+        },
+        "EficienciaAlvo": {
+          "type": "Decimal",
+          "minValue": 0,
+          "maxValue": 100,
+          "default": 95
+        }
+      }
+    },
+    "RecomendacaoIA": {
+      "generalization": "System.Entity",
+      "attributes": {
+        "EventoDesperdicio": {
+          "type": "Association",
+          "target": "EventoDesperdicio",
+          "owner": "Default"
+        },
+        "TextoRecomendacao": {
+          "type": "String",
+          "length": 1000,
+          "required": true
+        },
+        "Prioridade": {
+          "type": "Enumeration",
+          "values": ["Baixa", "Média", "Alta", "Crítica"],
+          "default": "Média"
+        },
+        "ImpactoEstimado": {
+          "type": "String",
+          "length": 200
+        },
+        "DataGeracao": {
+          "type": "DateTime",
+          "required": true,
+          "default": "[%CurrentDateTime%]"
+        },
+        "StatusImplementacao": {
+          "type": "Enumeration",
+          "values": ["Pendente", "Em_Andamento", "Concluída", "Ignorada"],
+          "default": "Pendente"
+        }
+      }
+    }
+  },
+  "enumerations": {
+    "Turno": {
+      "values": [
+        {"key": "Manha", "caption": "Manhã"},
+        {"key": "Tarde", "caption": "Tarde"},
+        {"key": "Noite", "caption": "Noite"}
+      ]
+    },
+    "StatusEvento": {
+      "values": [
+        {"key": "Aberto", "caption": "Aberto"},
+        {"key": "EmAnalise", "caption": "Em Análise"},
+        {"key": "Resolvido", "caption": "Resolvido"}
+      ]
+    },
+    "StatusLinha": {
+      "values": [
+        {"key": "Ativa", "caption": "Ativa"},
+        {"key": "Manutencao", "caption": "Manutenção"},
+        {"key": "Inativa", "caption": "Inativa"}
+      ]
+    },
+    "Prioridade": {
+      "values": [
+        {"key": "Baixa", "caption": "Baixa"},
+        {"key": "Media", "caption": "Média"},
+        {"key": "Alta", "caption": "Alta"},
+        {"key": "Critica", "caption": "Crítica"}
+      ]
+    },
+    "StatusImplementacao": {
+      "values": [
+        {"key": "Pendente", "caption": "Pendente"},
+        {"key": "EmAndamento", "caption": "Em Andamento"},
+        {"key": "Concluida", "caption": "Concluída"},
+        {"key": "Ignorada", "caption": "Ignorada"}
+      ]
+    }
+  },
+  "associations": {
+    "EventoDesperdicio_RecomendacaoIA": {
+      "type": "one-to-many",
+      "parent": "EventoDesperdicio",
+      "child": "RecomendacaoIA",
+      "owner": "Default"
+    }
+  },
+  "microflows": {
+    "MF_CalcularCustoEstimado": {
+      "description": "Calcula custo estimado baseado no desperdício",
+      "input": ["EventoDesperdicio"],
+      "output": "Decimal",
+      "logic": "returnEvento.QuantidadeDescartada * 50.0 // R$50 por unidade"
+    },
+    "MF_ValidarDesperdicio": {
+      "description": "Valida se o desperdício está dentro dos limites",
+      "input": ["EventoDesperdicio"],
+      "output": "Boolean",
+      "logic": "return (Evento.QuantidadeDescartada / Evento.QuantidadeProduzida) <= 0.10"
+    },
+    "MF_GerarRecomendacaoMock": {
+      "description": "Gera recomendação simulada da IA",
+      "input": ["EventoDesperdicio"],
+      "output": "String",
+      "logic": "if (desperdicioPercentual > 0.05) return 'Reduzir velocidade da linha'; else return 'Operação normal'"
+    }
+  }
+}
