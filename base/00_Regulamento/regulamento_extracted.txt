@@ -1,0 +1,614 @@
+================================================================================
+LOW HACK 2026 - EXTRACTED REGULATION FOR AI PROCESSING
+================================================================================
+Source: https://hackathonbrasil.com.br/wp-content/uploads/2026/03/regulamento-low-hack-2026-online.docx.pdf
+Event: Low Hack 2026 - 5th Edition
+Promoters: Siemens Industry Software Ltda + TrueChange
+Curator: Comunidade Hackathon Brasil
+Document Type: Official Competition Regulation
+Extraction Date: April 2026
+================================================================================
+
+================================================================================
+SECTION 1: KEY DATES
+================================================================================
+
+EVENT DATES:
+- Event Start: April 18, 2026 (Saturday) at 09:00 BRT
+- Event End: April 19, 2026 (Sunday) at 22:00 BRT
+- Total Duration: ~37 hours
+
+REGISTRATION TIMELINE:
+- Registration Opens: March 24, 2026
+- Registration Closes: April 13, 2026 at 23:59 BRT
+- Discord Login Deadline: April 15, 2026
+- Mandatory Check-in: April 18, 2026 by 10:00 BRT
+
+DELIVERABLES DEADLINE:
+- All Deliverables Due: April 19, 2026 at 21:59 BRT
+- Pitch Video Upload: April 19, 2026 at 21:59 BRT
+- Project Files Submission: April 19, 2026 at 21:59 BRT
+
+JUDGING PERIOD:
+- Evaluation Period: April 20-22, 2026
+- Winners Announcement: April 24, 2026 (Live Event)
+
+================================================================================
+SECTION 2: TECHNICAL REQUIREMENTS (MANDATORY)
+================================================================================
+
+PLATFORM REQUIREMENTS:
+1. Development Platform: Mendix Low-Code (100% mandatory)
+2. Application Type: 100% Web Application
+3. GenAI Integration: OpenAI (ChatGPT API provided by organizers)
+4. Hosting: Mendix Cloud (Free Tier required)
+5. Mendix Version: Studio Pro 10.24.0 or above
+
+APPLICATION STRUCTURE REQUIREMENTS:
+1. Minimum Pages: 3+ navigable pages
+   - Required examples: Home page, Main functionality page, Results page
+   
+2. Data Persistence: Entities in Domain Model (CRUD operations)
+   - Must implement Create, Read, Update, Delete functionality
+   - Domain model must be properly defined
+   
+3. Microflows: At least 1 functional microflow or nanoflow
+   - Must contain core business logic
+   - Must be operational (not placeholder)
+   
+4. Responsiveness: Minimally responsive interface
+   - Must work on different screen sizes
+   - Mobile/tablet compatibility required
+   
+5. UI/UX Quality: Attractive interface
+   - Professional appearance
+   - User-friendly design
+
+GENAI INTEGRATION REQUIREMENTS:
+1. Must utilize provided OpenAI/ChatGPT API
+2. Integration must be functional (not decorative)
+3. Must demonstrate practical AI application
+4. Proper error handling required
+5. Clear user feedback mechanism
+
+REQUIRED MENDIX MODULES:
+- GenAI Commons module
+- OpenAI Connector
+- Encryption module
+- Community Commons module
+
+================================================================================
+SECTION 3: DELIVERABLES CHECKLIST
+================================================================================
+
+MANDATORY DELIVERABLES:
+
+1. PROJECT FOLDER
+   - Named with team name
+   - Contains complete Mendix project files
+   - Must include all source code
+   - Deadline: April 19, 2026 at 21:59 BRT
+
+2. DEPLOYED APPLICATION
+   - Published on Mendix Cloud (Free Tier)
+   - Working URL provided
+   - Application must be accessible for evaluation
+   - Deadline: April 19, 2026 at 21:59 BRT
+
+3. PITCH VIDEO
+   - Maximum duration: 3 minutes
+   - Format: Video recording
+   - Upload platform: YouTube (Unlisted visibility)
+   - Submission method: link-do-video-pitch.txt file
+   - Deadline: April 19, 2026 at 21:59 BRT
+
+PITCH VIDEO CONTENT RECOMMENDATIONS:
+- Problem statement (approx. 20 seconds)
+- Solution demonstration (approx. 60 seconds)
+- GenAI integration showcase (approx. 30 seconds)
+- Business model and scalability (approx. 30 seconds)
+- Innovation highlights (approx. 20 seconds)
+- Team introduction (approx. 20 seconds)
+
+FILE NAMING CONVENTIONS:
+- Project folder: [TEAM_NAME]
+- Pitch link file: link-do-video-pitch.txt
+
+================================================================================
+SECTION 4: CONSTRAINTS & LIMITATIONS
+================================================================================
+
+TECHNICAL CONSTRAINTS:
+1. Mendix-Only Platform
+   - Only solutions developed in Mendix are accepted
+   - Solutions using other platforms will be disqualified (Section 8.4)
+   
+2. No Pre-Development
+   - Solutions must be developed entirely during the event
+   - Pre-existing codebases are prohibited (Section 11.9)
+   
+3. Web-Only Applications
+   - Must be 100% web application
+   - Mobile-native apps not accepted
+   
+4. GenAI Requirement
+   - Must use provided OpenAI API
+   - Custom AI implementations not accepted
+
+TEAM CONSTRAINTS:
+1. Team Size: Minimum 3, Maximum 5 members
+2. Team Formation: Can be pre-formed or organized during event
+3. Recommended Composition:
+   - 2 programmers/developers
+   - 1 designer
+   - 1 business manager
+
+PARTICIPANT CONSTRAINTS:
+1. Nationality: Brazilian citizens only
+2. Age: 18 years or older
+3. Registration: 1 registration per CPF
+4. Exclusions: TrueChange, Siemens, Comunidade Hackathon Brasil employees
+
+CAPACITY CONSTRAINTS:
+- Total Participants: 150 maximum
+- Affirmative Action Spots: 30 reserved for:
+  * Women
+  * Black or Indigenous people
+  * LGBTQUIAPN+ individuals
+  * People with disabilities
+
+TIME CONSTRAINTS:
+- Hard deadline for all deliverables: April 19, 21:59 BRT
+- No extensions granted
+- Late submissions not accepted
+
+================================================================================
+SECTION 5: DISQUALIFICATION RULES
+================================================================================
+
+AUTOMATIC DISQUALIFICATION (NO EXCEPTIONS):
+
+1. NON-MENDIX PLATFORM (Section 8.4)
+   - Any solution not developed in Mendix
+   - Severity: CRITICAL
+
+2. PRE-DEVELOPED SOLUTIONS (Section 11.9)
+   - Solutions developed before event start
+   - Reused code from previous competitions
+   - Severity: CRITICAL
+
+3. PLAGIARISM/COPYRIGHT VIOLATION (Section 11.9)
+   - Copying from other sources
+   - Reproducing existing solutions
+   - Severity: CRITICAL
+
+PARTICIPATION DISQUALIFICATION:
+
+4. MISSED MANDATORY LIVE SESSIONS (Section 4.9)
+   - At least 1 team member must attend
+   - Severity: HIGH
+
+5. DISCORD ABSENCE (Section 4.3)
+   - Not logged in by 10:00 on April 18, 2026
+   - Severity: HIGH
+
+6. WINNER ABSENCE AT ANNOUNCEMENT (Section 8.3.2)
+   - Winners must attend live announcement event
+   - Severity: MEDIUM
+
+CONDUCT DISQUALIFICATION:
+
+7. DISRESPECT TO ORGANIZERS/VOLUNTEERS (Section 4.8)
+   - Any disrespectful conduct
+   - Immediate removal from event
+   - Severity: HIGH
+
+8. HARASSMENT (Sections 10.1, 10.2)
+   - Any form of harassment
+   - Includes offensive comments, intimidation, stalking
+   - Severity: HIGH
+
+9. UNETHICAL BEHAVIOR (Section 11.8)
+   - Suspected unethical conduct
+   - Violation of internal norms
+   - Subject to organizing committee evaluation
+
+10. INAPPROPRIATE CONTENT (Section 10.3.2)
+    - Illegal, obscene, defamatory content
+    - Content promoting criminal activities
+    - Severity: HIGH
+
+TECHNICAL DISQUALIFICATION:
+
+11. MISSING DELIVERABLES
+    - Failure to submit by deadline
+    - Incomplete submission
+    - Severity: HIGH
+
+12. NON-FUNCTIONAL APPLICATION
+    - App not running on Mendix Cloud
+    - Broken functionality
+    - Severity: HIGH
+
+13. MISSING GENAI INTEGRATION
+    - No OpenAI API utilization
+    - Decorative only (non-functional)
+    - Severity: HIGH
+
+14. INCOMPLETE PITCH
+    - Video over 3 minutes
+    - Missing pitch video
+    - Severity: MEDIUM
+
+15. WRONG SUBMISSION FORMAT
+    - Not following folder/file naming conventions
+    - Severity: MEDIUM
+
+================================================================================
+SECTION 6: JUDGING CRITERIA
+================================================================================
+
+SCORING SCALE:
+- Range: 1 to 4 points per criterion
+- 1 = Poor
+- 2 = Fair
+- 3 = Good
+- 4 = Excellent
+
+EVALUATION CATEGORIES:
+
+1. POTENTIAL IMPACT (8.2.5.a)
+   Weight: Standard
+   Description: Evaluates the solution's potential impact on the proposed challenge
+   Considerations:
+   - Scale of impact
+   - Feasibility
+   - Sustainability
+   - Real-world applicability
+
+2. BUSINESS MODEL (8.2.5.b)
+   Weight: Standard
+   Description: Assesses business model, scalability, and application to solve challenge
+   Considerations:
+   - Revenue model viability
+   - Market potential
+   - Growth scalability
+   - Implementation feasibility
+
+3. CHALLENGE ADHERENCE (8.2.5.c)
+   Weight: Standard
+   Description: Evaluates whether solution effectively solves presented challenge
+   Considerations:
+   - Problem-solution fit
+   - Alignment with ODS 9 (Industry, Innovation & Infrastructure)
+   - Alignment with ODS 12 (Responsible Consumption & Production)
+   - Theme relevance
+
+4. SOLUTION INNOVATION (8.2.5.d)
+   Weight: Standard
+   Description: Assesses innovation in technology use and/or process change
+   Considerations:
+   - Novelty of approach
+   - Creative use of technology
+   - Differentiation from existing solutions
+   - Process innovation
+
+5. SOLUTION PRESENTATION (8.2.5.e)
+   Weight: Standard
+   Description: Evaluates clarity, completeness, and adherence to challenge requirements
+   Considerations:
+   - Communication quality
+   - Demo effectiveness
+   - Storytelling
+   - Video production quality
+
+6. TECHNICAL SOLUTION CRITERIA (8.2.5.f)
+   Weight: Standard
+   Description: Assesses application technical quality
+   Components Evaluated:
+   - Application functionality
+   - Effective GenAI (ChatGPT API) usage
+   - Connector/API integration quality
+   - User experience (UX/UI) quality
+   - Creativity in technology combination and implementation
+
+TECHNICAL DELIVERABLES SCORING (8.2.2.b, 8.2.7):
+Additional criteria for documentation evaluation:
+- Interface minimally responsive and attractive
+- Use of at least 1 functional microflow or nanoflow
+- At least 3 navigable pages (home, main feature, results)
+- Data persistence implementation (entities in domain model)
+
+TIE-BREAKING CRITERIA (8.2.7):
+
+Primary Tie-Breaker: Technical Deliverables Score
+- Higher score in technical deliverables criteria wins
+- Components:
+  1. Responsive and attractive interface
+  2. At least 1 functional microflow/nanoflow
+  3. At least 3 navigable pages
+  4. Data persistence implementation
+
+Secondary Tie-Breaker: Innovation Score
+- If still tied, higher "Solution Innovation" score wins
+
+Final Tie-Breaker: Organizing Committee Decision
+- If still tied after both criteria, committee decides
+
+================================================================================
+SECTION 7: PRIZE STRUCTURE
+================================================================================
+
+CASH PRIZES:
+
+1st Place: R$ 8,000.00 (Eight Thousand Reais)
+2nd Place: R$ 5,000.00 (Five Thousand Reais)
+3rd Place: R$ 3,000.00 (Three Thousand Reais)
+
+ADDITIONAL PRIZES (All Winning Teams):
+- Low Hack gift box for each team member
+- Certificate of participation
+- Siemens Badge
+- 1-year free access to Mendix Basic & Intermediate courses at Low Code School
+
+PRIZE DISTRIBUTION:
+- Prize amounts divided equally among team members
+- Payment method: Bank transfer
+- Payment timeline: Within 30 days after event closure
+- Requirement: Bank account information submission
+
+PRIZE TAXATION:
+- Prizes are personal and non-transferable
+- Subject to applicable tax regulations
+- Winner responsible for tax obligations
+
+================================================================================
+SECTION 8: THEME & CHALLENGE DESCRIPTION
+================================================================================
+
+OFFICIAL CHALLENGE STATEMENT:
+"How can we develop innovative solutions that encourage conscious consumption 
+and responsible production practices, reducing waste, promoting efficient 
+resource use, and stimulating more sustainable models throughout the value chain?"
+
+MACRO THEME:
+The current consumption and production model generates significant environmental 
+impacts. Rethinking how we produce, consume, and discard products is one of the 
+great challenges of our time.
+
+ALIGNMENT:
+United Nations Sustainable Development Goals:
+- ODS 9: Industry, Innovation and Infrastructure
+- ODS 12: Responsible Consumption and Production
+
+PERMITTED SOLUTION AREAS:
+Teams may develop prototypes and ideas that use technology to:
+
+1. Accelerate digital transformation in industry
+2. Make production processes more efficient and intelligent
+3. Reduce waste and optimize resource use
+4. Encourage more responsible production and consumption practices
+5. Create digital solutions that support more sustainable production chains
+
+================================================================================
+SECTION 9: ELIGIBILITY & PARTICIPATION RULES
+================================================================================
+
+ELIGIBILITY CRITERIA:
+
+Personal Requirements:
+- Nationality: Brazilian citizen
+- Age: 18 years or older
+- Registration: Valid CPF, 1 registration per person
+- Skills: Knowledge/experience in at least one area:
+  * Programming and web/mobile app development
+  * Graphic design
+  * Digital design
+  * Business management
+  * Marketing
+  * Artificial Intelligence/Engineering
+
+Excluded Persons:
+- TrueChange employees
+- Siemens employees
+- Comunidade Hackathon Brasil employees
+
+TEAM COMPOSITION RULES:
+
+Size Requirements:
+- Minimum: 3 members
+- Maximum: 5 members
+- Exception: Different sizes require organizing committee approval
+
+Recommended Composition:
+- 2 programmers/developers
+- 1 designer
+- 1 business manager
+
+Formation Methods:
+- Pre-formed by participants
+- Organized by committee during event
+- Individual registration allowed (team formed during event)
+
+AFFIRMATIVE ACTION:
+Reserved Spots: 30 out of 150 total
+Target Groups:
+- Women
+- Black or Indigenous people
+- LGBTQUIAPN+ individuals
+- People with disabilities
+
+================================================================================
+SECTION 10: COMMUNICATION & SUPPORT
+================================================================================
+
+OFFICIAL COMMUNICATION CHANNELS:
+
+Primary: Discord Platform
+- All official announcements
+- Team communication
+- Technical support
+- Mandatory attendance tracking
+
+Secondary: Email
+- Address: contato@hackathonbrasil.com.br
+- Domain to whitelist: @hackathonbrasil.com.br
+
+Website: https://hackathonbrasil.com.br/low-hack
+
+COMMUNICATION REQUIREMENTS:
+
+Participant Responsibilities:
+- Disable anti-spam for @hackathonbrasil.com.br
+- Monitor Discord channels actively
+- Check email regularly
+- Respond to organizer communications promptly
+
+Organizer Commitments:
+- Official communication only via defined channels
+- Not responsible for missed info from unofficial channels
+- Not responsible for interactions outside official channels
+
+SUPPORT AVAILABLE:
+- Technical mentorship
+- Platform assistance
+- Conflict mediation (when requested)
+- General event inquiries
+
+================================================================================
+SECTION 11: INTELLECTUAL PROPERTY & LEGAL
+================================================================================
+
+INTELLECTUAL PROPERTY RIGHTS:
+
+Ownership:
+- Solutions remain property of creating team
+- Ideas, arrangements, and methods belong to team
+- Open source sharing encouraged but not required
+
+Marketing License:
+- Participants grant irrevocable, non-exclusive license
+- Allows organizers to discuss, disclose, display content
+- Permits distribution for promotional/marketing purposes
+- No payment for marketing use
+- Proper credits maintained
+
+Prohibited Content:
+- Copyrighted material without permission
+- Trade secret protected content
+- False or damaging statements
+- Illegal, obscene, defamatory content
+- Content promoting criminal activities
+- Advertisements or business solicitations
+- Viruses or malicious code
+- Plagiarized or reverse-engineered content
+
+Participant Warranties:
+- Original work or proper permissions obtained
+- No violation of third-party rights
+- No viruses or disabling devices
+
+LIABILITY:
+- Participants responsible for originality
+- Participants indemnify organizers against claims
+- Organizers not responsible for database usage
+- Decisions of judging committee are sovereign and final
+
+DATA PROTECTION:
+- Subject to LGPD (Brazilian data protection law)
+- Registration data collected and stored by organizers
+- Participants authorize data usage
+
+================================================================================
+SECTION 12: EVENT LOGISTICS
+================================================================================
+
+EVENT FORMAT:
+- Type: Online (100% virtual)
+- Duration: ~37 hours (Saturday 09:00 to Sunday 22:00)
+- Platform: Discord for communication
+
+REQUIRED EQUIPMENT:
+- Personal laptop/notebook (mandatory)
+- Stable internet connection
+- Mendix account (Free Tier)
+- YouTube account (for pitch upload)
+- Discord account
+
+MENDIX SETUP INSTRUCTIONS:
+
+Account Creation:
+1. Visit https://www.mendix.com/
+2. Create account (corporate email recommended)
+3. Note: Gmail/Yahoo may have issues - use temporary email if needed
+
+Required Installations:
+- Mendix Studio Pro 10.24.0 or above
+- GenAI Commons module
+- OpenAI Connector
+- Encryption module
+- Community Commons module
+
+OPENAI INTEGRATION:
+- API provided by organizers
+- Compatible with OpenAI Platform
+- Compatible with Microsoft Foundry
+- Supports Chat Completions, Image Generations, Embeddings
+
+================================================================================
+SECTION 13: HISTORICAL CONTEXT
+================================================================================
+
+PREVIOUS EDITIONS:
+
+2021: Mendix applied to preventive health
+- Theme: Innovation in vaccination management
+
+2022: Mendix applied to digital solutions
+- Theme: Sustainability, cities, and well-being
+
+2023: Environmental process digitization
+- Theme: How to digitize environmental processes with Mendix?
+
+2024: Digital accessibility
+- Theme: Mendix applied to digital accessibility in Brazilian schools
+
+2026: AI-powered industry innovation
+- Theme: Mendix powered by AI applied to industry innovation
+
+================================================================================
+SECTION 14: ADDITIONAL PROVISIONS
+================================================================================
+
+EVENT NATURE:
+- Cultural event (exclusively)
+- Non-commercial purpose
+- No gambling elements
+- No financial results objective
+- No product/service purchase requirement
+
+MODIFICATION RIGHTS:
+- Organizers may modify rules if necessary
+- Prize substitutions allowed (equal value)
+- Schedule changes possible with notice
+- Changes published on official website
+
+FORCE MAJEURE:
+- Event may be interrupted/suspended
+- Causes: Internet problems, server issues, etc.
+- No compensation owed to participants
+- Organizers will attempt to resume when possible
+- Definitive cancellation possible if necessary
+
+OMISSIONS:
+- Cases not covered by regulation
+- Judged by organizing committee
+- Committee decisions are final
+
+CONTACT INFORMATION:
+- General Inquiries: contato@hackathonbrasil.com.br
+- Website: https://hackathonbrasil.com.br/low-hack
+
+================================================================================
+END OF EXTRACTED REGULATION
+================================================================================

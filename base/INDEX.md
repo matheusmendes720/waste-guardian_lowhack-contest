@@ -6,27 +6,29 @@
 
 ---
 
-## 📋 Quick Access
+## 📋 Quick Access (Gold Standard 00-06)
 
 | Category | Description | Go To |
 |----------|-------------|-------|
-| **📊 Strategy** | Full analysis, executive summary, strategic planning | [→ strategy/](strategy/INDEX.md) |
-| **💻 Tech** | Mendix bootcamp, domain model, GenAI prompts, REST API | [→ tech/](tech/INDEX.md) |
-| **🎬 Pitch** | 3-min video script, Q&A defense playbook | [→ pitch/](pitch/INDEX.md) |
-| **💼 Business** | Business model canvas, industrial intelligence, metrics | [→ business/](business/INDEX.md) |
-| **🗺️ Master Docs** | Roadmap, System Design, Product Design | [→ docs/](docs/INDEX.md) |
+| **📜 Regulamento** | **Rules & Compliance**: Edital, rules, scoring. | [→ 00_Regulamento/](00_Regulamento/) |
+| **🕵️ Intel OSINT** | **War Room**: Aggressive BI, Sponsor Profile, OSINT. | [→ 01_Intel_OSINT/](01_Intel_OSINT/) |
+| **⚔️ Estratégia** | **Execution**: Tactics, Roadmap, Pitch Scripts. | [→ 02_Estrategia_Vencedora/](02_Estrategia_Vencedora/) |
+| **🏗️ Arquitetura** | **Technical**: System Design, Domain Model, GenAI. | [→ 03_Arquitetura_Projeto/](03_Arquitetura_Projeto/) |
+| **💰 BI Ofensivo** | **Economics**: ROI, Econometrics, Pitch metrics. | [→ 04_BI_Ofensivo/](04_BI_Ofensivo/) |
+| **📊 Market Intel** | **Industry**: TAM/SAM/SOM, Competitive Landscape. | [→ 05_Market_Intelligence/](05_Market_Intelligence/) |
+| **📂 Datasets** | **Open Data**: External research, raw datasets. | [→ 06_Datasets_and_Open_Data/](06_Datasets_and_Open_Data/) |
 
 ---
 
-## 📚 Master Documentation (NEW!)
+## 📚 Master Documentation
 
 | Document | Description | When to Read |
 |----------|-------------|--------------|
-| **🗺️ ROADMAP** | Master timeline com diagrama de fases e dependências | Planning + durante evento |
-| **🏗️ SYSTEM-DESIGN** | Arquitetura técnica completa: dados, Mendix, GenAI, UI | Implementação técnica |
-| **📦 PRODUCT-DESIGN** | Pesquisa indústria, personas, jornadas, features | Definição de produto |
+| **🗺️ ROADMAP** | Master timeline with phases and dependencies | Planning + Live Event |
+| **🏗️ SYSTEM-DESIGN** | Full technical architecture: data, Mendix, GenAI | Implementation |
+| **📦 PRODUCT-DESIGN** | Industry research, personas, features | Product Definition |
 
-[→ Go to Master Docs](docs/INDEX.md)
+[→ Go to Master Index Gold](INDEX_MASTER_LOWHACK_2026_GOLD.md)
 
 ---
 
@@ -41,24 +43,16 @@
 □ Responsive UI
 □ Video pitch ≤ 3 minutes (YouTube unlisted)
 □ Deliverables folder by 19/04 21:59
-□ Participation in mandatory lives
-□ Code of conduct compliance
 ```
 
 ---
 
-## 🚀 Quick Start (For Team Members)
+## 🚀 Quick Start (By Priority)
 
 ### New to the project?
-1. Read the **Executive Summary** → [strategy/low-hack-2026-resumo-estrategico.md](strategy/low-hack-2026-resumo-estrategico.md)
-2. Check the **Tech Bootcamp** → [scaffolding/tech/00-mendix-bootcamp-fast-track.md](scaffolding/tech/00-mendix-bootcamp-fast-track.md)
-3. Review the **Pitch Script** → [scaffolding/pitch/roteiro-video-3min.md](scaffolding/pitch/roteiro-video-3min.md)
-
-### Need to find something specific?
-- **Regulatory requirements?** → See [strategy/](strategy/) section
-- **Technical implementation?** → See [tech/](tech/) section
-- **Presentation materials?** → See [pitch/](pitch/) section
-- **Business case?** → See [business/](business/) section
+1. Read the **Executive Summary** → [02_Estrategia_Vencedora/low-hack-2026-resumo-estrategico.md](02_Estrategia_Vencedora/low-hack-2026-resumo-estrategico.md)
+2. Check the **System Design** → [03_Arquitetura_Projeto/tech/System_Design.md](03_Arquitetura_Projeto/tech/System_Design.md)
+3. Review the **Pitch Script** → [02_Estrategia_Vencedora/pitch/roteiro-video-3min.md](02_Estrategia_Vencedora/pitch/roteiro-video-3min.md)
 
 ---
 
@@ -70,8 +64,6 @@
 | **Launch** | 18/04 09:00 | Live challenge presentation |
 | **Development** | 18-19/04 | Core build + GenAI integration |
 | **Pitch & Submit** | 19/04 14:00-21:59 | Video recording + final delivery |
-| **Evaluation** | 20-22/04 | Jury review |
-| **Results** | 24/04 | Final announcement |
 
 ---
 
@@ -79,77 +71,7 @@
 
 **Tese Central:** Copiloto operacional para redução de desperdício em linhas de produção industriais, usando Mendix + GenAI para sugerir planos de ação priorizados em tempo real.
 
-**Target:** Supervisor de produção / Gestor de sustentabilidade industrial  
-**Industry:** Food & Beverage (F&B)  
 **Focus:** ODS 9 + ODS 12
-
----
-
-## 📞 Team Roles
-
-| Role | Owner | Responsibilities |
-|------|-------|------------------|
-| **Tech Lead** | ? | Mendix architecture, deployment |
-| **AI Lead** | ? | GenAI integration, prompt engineering |
-| **Pitch Owner** | ? | Video recording, script |
-| **PO / Docs** | ? | Documentation, deliverables |
-
----
-
-## 📂 File Structure
-
-```
-lowhack/
-├── README.md (Root)                  ← Entry point
-└── base/
-    ├── INDEX.md                      ← YOU ARE HERE
-    ├── note-index.md                 ← Master control panel
-    │
-    ├── strategy/
-    │   └── INDEX.md
-    │   └── low-hack-2026-resumo-estrategico.md
-    │   └── low-hack-2026-analise-estrategica-completa.md
-    │
-    ├── tech/
-    │   └── INDEX.md
-    │
-    ├── pitch/
-    │   └── INDEX.md
-    │
-    ├── business/
-    │   └── INDEX.md
-    │
-    ├── docs/
-    │   ├── INDEX.md
-    │   ├── ROADMAP.md
-    │   ├── SYSTEM-DESIGN.md
-    │   └── PRODUCT-DESIGN.md
-    │
-    └── scaffolding/
-        ├── tech/
-        │   ├── 00-mendix-bootcamp-fast-track.md
-        │   ├── 01-mendix-domain-model.md
-        │   ├── 02-genai-prompts.md
-        │   ├── 03-mendix-ui-wireframes.md
-        │   ├── 04-rest-api-microflow-logic.md
-        │   └── 05-test-openai-script.js
-        ├── pitch/
-        │   ├── roteiro-video-3min.md
-        │   └── 02-qna-defense-playbook.md
-        └── business/
-            ├── 01-business-model-canvas.md
-            ├── 02-industrial-intelligence.md
-            └── 03-sponsor-econometrics.md
-```
-
----
-
-## 🔗 External Links
-
-- **Regulamento Oficial:** https://hackathonbrasil.com.br/wp-content/uploads/2026/03/regulamento-low-hack-2026-online.docx.pdf
-- **Portal Low Hack:** https://hackathonbrasil.com.br/low-hack/
-- **Mendix Academy:** https://academy.mendix.com/
-- **OpenAI API Docs:** https://platform.openai.com/docs/
 
 ---
 
@@ -157,4 +79,4 @@ lowhack/
 
 ---
 
-*Last updated: March 31, 2026*
+*Last updated: 06 April 2026*
