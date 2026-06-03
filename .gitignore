@@ -32,3 +32,5 @@ npm-debug.log*
 
 # Backup files
 *.bak
+-p/
+pi-session-*.html
