@@ -1,4 +1,4 @@
-# 🎯 Waste Guardian — Low Hack 2026 (Siemens & Mendix)
+# 🎯 Waste Guardian — Hackaton 2026 (Siemens & J.Macêdo)
 
 ```text
  __      __                  __             ________                       .___.__
