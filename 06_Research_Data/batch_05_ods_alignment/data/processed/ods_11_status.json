@@ -1,0 +1,69 @@
+{
+  "batch_id": "batch_05_ods_alignment",
+  "ods": "ODS 11 - Cidades e Comunidades Sustentaveis",
+  "last_updated": "2026-06-03",
+  "indicators_focus": ["11.6.1", "11.6.2", "11.6 (residuos)"],
+  "status_brasil": "indicador de impacto ambiental/residuos solidos: NAO MOSTROU EVOLUCAO no periodo 2016-2022 (IPEA 2024)",
+  "metrics": [
+    {
+      "indicator": "11.6.1 - Proporcao de residuos solidos urbanos regularmente coletados e com destino final adequado",
+      "value_brasil": null,
+      "unit": "%",
+      "year": 2022,
+      "source": "IPEA 2024 - 'nao mostrou evolucao no periodo'",
+      "source_id": "ipea_ods11_2024",
+      "note": "IPEA: 'estagnado'. Dados granulares nao publicados no portal IBGE/ODS Brasil"
+    },
+    {
+      "indicator": "11.6.2 - Nivel medio anual de particulas inalaveis (PM2.5, PM10)",
+      "value_brasil": null,
+      "unit": "ug/m3",
+      "year": 2022,
+      "source": "IPEA 2024 / MMA",
+      "source_id": "ipea_ods11_2024",
+      "note": "Indicador novo, sem serie historica comparavel ate 2024"
+    },
+    {
+      "indicator": "11.a.1 - Proporcao de populacao que reside em cidades que implementam planos de desenvolvimento urbano e regional",
+      "value_brasil": "sim (binario)",
+      "year": 2024,
+      "source": "IPEA 2024 - meta 11.a",
+      "note": "Brasil ja teria atingido a meta global (resposta 'sim' para todos os quesitos)"
+    },
+    {
+      "indicator": "11.b.1 - Estrategias nacionais de reducao de risco de desastres",
+      "value_brasil": "sim (binario)",
+      "year": 2024,
+      "source": "IPEA 2024 - meta 11.b",
+      "note": "Marco de Sendai implementado"
+    }
+  ],
+  "national_targets": {
+    "meta_adaptada_11.6_brasil": "Ate 2030, reduzir o impacto ambiental negativo per capita das cidades, melhorando os indices de qualidade do ar e a gestao de residuos solidos; e garantir que todas as cidades com acima de 500 mil habitantes tenham implementado sistemas de monitoramento de qualidade do ar e planos de gerenciamento de residuos solidos",
+    "pnrs_marco_legal": "Lei 12.305/2010 - Politica Nacional de Residuos Solidos",
+    "pnrs_horizonte": "20 anos, revisao a cada 4 anos",
+    "pnrs_ordem_prioridade": "nao geracao, reducao, reutilizacao, reciclagem, tratamento, disposicao final ambientalmente adequada (Art. 9o)"
+  },
+  "policies_in_place": [
+    {
+      "name": "Politica Nacional de Residuos Solidos (PNRS)",
+      "law": "Lei 12.305/2010",
+      "year": 2010,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12305.htm"
+    },
+    {
+      "name": "SINIR - Sistema Nacional de Informacoes sobre a Gestao de Residuos Solidos",
+      "description": "Instrumento da PNRS - art. 8o, XI"
+    },
+    {
+      "name": "Plano Nacional de Residuos Solidos",
+      "description": "Coordenado pelo MMA, horizonte 20 anos (atualizacao 2024)"
+    },
+    {
+      "name": "Logistica Reversa obrigatoria",
+      "description": "6 cadeias produtivas: agrotoxicos, pilhas/baterias, pneus, oleos lubrificantes, lampadas, eletroeletronicos (Art. 33 PNRS)"
+    }
+  ],
+  "interpretation_summary": "O indicador 11.6 de impacto ambiental/residuos solidos ESTAGNADO no periodo 2016-2022 (IPEA). Apenas metas 'binarias' como 11.a e 11.b estao em conformidade. Para o Brasil, a meta 11.6 exige sistemas de monitoramento de qualidade do ar e planos de gerenciamento de residuos solidos em todas as cidades com mais de 500 mil habitantes ate 2030. A PNRS (Lei 12.305/2010) e o principal instrumento, com horizonte 20 anos e revisao a cada 4 anos. A obrigatoriedade de logistica reversa para 6 cadeias produtivas (Art. 33) e fundamental. A gestao de residuos ainda e um gargalo - lixoes a ceu aberto seguem funcionando em muitos municipios. Brasil recicla apenas ~3% dos residuos solidos urbanos (referencia historica de 2018-2022, fonte: Abrelpe).",
+  "key_sources": ["ipea_ods11_2024", "planalto_l12305", "mma_residuos_2024"]
+}

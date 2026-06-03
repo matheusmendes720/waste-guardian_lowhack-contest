@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Guardian — Cada Grama Conta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Pular para o conteúdo</a>
+    <!-- SPLASH SCREEN -->
+    <div id="splash" class="screen active">
+        <div class="splash-content">
+            <div class="logo-container">
+                <div class="logo-icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></div>
+                <h1 class="logo-text">Waste Guardian</h1>
+            </div>
+            <p class="tagline">Cada grama conta</p>
+            <div class="splash-stats">
+                <div class="stat">
+                    <span class="stat-value">2.3kg</span>
+                    <span class="stat-label">salvos esta semana</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">1.8kg</span>
+                    <span class="stat-label">CO₂ evitado</span>
+                </div>
+            </div>
+            <button class="btn-primary" onclick="navigateTo('home')">Começar Agora</button>
+        </div>
+        <div class="splash-bg"></div>
+    </div>
+
+    <!-- HOME / DASHBOARD -->
+    <div id="home" class="screen">
+        <header class="header">
+            <div class="header-left">
+                <span class="logo-small"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></span>
+                <span class="logo-text-small">Waste Guardian</span>
+            </div>
+            <div class="header-right">
+                <div class="avatar" aria-label="Perfil de Maria Silva">MS</div>
+            </div>
+        </header>
+
+        <main id="main" class="main-content">
+            <div class="welcome-card">
+                <h2>Olá, Maria!</h2>
+                <p class="streak"><i data-lucide="flame"></i> 7 dias consecutivos</p>
+            </div>
+
+            <div class="impact-summary">
+                <div class="impact-card primary">
+                    <div class="impact-icon"><i data-lucide="leaf"></i></div>
+                    <div class="impact-info">
+                        <span class="impact-value">2.3kg</span>
+                        <span class="impact-label">Alimentos salvos</span>
+                    </div>
+                </div>
+                <div class="impact-card secondary">
+                    <div class="impact-icon"><i data-lucide="cloud-off"></i></div>
+                    <div class="impact-info">
+                        <span class="impact-value">1.8kg</span>
+                        <span class="impact-label">CO₂ evitado</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ranking-preview">
+                <span class="ranking-badge"><i data-lucide="trophy"></i></span>
+                <span>Você está no <strong>TOP 15%</strong> dos usuários</span>
+                <span class="ranking-pos">#47/312</span>
+            </div>
+
+            <button class="btn-scan" onclick="navigateTo('scanner')" aria-label="Escanear alimento">
+                <span class="scan-icon"><i data-lucide="scan-line"></i></span>
+                <span>Escanear Alimento</span>
+            </button>
+
+            <div class="quick-actions">
+                <div class="action-card" onclick="navigateTo('receitas')">
+                    <span class="action-icon"><i data-lucide="chef-hat"></i></span>
+                    <span class="action-label">Receitas</span>
+                </div>
+                <div class="action-card" onclick="navigateTo('impacto')">
+                    <span class="action-icon"><i data-lucide="bar-chart-3"></i></span>
+                    <span class="action-label">Impacto</span>
+                </div>
+                <div class="action-card" onclick="navigateTo('doacao')">
+                    <span class="action-icon"><i data-lucide="gift"></i></span>
+                    <span class="action-label">Doar</span>
+                </div>
+            </div>
+        </main>
+
+        <nav class="bottom-nav" aria-label="Navegação principal">
+            <button class="nav-item active" aria-current="page" onclick="navigateTo('home')">
+                <span class="nav-icon"><i data-lucide="home"></i></span>
+                <span class="nav-label">Home</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('impacto')">
+                <span class="nav-icon"><i data-lucide="bar-chart-3"></i></span>
+                <span class="nav-label">Impacto</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('doacao')">
+                <span class="nav-icon"><i data-lucide="gift"></i></span>
+                <span class="nav-label">Doar</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('perfil')">
+                <span class="nav-icon"><i data-lucide="user"></i></span>
+                <span class="nav-label">Perfil</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- SCANNER -->
+    <div id="scanner" class="screen">
+        <header class="header">
+            <button class="back-btn" onclick="navigateTo('home')" aria-label="Voltar para Home">←</button>
+            <span class="header-title">Scanner</span>
+            <div class="header-spacer"></div>
+        </header>
+
+        <main id="main" class="main-content scanner-content">
+            <div class="camera-frame">
+                <div class="camera-overlay">
+                    <div class="scan-animation">
+                        <span class="scan-icon"><i data-lucide="scan-line"></i></span>
+                        <p>Escaneando...</p>
+                    </div>
+                </div>
+                <button class="capture-btn" aria-label="Capturar foto do alimento">
+                    <span class="capture-ring"></span>
+                </button>
+            </div>
+
+            <div class="mock-result">
+                <div class="result-card">
+                    <div class="result-header">
+                        <span class="food-icon">🍶</span>
+                        <div class="result-info">
+                            <h3>Iogurte Natural Integral</h3>
+                            <p class="expiry-warning">⚠️ Vence em 2 dias (05/06)</p>
+                        </div>
+                    </div>
+                    <div class="result-details">
+                        <div class="detail">
+                            <span class="detail-label">Valor</span>
+                            <span class="detail-value">R$ 8,90</span>
+                        </div>
+                        <div class="detail">
+                            <span class="detail-label">CO₂</span>
+                            <span class="detail-value">250g</span>
+                        </div>
+                    </div>
+                    <div class="result-actions">
+                        <button class="btn-result" onclick="navigateTo('receitas')">
+                            <span><i data-lucide="chef-hat"></i></span> Ver receitas
+                        </button>
+                        <button class="btn-result secondary" onclick="navigateTo('doacao')">
+                            <span><i data-lucide="gift"></i></span> Agendar doação
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <nav class="bottom-nav" aria-label="Navegação principal">
+            <button class="nav-item" onclick="navigateTo('home')">
+                <span class="nav-icon"><i data-lucide="home"></i></span>
+                <span class="nav-label">Home</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('scanner')">
+                <span class="nav-icon"><i data-lucide="scan-line"></i></span>
+                <span class="nav-label">Escanear</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('receitas')">
+                <span class="nav-icon"><i data-lucide="chef-hat"></i></span>
+                <span class="nav-label">Receitas</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('perfil')">
+                <span class="nav-icon"><i data-lucide="user"></i></span>
+                <span class="nav-label">Perfil</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- RECEITAS -->
+    <div id="receitas" class="screen">
+        <header class="header">
+            <button class="back-btn" onclick="navigateTo('home')" aria-label="Voltar para Home">←</button>
+            <span class="header-title">Receitas</span>
+            <div class="header-spacer"></div>
+        </header>
+
+        <main id="main" class="main-content">
+            <p class="section-intro">Receitas para hoje (baseado no seu scanner)</p>
+
+            <div class="recipes-list">
+                <div class="recipe-card" onclick="showRecipeDetail('torta')">
+                    <div class="recipe-header">
+                        <span class="recipe-icon">🍰</span>
+                        <div class="recipe-title">
+                            <h3>Torta de Iogurte</h3>
+                            <span class="recipe-tag">Economia: R$ 12,00</span>
+                        </div>
+                    </div>
+                    <div class="recipe-meta">
+                        <span class="recipe-time"><i data-lucide="clock"></i> 30 min</span>
+                        <span class="recipe-level"><i data-lucide="check"></i> Fácil</span>
+                        <span class="recipe-cost"><i data-lucide="wallet"></i> R$ 12</span>
+                    </div>
+                    <div class="recipe-impact">
+                        <span class="impact-badge"><i data-lucide="leaf"></i> 400g CO₂ evitado</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" onclick="showRecipeDetail('smoothie')">
+                    <div class="recipe-header">
+                        <span class="recipe-icon">🥤</span>
+                        <div class="recipe-title">
+                            <h3>Smoothie Proteico</h3>
+                            <span class="recipe-tag">Economia: R$ 8,00</span>
+                        </div>
+                    </div>
+                    <div class="recipe-meta">
+                        <span class="recipe-time"><i data-lucide="clock"></i> 5 min</span>
+                        <span class="recipe-level"><i data-lucide="check"></i> Fácil</span>
+                        <span class="recipe-cost"><i data-lucide="wallet"></i> R$ 8</span>
+                    </div>
+                    <div class="recipe-impact">
+                        <span class="impact-badge"><i data-lucide="leaf"></i> 250g CO₂ evitado</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" onclick="showRecipeDetail('bolo')">
+                    <div class="recipe-header">
+                        <span class="recipe-icon">🍰</span>
+                        <div class="recipe-title">
+                            <h3>Bolo de Iogurte</h3>
+                            <span class="recipe-tag">Economia: R$ 15,00</span>
+                        </div>
+                    </div>
+                    <div class="recipe-meta">
+                        <span class="recipe-time"><i data-lucide="clock"></i> 45 min</span>
+                        <span class="recipe-level"><i data-lucide="check"></i> Médio</span>
+                        <span class="recipe-cost"><i data-lucide="wallet"></i> R$ 15</span>
+                    </div>
+                    <div class="recipe-impact">
+                        <span class="impact-badge"><i data-lucide="leaf"></i> 500g CO₂ evitado</span>
+                    </div>
+                </div>
+
+                <div class="recipe-card" onclick="showRecipeDetail('sorvete')">
+                    <div class="recipe-header">
+                        <span class="recipe-icon">🍦</span>
+                        <div class="recipe-title">
+                            <h3>Sorvete Caseiro</h3>
+                            <span class="recipe-tag">Economia: R$ 18,00</span>
+                        </div>
+                    </div>
+                    <div class="recipe-meta">
+                        <span class="recipe-time"><i data-lucide="clock"></i> 20 min</span>
+                        <span class="recipe-level"><i data-lucide="check"></i> Fácil</span>
+                        <span class="recipe-cost"><i data-lucide="wallet"></i> R$ 18</span>
+                    </div>
+                    <div class="recipe-impact">
+                        <span class="impact-badge"><i data-lucide="leaf"></i> 600g CO₂ evitado</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <nav class="bottom-nav" aria-label="Navegação principal">
+            <button class="nav-item" onclick="navigateTo('home')">
+                <span class="nav-icon"><i data-lucide="home"></i></span>
+                <span class="nav-label">Home</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('scanner')">
+                <span class="nav-icon"><i data-lucide="scan-line"></i></span>
+                <span class="nav-label">Escanear</span>
+            </button>
+            <button class="nav-item active" aria-current="page" onclick="navigateTo('receitas')">
+                <span class="nav-icon"><i data-lucide="chef-hat"></i></span>
+                <span class="nav-label">Receitas</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('perfil')">
+                <span class="nav-icon"><i data-lucide="user"></i></span>
+                <span class="nav-label">Perfil</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- IMPACTO -->
+    <div id="impacto" class="screen">
+        <header class="header">
+            <button class="back-btn" onclick="navigateTo('home')" aria-label="Voltar para Home">←</button>
+            <span class="header-title">Meu Impacto</span>
+            <div class="header-spacer"></div>
+        </header>
+
+        <main id="main" class="main-content">
+            <div class="impact-hero">
+                <h2>Seu Impacto Total</h2>
+                <div class="impact-stats">
+                    <div class="stat-box animate-in">
+                        <span class="stat-number">24.5</span>
+                        <span class="stat-unit">kg</span>
+                        <span class="stat-desc">Alimentos salvos</span>
+                    </div>
+                    <div class="stat-box animate-in">
+                        <span class="stat-number">18.2</span>
+                        <span class="stat-unit">kg</span>
+                        <span class="stat-desc">CO₂ evitado</span>
+                    </div>
+                    <div class="stat-box animate-in">
+                        <span class="stat-number">R$ 180</span>
+                        <span class="stat-unit"></span>
+                        <span class="stat-desc">Economia</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-section">
+                <div class="progress-header">
+                    <span>Você está no TOP 15%</span>
+                    <span class="progress-pos">#47 de 312</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 85%"></div>
+                </div>
+            </div>
+
+            <div class="chart-section">
+                <h3>Evolução Semanal</h3>
+                <div class="bar-chart">
+                    <div class="bar-item">
+                        <div class="bar" style="--bar-height: 60%"></div>
+                        <span class="bar-label">S1</span>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar" style="--bar-height: 75%"></div>
+                        <span class="bar-label">S2</span>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar" style="--bar-height: 82%"></div>
+                        <span class="bar-label">S3</span>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar active" style="--bar-height: 100%"></div>
+                        <span class="bar-label">S4</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="badges-section">
+                <h3><i data-lucide="trophy"></i> Minhas Medalhas</h3>
+                <div class="badges-grid">
+                    <div class="badge earned">
+                        <span class="badge-icon"><i data-lucide="leaf"></i></span>
+                        <span class="badge-name">Iniciante Verde</span>
+                    </div>
+                    <div class="badge earned">
+                        <span class="badge-icon"><i data-lucide="wallet"></i></span>
+                        <span class="badge-name">Economizador</span>
+                    </div>
+                    <div class="badge earned">
+                        <span class="badge-icon"><i data-lucide="globe"></i></span>
+                        <span class="badge-name">Herói Climático</span>
+                    </div>
+                    <div class="badge locked">
+                        <span class="badge-icon">⭐</span>
+                        <span class="badge-name">Mestre</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ranking-section">
+                <h3><i data-lucide="trophy"></i> Ranking da Comunidade</h3>
+                <div class="ranking-list">
+                    <div class="ranking-item top-3">
+                        <span class="rank">🥇</span>
+                        <span class="user">Ana Silva</span>
+                        <span class="points">3.420 pts</span>
+                    </div>
+                    <div class="ranking-item top-3">
+                        <span class="rank">🥈</span>
+                        <span class="user">João Costa</span>
+                        <span class="points">3.180 pts</span>
+                    </div>
+                    <div class="ranking-item top-3">
+                        <span class="rank">🥉</span>
+                        <span class="user">Pedro Santos</span>
+                        <span class="points">2.980 pts</span>
+                    </div>
+                    <div class="ranking-item current">
+                        <span class="rank">#47</span>
+                        <span class="user">Você (Maria)</span>
+                        <span class="points">2.340 pts</span>
+                    </div>
+                    <div class="ranking-item">
+                        <span class="rank">#48</span>
+                        <span class="user">Carlos Lima</span>
+                        <span class="points">2.280 pts</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <nav class="bottom-nav" aria-label="Navegação principal">
+            <button class="nav-item" onclick="navigateTo('home')">
+                <span class="nav-icon"><i data-lucide="home"></i></span>
+                <span class="nav-label">Home</span>
+            </button>
+            <button class="nav-item active" aria-current="page" onclick="navigateTo('impacto')">
+                <span class="nav-icon"><i data-lucide="bar-chart-3"></i></span>
+                <span class="nav-label">Impacto</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('doacao')">
+                <span class="nav-icon"><i data-lucide="gift"></i></span>
+                <span class="nav-label">Doar</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('perfil')">
+                <span class="nav-icon"><i data-lucide="user"></i></span>
+                <span class="nav-label">Perfil</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- DOAÇÃO -->
+    <div id="doacao" class="screen">
+        <header class="header">
+            <button class="back-btn" onclick="navigateTo('home')" aria-label="Voltar para Home">←</button>
+            <span class="header-title">Doar Alimentos</span>
+            <div class="header-spacer"></div>
+        </header>
+
+        <main id="main" class="main-content">
+            <div class="donation-impact">
+                <span class="impact-icon"><i data-lucide="heart"></i></span>
+                <div class="impact-text">
+                    <span class="impact-value">R$ 50</span>
+                    <span class="impact-desc">de impacto social gerado</span>
+                </div>
+            </div>
+
+            <h3><i data-lucide="map-pin"></i> Cooperativas Próximas</h3>
+            <div class="map-placeholder">
+                <div class="map-content">
+                    <div class="map-pin" style="top: 20%; left: 30%;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div class="map-pin" style="top: 50%; left: 60%;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div class="map-pin" style="top: 70%; left: 25%;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cooperatives-list">
+                <div class="coop-card">
+                    <div class="coop-header">
+                        <span class="coop-icon">🏢</span>
+                        <div class="coop-info">
+                            <h4>Banco de Alimentos Municipal</h4>
+                            <span class="coop-distance">📍 2.3km</span>
+                        </div>
+                        <span class="coop-status open">Aberto agora</span>
+                    </div>
+                    <div class="coop-details">
+                        <p><strong>Endereço:</strong> Rua das Flores, 123 - Centro</p>
+                        <p><strong>Funcionamento:</strong> Seg-Sex 08:00-18:00</p>
+                        <p><strong>Aceita:</strong> Frutas, legumes, laticínios, pães</p>
+                        <p><strong>Contato:</strong> <a href="tel:1133334444">(11) 3333-4444</a></p>
+                    </div>
+                    <button class="btn-donate">Agendar Retirada</button>
+                </div>
+
+                <div class="coop-card">
+                    <div class="coop-header">
+                        <span class="coop-icon">🤝</span>
+                        <div class="coop-info">
+                            <h4>Coletivo Sesc Mesa Brasil</h4>
+                            <span class="coop-distance">📍 4.1km</span>
+                        </div>
+                        <span class="coop-status closed">Fechado (abre amanhã 09:00)</span>
+                    </div>
+                    <div class="coop-details">
+                        <p><strong>Endereço:</strong> Av. Brasil, 456 - Jardim</p>
+                        <p><strong>Funcionamento:</strong> Seg-Sáb 09:00-17:00</p>
+                        <p><strong>Aceita:</strong> Alimentos não perecíveis</p>
+                        <p><strong>Contato:</strong> <a href="tel:1144445555">(11) 4444-5555</a></p>
+                    </div>
+                    <button class="btn-donate" disabled>Agendar Retirada</button>
+                </div>
+
+                <div class="coop-card">
+                    <div class="coop-header">
+                        <span class="coop-icon">♻️</span>
+                        <div class="coop-info">
+                            <h4>Associação de Catadores</h4>
+                            <span class="coop-distance">📍 1.8km</span>
+                        </div>
+                        <span class="coop-status open">Aberto agora</span>
+                    </div>
+                    <div class="coop-details">
+                        <p><strong>Endereço:</strong> Rua Verde, 789 - Parque</p>
+                        <p><strong>Funcionamento:</strong> Seg-Sex 07:00-16:00</p>
+                        <p><strong>Aceita:</strong> Alimentos próximos ao vencimento</p>
+                        <p><strong>Contato:</strong> <a href="tel:1155556666">(11) 5555-6666</a></p>
+                    </div>
+                    <button class="btn-donate">Agendar Retirada</button>
+                </div>
+            </div>
+        </main>
+
+        <nav class="bottom-nav" aria-label="Navegação principal">
+            <button class="nav-item" onclick="navigateTo('home')">
+                <span class="nav-icon"><i data-lucide="home"></i></span>
+                <span class="nav-label">Home</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('scanner')">
+                <span class="nav-icon"><i data-lucide="scan-line"></i></span>
+                <span class="nav-label">Escanear</span>
+            </button>
+            <button class="nav-item active" aria-current="page" onclick="navigateTo('doacao')">
+                <span class="nav-icon"><i data-lucide="gift"></i></span>
+                <span class="nav-label">Doar</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('perfil')">
+                <span class="nav-icon"><i data-lucide="user"></i></span>
+                <span class="nav-label">Perfil</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- PERFIL -->
+    <div id="perfil" class="screen">
+        <header class="header">
+            <button class="back-btn" onclick="navigateTo('home')" aria-label="Voltar para Home">←</button>
+            <span class="header-title">Meu Perfil</span>
+            <div class="header-spacer"></div>
+        </header>
+
+        <main id="main" class="main-content">
+            <div class="profile-header">
+                <div class="profile-avatar" aria-label="Avatar de Maria Silva">MS</div>
+                <div class="profile-info">
+                    <h2>Maria Silva</h2>
+                    <p class="profile-level"><i data-lucide="leaf"></i> Nível Economizador</p>
+                </div>
+            </div>
+
+            <div class="profile-stats">
+                <div class="profile-stat">
+                    <span class="profile-stat-value">2.340</span>
+                    <span class="profile-stat-label">Pontos</span>
+                </div>
+                <div class="profile-stat">
+                    <span class="profile-stat-value">47</span>
+                    <span class="profile-stat-label">Ranking</span>
+                </div>
+                <div class="profile-stat">
+                    <span class="profile-stat-value">23</span>
+                    <span class="profile-stat-label">Scans</span>
+                </div>
+            </div>
+
+            <div class="profile-menu">
+                <button class="menu-item">
+                    <span class="menu-icon"><i data-lucide="settings"></i></span>
+                    <span>Configurações</span>
+                    <span class="menu-arrow">→</span>
+                </button>
+                <button class="menu-item">
+                    <span class="menu-icon"><i data-lucide="bell"></i></span>
+                    <span>Notificações</span>
+                    <span class="menu-arrow">→</span>
+                </button>
+                <button class="menu-item">
+                    <span class="menu-icon"><i data-lucide="help-circle"></i></span>
+                    <span>Ajuda</span>
+                    <span class="menu-arrow">→</span>
+                </button>
+                <button class="menu-item">
+                    <span class="menu-icon"><i data-lucide="share-2"></i></span>
+                    <span>Compartilhar</span>
+                    <span class="menu-arrow">→</span>
+                </button>
+            </div>
+
+            <button class="btn-logout">Sair</button>
+        </main>
+
+        <nav class="bottom-nav" aria-label="Navegação principal">
+            <button class="nav-item" onclick="navigateTo('home')">
+                <span class="nav-icon"><i data-lucide="home"></i></span>
+                <span class="nav-label">Home</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('scanner')">
+                <span class="nav-icon"><i data-lucide="scan-line"></i></span>
+                <span class="nav-label">Escanear</span>
+            </button>
+            <button class="nav-item" onclick="navigateTo('receitas')">
+                <span class="nav-icon"><i data-lucide="chef-hat"></i></span>
+                <span class="nav-label">Receitas</span>
+            </button>
+            <button class="nav-item active" aria-current="page" onclick="navigateTo('perfil')">
+                <span class="nav-icon"><i data-lucide="user"></i></span>
+                <span class="nav-label">Perfil</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- MODAL: DETALHE DA RECEITA -->
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-handle" aria-hidden="true"></div>
+            <button class="modal-close" onclick="closeRecipeModal()" aria-label="Fechar modal">×</button>
+            <div class="recipe-detail-header">
+                <span class="recipe-icon-large">🍰</span>
+                <h2>Torta de Iogurte</h2>
+            </div>
+            <div class="recipe-detail-meta">
+                <span><i data-lucide="clock"></i> 30 min</span>
+                <span><i data-lucide="check"></i> Fácil</span>
+                <span><i data-lucide="wallet"></i> R$ 12</span>
+                <span><i data-lucide="leaf"></i> 400g CO₂</span>
+            </div>
+            <div class="recipe-detail-section">
+                <h3><i data-lucide="clipboard-list"></i> Ingredientes</h3>
+                <ul>
+                    <li>1 iogurte natural (200g)</li>
+                    <li>2 ovos</li>
+                    <li>1 xícara de farinha de trigo</li>
+                    <li>1/2 xícara de açúcar</li>
+                    <li>1 colher de sopa de óleo</li>
+                    <li>1 colher de chá de fermento</li>
+                </ul>
+            </div>
+            <div class="recipe-detail-section">
+                <h3><i data-lucide="chef-hat"></i> Modo de Preparo</h3>
+                <ol>
+                    <li>Preheat o forno a 180°C.</li>
+                    <li>Misture o iogurte com os ovos e o óleo.</li>
+                    <li>Adicione o açúcar e misture bem.</li>
+                    <li>Acrescente a farinha e o fermento.</li>
+                    <li>Misture até ficar homogêneo.</li>
+                    <li>Despeje em uma forma untada.</li>
+                    <li>Asse por 25-30 minutos.</li>
+                </ol>
+            </div>
+            <div class="recipe-impact-detail">
+                <span><i data-lucide="leaf"></i> Você economiza R$ 12 e evita 400g de CO₂</span>
+            </div>
+        </div>
+    </div>
+
+    <script>document.addEventListener('DOMContentLoaded', () => { lucide.createIcons(); });</script>
+    <script src="app.js"></script>
+</body>
+</html>

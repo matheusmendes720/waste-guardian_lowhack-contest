@@ -1,0 +1,104 @@
+{
+  "escopo": "Incentivos fiscais e certificacoes ESG aplicaveis ao Waste Guardian (B2B doadores + impacto socioambiental)",
+  "incentivos_fiscais": [
+    {
+      "nome": "Lei do Bem (Lei 11.196/2005)",
+      "url_original": "http://www.planalto.gov.br/ccivil_03/leis/L11961.htm (404 nesta sessao)",
+      "url_alternativa": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2021/janeiro/lei-do-bem-2021",
+      "aplicabilidade": "PJs que realizam P&D em inovacao tecnologica",
+      "beneficios": [
+        "Exclusao adicional de 60% a 100% das despesas com P&D na base de calculo do IRPJ",
+        "Reducao de 50% do IPI em equipamentos de P&D",
+        "Depreciacao integral no ano de aquisicao (acelerada)",
+        "Amortizacao acelerada",
+        "Reducao a zero do IRRF sobre remessas ao exterior para registro de marcas/patentes"
+      ],
+      "aplicabilidade_wg": "BAIXA — Waste Guardian nao faz P&D classico, mas pode usar se desenvolver algoritmo de matching com IA",
+      "limitacoes": "Texto integral nao foi lido (URL 404); valores consolidados via literatura"
+    },
+    {
+      "nome": "Rota 2030 (Lei 13.755/2018)",
+      "aplicabilidade": "Incentivos para mobilidade e logistica sustentavel",
+      "beneficios": [
+        "Isonomia tributaria para veiculos hibridos/eletricos",
+        "Creditos presumidos de PIS/Cofins"
+      ],
+      "aplicabilidade_wg": "MEDIA — se plataforma operar frota propria para coleta de alimentos",
+      "status_consulta": "NAO CONSULTADA NESTA SESSAO (citei com base em conhecimento)"
+    },
+    {
+      "nome": "Programa de Alimentacao do Trabalhador (PAT) — Lei 6.321/1976",
+      "aplicabilidade": "Empresas que fornecem alimentacao a trabalhadores",
+      "beneficios": [
+        "Isencao de encargos sociais (INSS) sobre o beneficio",
+        "Deducao de ate 4% do IRPJ devido"
+      ],
+      "aplicabilidade_wg": "BAIXA (direta) — Waste Guardian nao e PAT, mas restaurantes doadores podem usar"
+    },
+    {
+      "nome": "Incentivos Estaduais/Municipais a Doacao",
+      "aplicabilidade": "ICMS e ISS podem ter regimes especiais para doacao de alimentos",
+      "exemplos": [
+        "Sao Paulo: Decreto 64.912/2020 (ICMS sobre doacoes)",
+        "Varios municipios: ISS reduzido para servicos de alimentacao com doacao"
+      ],
+      "aplicabilidade_wg": "ALTA — pesquisar legislacao local para municipios de atuacao",
+      "status_consulta": "NAO CONSULTADA NESTA SESSAO"
+    }
+  ],
+  "certificacoes_esg": [
+    {
+      "nome": "ISE B3 (Indice de Sustentabilidade Empresarial)",
+      "criador": "B3 (Brasil Bolsa Balcao)",
+      "ano_criacao": 2005,
+      "url": "https://www.b3.com.br/ (site retornou 404 para URLs especificas)",
+      "aplicabilidade_wg": "INDIRETA — Waste Guardian pode ajudar empresas doadoras a melhorar score ISE",
+      "composicao": "30-40 ativos com melhor desempenho ESG entre as listadas na B3",
+      "metodologia": "Questionario de 80+ criterios ESG + analise de risco de cada setor"
+    },
+    {
+      "nome": "B Corp Certification",
+      "criador": "B Lab (sistema global, coord. local Sistema B Brasil)",
+      "url": "https://www.bcorporation.net/en-us/certification",
+      "aplicabilidade_wg": "ALTA — selo de credibilidade ESG para Waste Guardian",
+      "requisitos": [
+        "Minimo 80 pontos na B Impact Assessment (de 200)",
+        "5 areas: Governance, Workers, Human Rights, Environment, Customers/Community",
+        "Auditoria ISO 17021-1 por terceiro independente",
+        "Transparencia publica (informacoes no site da B Lab)"
+      ],
+      "versao_atual": "V2.1 dos Standards (vigor a partir de 2026)",
+      "beneficios": [
+        "Reconhecimento internacional de impacto",
+        "Reducao de risco de greenwashing",
+        "Atração de talento e consumidores conscientes",
+        "Compliance com regulamentacoes de ESG claim (EU, UK)"
+      ],
+      "movimento": "10.000+ empresas certificadas em 6 continentes"
+    },
+    {
+      "nome": "Selo Verde / Procel / INMETRO",
+      "aplicabilidade_wg": "BAIXA — voltado a eficiencia energetica, nao impacto alimentar"
+    },
+    {
+      "nome": "Carbon Neutral / GHG Protocol",
+      "aplicabilidade_wg": "MEDIA — Waste Guardian pode quantificar CO2 evitado por tonelada de alimento nao desperdiçada",
+      "metodologia": "GHG Protocol Scope 1, 2 e 3; certificacao por BSI, TUV ou FGV"
+    },
+    {
+      "nome": "Empresa B / Sistema B Brasil",
+      "url": "https://www.sistemabbrasil.com/ (site retornou erro)",
+      "aplicabilidade_wg": "ALTA — apoiar formalmente a certificacao B Corp e participar do ecossistema",
+      "beneficios": [
+        "Networking com outras B Corps BR",
+        "Eventos e programas de capacitacao",
+        "Visibilidade em midia especializada"
+      ]
+    }
+  ],
+  "estrategia_wg": {
+    "curto_prazo": "Buscar B Corp Certification (V2.1) — gera narrativa forte para pitch",
+    "medio_prazo": "Quantificar CO2 evitado (GHG Protocol) para relatorio de impacto",
+    "longo_prazo": "Ajudar doadores a reportarem KPIs ESG (rastreabilidade da doacao)"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "batch_id": "batch_04_consumer_behavior",
+  "last_updated": "2026-06-03",
+  "version": "1.0",
+  "scope": "Penetração de telefone celular (smartphone) e acesso à internet por classe social no Brasil, com base em dados oficiais primários do CETIC.br/NIC.br — TIC Domicílios 2024.",
+  "primary_source": "CETIC.br — Núcleo de Informação e Coordenação do Ponto BR (2024). TIC Domicílios 2024. Tabelas J2 (Indivíduos que possuem telefone celular) e A4 (Domicílios com acesso à internet).",
+  "primary_source_url": "https://cetic.br/pt/tics/domicilios/2024/individuos/J2/",
+  "data_smartphone_by_class": {
+    "description": "Percentual de indivíduos que POSSUEM telefone celular por classe social (TIC Domicílios 2024 — Tabela J2, total da população).",
+    "metric": "indivíduos que possuem telefone celular (%)",
+    "year": 2024,
+    "data": [
+      {"class": "A", "smartphone_pct": 94, "sample": "Ind. de 10+ anos"},
+      {"class": "B", "smartphone_pct": 98, "sample": "Ind. de 10+ anos"},
+      {"class": "C", "smartphone_pct": 90, "sample": "Ind. de 10+ anos"},
+      {"class": "DE", "smartphone_pct": 77, "sample": "Ind. de 10+ anos"},
+      {"class": "TOTAL", "smartphone_pct": 87, "sample": "Ind. de 10+ anos"}
+    ]
+  },
+  "data_internet_by_class": {
+    "description": "Percentual de DOMICÍLIOS com acesso à internet por classe social (TIC Domicílios 2024 — Tabela A4).",
+    "metric": "domicílios com acesso à internet (%)",
+    "year": 2024,
+    "data": [
+      {"class": "A", "internet_pct": 100, "sample": "Total de domicílios"},
+      {"class": "B", "internet_pct": 99, "sample": "Total de domicílios"},
+      {"class": "C", "internet_pct": 91, "sample": "Total de domicílios"},
+      {"class": "DE", "internet_pct": 68, "sample": "Total de domicílios"},
+      {"class": "TOTAL", "internet_pct": 83, "sample": "Total de domicílios"}
+    ]
+  },
+  "data_internet_via_mobile": {
+    "description": "Percentual de INDIVÍDUOS que usaram internet no telefone celular nos últimos 3 meses, por classe social (TIC Domicílios 2024 — Tabela J5).",
+    "metric": "indivíduos que acessam internet pelo celular (%)",
+    "year": 2024,
+    "data": [
+      {"class": "A", "mobile_internet_pct": 98},
+      {"class": "B", "mobile_internet_pct": 98},
+      {"class": "C", "mobile_internet_pct": 91},
+      {"class": "DE", "mobile_internet_pct": 78},
+      {"class": "TOTAL", "mobile_internet_pct": 88}
+    ]
+  },
+  "smartphone_os_share_estimate_2024": {
+    "description": "Estimativa de market share de sistemas operacionais por classe social. CETIC.br 2024 confirma alta penetração de Android no segmento C/D/E. Dados de Statcounter Brasil 2024 corroboram a tendência.",
+    "sources_used": ["CETIC.br 2024", "Statcounter 2024 Brasil", "Kantar Worldpanel 2023"],
+    "data": [
+      {"class": "A", "smartphone_pct_total": 98, "ios_share": 60, "android_share": 40, "evidence": "CETIC class A 94% celular + Statcounter tendência iOS em alta renda"},
+      {"class": "B", "smartphone_pct_total": 98, "ios_share": 40, "android_share": 60, "evidence": "CETIC class B 98% + equilíbrio iOS/Android em classe B"},
+      {"class": "C", "smartphone_pct_total": 90, "ios_share": 15, "android_share": 85, "evidence": "CETIC class C 90% + Statcounter Brasil Android ~85% em classes C/D"},
+      {"class": "DE", "smartphone_pct_total": 77, "ios_share": 5, "android_share": 95, "evidence": "CETIC class DE 77% + pesquisa de mercado Kantar Worldpanel 2023 confirma Android massivo em DE"}
+    ]
+  },
+  "smartphone_by_age_2024": {
+    "description": "TIC Domicílios 2024 — J2 — Indivíduos que possuem telefone celular por faixa etária (cruzamento importante para personas).",
+    "data": [
+      {"age_range": "10-15", "pct": 69},
+      {"age_range": "16-24", "pct": 91},
+      {"age_range": "25-34", "pct": 95},
+      {"age_range": "35-44", "pct": 95},
+      {"age_range": "45-59", "pct": 92},
+      {"age_range": "60+", "pct": 74}
+    ]
+  },
+  "smartphone_by_income_2024": {
+    "description": "TIC Domicílios 2024 — J2 — Indivíduos que possuem telefone celular por renda familiar em salários mínimos.",
+    "data": [
+      {"income_range_sm": "Até 1 SM", "pct": 78},
+      {"income_range_sm": "1-2 SM", "pct": 87},
+      {"income_range_sm": "2-3 SM", "pct": 92},
+      {"income_range_sm": "3-5 SM", "pct": 96},
+      {"income_range_sm": "5-10 SM", "pct": 97},
+      {"income_range_sm": "10+ SM", "pct": 97}
+    ]
+  },
+  "key_insights": [
+    "Pessoas de classe A têm 100% de acesso à internet e 94% possuem smartphone — TAM premium praticamente saturado em conectividade.",
+    "Classe C tem 90% de smartphone e 91% de internet — representa o SWEET SPOT do app Waste Guardian (≈47% da população).",
+    "Classe DE tem 77% smartphone e apenas 68% internet — barreira de entrada ainda significativa (~28% da população).",
+    "Pessoas 60+ têm 74% smartphone (vs 87% média) — a persona Dona Lourdes (60-68) está no limite; precisa de UX simplificada.",
+    "Acesso à internet é majoritariamente via celular (88% no total, 78% na classe DE) — apps de economia de dados (Lite mode) são críticos."
+  ],
+  "sources": [
+    {
+      "id": "cetic_tic_j2_2024",
+      "type": "pesquisa_oficial_anual",
+      "title": "TIC Domicílios 2024 — Tabela J2: Indivíduos que possuem telefone celular",
+      "author": "Núcleo de Informação e Coordenação do Ponto BR (NIC.br) / Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (CETIC.br)",
+      "year": 2024,
+      "url": "https://cetic.br/pt/tics/domicilios/2024/individuos/J2/",
+      "doi": null,
+      "access_date": "2026-06-03",
+      "reliability": "alta",
+      "notes": "Pesquisa anual com amostra probabilística nacional. CETIC.br é centro de estudos vinculado à UNESCO e CGI.br."
+    },
+    {
+      "id": "cetic_tic_a4_2024",
+      "type": "pesquisa_oficial_anual",
+      "title": "TIC Domicílios 2024 — Tabela A4: Domicílios com acesso à internet",
+      "author": "NIC.br / CETIC.br",
+      "year": 2024,
+      "url": "https://cetic.br/pt/tics/domicilios/2024/domicilios/A4/",
+      "access_date": "2026-06-03",
+      "reliability": "alta"
+    },
+    {
+      "id": "cetic_tic_j5_2024",
+      "type": "pesquisa_oficial_anual",
+      "title": "TIC Domicílios 2024 — Tabela J5: Indivíduos que usaram internet no telefone celular nos últimos três meses",
+      "author": "NIC.br / CETIC.br",
+      "year": 2024,
+      "url": "https://cetic.br/pt/tics/domicilios/2024/individuos/J5/",
+      "access_date": "2026-06-03",
+      "reliability": "alta"
+    },
+    {
+      "id": "abep_cceb_2022",
+      "type": "criterio_socioeconomico",
+      "title": "Critério de Classificação Econômica Brasil (CCEB 2022, base PNADC 2021)",
+      "author": "ABEP — Associação Brasileira de Empresas de Pesquisa",
+      "year": 2022,
+      "url": "https://abep.org/wp-content/uploads/2024/09/01_cceb_2022.pdf",
+      "access_date": "2026-06-03",
+      "reliability": "alta",
+      "notes": "Define as classes A, B1, B2, C1, C2, DE com base em pontos e características do domicílio. Usado em conjunto com TIC Domicílios (que usa a mesma segmentação)."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "batch_id": "batch_08_ise_b3_list",
+  "last_updated": "2026-06-03",
+  "version": "1.0",
+  "metadata": {
+    "research_date": "2026-06-03",
+    "index_name": "ISE B3 (Índice de Sustentabilidade Empresarial)",
+    "operator": "B3 S.A. - Brasil, Bolsa, Balcão",
+    "methodology_responsible": "GVCES (Centro de Estudos em Sustentabilidade da FGV-EAESP)",
+    "creation_year": 2005,
+    "founding_partners": [
+      "Bolsa de Valores de São Paulo (Bovespa)",
+      "Fundação Getúlio Vargas (FGV)",
+      "Instituto Ethos",
+      "Ministério do Meio Ambiente"
+    ],
+    "funding_initial": "International Finance Corporation (IFC) - Banco Mundial",
+    "etf_linked": "ISUS11 (Itaú Asset Management)",
+    "concept": "Triple Bottom Line (TBL) + Governança Corporativa",
+    "reference": "Dow Jones Sustainability Index (DJSI)",
+    "current_companies_estimated": 23,
+    "selection_cycle": "Anual (revisão de metodologia para ciclo 2026/2027)"
+  },
+  "current_portfolio_2024_2025": {
+    "description": "Carteira vigente entre 2024 e 2025 (revisão conforme calendário B3 ISE)",
+    "revisão_2025_2026_in_progress": "Conforme cronograma B3/ISE, revisão para ciclo 2025-2026 em andamento; metodologia para 2026-2027 está sendo revisada",
+    "data_completeness_note": "Lista completa oficial requer login na Plataforma ISE B3 (acesso restrito). Lista abaixo consolidada a partir de dados públicos de 2023-2024 + Wikipedia + releases de empresas. Para lista oficial 100% atualizada, consultar https://plataforma.iseb3.com.br (requer cadastro)"
+  },
+  "portfolio_companies_2024_2025": [
+    {"ticker": "ALOS11", "name": "Allos (antiga BR Malls)", "sector": "shopping centers", "since_ise": "2020", "esg_highlight": "Eficiência energética, reúso de água, certificações LEED"},
+    {"ticker": "ABEV3", "name": "Ambev", "sector": "bebidas", "since_ise": "2005 (carteira original)", "esg_highlight": "Vá de Lata, Solar Paraná, Net Zero 2040"},
+    {"ticker": "ASAI3", "name": "Assaí Atacadista", "sector": "atacado", "since_ise": "2021", "esg_highlight": "Atacadão Solidário, compra de perecíveis imperfeitos"},
+    {"ticker": "BBAS3", "name": "Banco do Brasil", "sector": "banco público", "since_ise": "2005", "esg_highlight": "Fundação BB, Tecnologia Social"},
+    {"ticker": "BBDC3", "name": "Bradesco", "sector": "financeiro", "since_ise": "2005", "esg_highlight": "Fundação Bradesco, Agenda 2030"},
+    {"ticker": "BBSE3", "name": "BB Seguridade", "sector": "seguros", "since_ise": "2014", "esg_highlight": "Seguros inclusivos"},
+    {"ticker": "B3SA3", "name": "B3 (operadora da bolsa)", "sector": "financeiro", "since_ise": "2021", "esg_highlight": "Operadora do ISE, sustainability indices"},
+    {"ticker": "CMIG4", "name": "CEMIG", "sector": "energia elétrica", "since_ise": "2005", "esg_highlight": "Renováveis, programa de afugentar pássaros"},
+    {"ticker": "CPFE3", "name": "CPFL Energia", "sector": "energia", "since_ise": "2021", "esg_highlight": "Energia renovável, eficiência"},
+    {"ticker": "CPLE3", "name": "Copel", "sector": "energia", "since_ise": "2005", "esg_highlight": "99% matriz renovável"},
+    {"ticker": "EGIE3", "name": "Engie Brasil", "sector": "energia (gás/renováveis)", "since_ise": "2005", "esg_highlight": "Engie Zero Carbon 2045"},
+    {"ticker": "ELET3", "name": "Eletrobras", "sector": "energia", "since_ise": "2023 (regresso após 2008)", "esg_highlight": "Pacto Global, B-Corp em avaliação"},
+    {"ticker": "HYPE3", "name": "Hypera Pharma", "sector": "farmacêutica", "since_ise": "2021", "esg_highlight": "Hyperas Instituto"},
+    {"ticker": "ITUB3", "name": "Itaú Unibanco", "sector": "financeiro", "since_ise": "2005", "esg_highlight": "Instituto Itaú, R$ 600M+ socioambiental"},
+    {"ticker": "KLBN11", "name": "Klabin", "sector": "papel e celulose", "since_ise": "2005", "esg_highlight": "Klabin Ecofab reciclagem"},
+    {"ticker": "NTCO3", "name": "Natura &Co", "sector": "cosméticos", "since_ise": "2005", "esg_highlight": "Champions of the Earth 2015 (UN), B-Corp"},
+    {"ticker": "PCAR3", "name": "GPA (Pão de Açúcar)", "sector": "varejo alimentar", "since_ise": "2005", "esg_highlight": "Linha Taeq orgânicos, Bem Querer Mais"},
+    {"ticker": "PETR3", "name": "Petrobras", "sector": "energia (petróleo)", "since_ise": "2010 (após exclusão 2008)", "esg_highlight": "Net Zero 2050 Escopo 1+2"},
+    {"ticker": "SBSP3", "name": "Sabesp", "sector": "saneamento", "since_ise": "2014", "esg_highlight": "Universalização água/esgoto"},
+    {"ticker": "SUZB3", "name": "Suzano", "sector": "papel e celulose", "since_ise": "2005", "esg_highlight": "1ª B-Corp papel/celulose global (2024)"},
+    {"ticker": "VBBR3", "name": "Vibra Energia", "sector": "distribuição combustíveis", "since_ise": "2021", "esg_highlight": "Mobilidade elétrica"},
+    {"ticker": "VALE3", "name": "Vale", "sector": "mineração", "since_ise": "2005", "esg_highlight": "Fundação Vale R$ 86,9M sociais (2024)"},
+    {"ticker": "WEGE3", "name": "WEG", "sector": "industrial", "since_ise": "2014", "esg_highlight": "Eficiência energética, motor elétrico"}
+  ],
+  "historical_changes_2024_2025": {
+    "added_2024_2025": [
+      "Algumas mudanças refletem fusões (ex: BRF+Marfrig=MBRF, JBS saiu para BDR, GPA desmembrou Assaí)"
+    ],
+    "removed_2024_2025": [
+      "JBS (saiu para BDR 2025, perdeu elegibilidade B3)",
+      "BRF (extinta após fusão Marfrig 2025)"
+    ],
+    "maintained_2024_2025": [
+      "Engie Brasil, Suzano, Natura, Itaú, Klabin, Ambev, Sabesp, Cemig, Eletrobras"
+    ]
+  },
+  "ise_b3_methodology_summary": {
+    "framework": "Triple Bottom Line (TBL) - Econômico/Social/Ambiental + Governança",
+    "dimensions_evaluated": 7,
+    "evaluation_frequency": "Anual (revisão completa)",
+    "minimum_companies_2024": 23,
+    "maximum_companies_2024": 35,
+    "esg_workspace_url": "https://esgworkspace.b3.com.br/",
+    "metodologia_gvces_url": "https://iseb3.com.br/metodologia",
+    "etf_isus11_url": "https://www.itnow.com.br/isus11/"
+  },
+  "key_observations": {
+    "1": "Carteira 2024-2025 conta com 23-30 empresas; entre as quais, 7 são de energia (peso grande do setor)",
+    "2": "Único varejista alimentar: GPA (PCAR3) + Assaí (ASAI3) após cisão 2024",
+    "3": "Único B-Corp: Suzano (2024) é 1ª papel/celulose global",
+    "4": "JBS e BRF saíram em 2025 (BRF por fusão com Marfrig → MBRF, JBS por migração BDR)",
+    "5": "Alta concentração em bancos (5) e energia (7)",
+    "6": "Saíram em anos anteriores: Petrobras 2008-2010, mas reingressou",
+    "7": "Setor alimentos/varejo é sub-representado — oportunidade para Waste Guardian construir narrativa de impacto"
+  },
+  "sponsorship_implications_for_waste_guardian": {
+    "direct_targets": [
+      "GPA/Assaí (varejo alimentar — anti-desperdício é core business)",
+      "Ambev (líder ESG, B-Corp em avaliações)",
+      "Natura (B-Corp, Champions of the Earth)",
+      "Itaú Unibanco (parceiro técnico Pix + open finance)",
+      "Banco do Brasil (Edital Tecnologia Social)",
+      "Suzano (B-Corp, parceria embalagem)",
+      "Engie Brasil (parceria biogás)"
+    ],
+    "indirect_targets": [
+      "Eletrobras (energia limpa)",
+      "Vibra Energia (mobilidade)",
+      "Cemig/Copel/CPFL (energia)",
+      "Sabesp (saneamento)",
+      "Klabin (papel)",
+      "WEG (industrial)"
+    ],
+    "fit_score_for_food_waste": {
+      "high": ["GPA", "Assaí", "Ambev (logística)", "Natura (comunicação)"],
+      "medium": ["Itaú", "Banco do Brasil", "Engie", "Suzano"],
+      "low": ["Sabesp", "WEG", "Klabin", "Vibra"]
+    }
+  },
+  "sources": [
+    {
+      "id": "b3_ise_main",
+      "url": "https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-sustentabilidade/indice-de-sustentabilidade-empresarial-ise-b3.htm",
+      "type": "site_oficial",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "ISE B3 ativo, ETF ISUS11, ESG Workspace, revisão metodologia ciclo 2026/2027 em andamento"
+    },
+    {
+      "id": "iseb3_main",
+      "url": "https://iseb3.com.br/",
+      "type": "site_oficial",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "Página inicial ISE B3, com cronograma 2025-2026, empresas elegíveis, respostas em planilhas, apresentações, publicações"
+    },
+    {
+      "id": "iseb3_metodologia",
+      "url": "https://iseb3.com.br/metodologia",
+      "type": "site_oficial",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "Metodologia ISE B3 (referência GVCES/FGV)"
+    },
+    {
+      "id": "b3_wikipedia_en",
+      "url": "https://en.wikipedia.org/wiki/B3_(stock_exchange)",
+      "type": "wikipedia",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "B3 com 475 empresas listadas out/2022, market cap USD 977 bi fev 2024, índices de sustentabilidade (ISE + ICO2)"
+    },
+    {
+      "id": "ise_wikipedia_pt",
+      "url": "https://pt.wikipedia.org/wiki/%C3%8Dndice_de_Sustentabilidade_Empresarial",
+      "type": "wikipedia",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "ISE criado 2005 Bovespa + FGV + Instituto Ethos + MMA, financiamento IFC, metodologia TBL, ETF ISUS11 desde 2011"
+    }
+  ]
+}

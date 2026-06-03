@@ -1,0 +1,72 @@
+{
+  "batch_id": "batch_05_ods_alignment",
+  "ods": "ODS 2 - Fome Zero e Agricultura Sustentavel",
+  "last_updated": "2026-06-03",
+  "indicators_focus": ["2.1.1", "2.1.2", "2.2.1", "2.2.2"],
+  "status_brasil": "retrocesso ate 2022, melhoria em 2023 (avaliacao IPEA 2024)",
+  "metrics": [
+    {
+      "indicator": "2.1.1 - Prevalencia de subalimentacao",
+      "value_brasil": 4.7,
+      "unit": "% populacao",
+      "year": 2021,
+      "source": "FAO SOFI 2024 (citado)",
+      "source_id": "fao_sofi_2024",
+      "note": "Modelo FAO com variabilidade de +/- 2 p.p."
+    },
+    {
+      "indicator": "2.1.2 - Inseguranca alimentar (moderada ou grave) - EBIA",
+      "value_brasil": 54700000,
+      "unit": "pessoas",
+      "year": 2024,
+      "source": "PNAD Continua - IBGE 4o tri 2024",
+      "source_id": "ibge_pnad_2024",
+      "prevalence_percent": 25.6,
+      "note": "1 em cada 4 brasileiros em 2024"
+    },
+    {
+      "indicator": "2.1.2 (subset grave - fome)",
+      "value_brasil": 6400000,
+      "unit": "pessoas",
+      "year": 2024,
+      "source": "PNAD Continua - IBGE 4o tri 2024",
+      "source_id": "ibge_pnad_2024",
+      "prevalence_percent": 3.0
+    },
+    {
+      "indicator": "2.2.1 - Atraso de crescimento em <5 anos (stunting)",
+      "value_brasil": null,
+      "unit": "%",
+      "year": "ultimo disponivel",
+      "source": "IPEA 2024 - sem dado recente",
+      "source_id": "ipea_ods2_2024",
+      "note": "IPEA 2024: 'ausencia de dados mais recentes' para stunting, baixo peso e sobrepeso em <5 anos"
+    }
+  ],
+  "national_targets": {
+    "meta_adaptada_2.1_brasil": "Ate 2030, erradicar a fome e garantir o acesso de todas as pessoas, em particular os pobres e pessoas em situacoes vulneraveis, incluindo criancas e idosos, a alimentos seguros, culturalmente adequados, saudaveis e suficientes durante todo o ano",
+    "meta_adaptada_2.2_brasil": "Ate 2030, erradicar as formas de malnutricao relacionadas a desnutricao, reduzir as formas de malnutricao relacionadas ao sobrepeso ou a obesidade, prevendo o alcance ate 2025 das metas acordadas internacionalmente sobre desnutricao cronica e desnutricao aguda em criancas menores de cinco anos de idade, e garantir a seguranca alimentar e nutricional de meninas adolescentes, mulheres gravidas e lactantes, pessoas idosas e povos e comunidades tradicionais",
+    "meta_adaptada_2.3_brasil": "Ate 2030, aumentar a produtividade agricola e a renda dos pequenos produtores de alimentos, particularmente de mulheres, agricultores familiares, povos e comunidades tradicionais, visando tanto a producao de autoconsumo e garantia da reproducao social dessas populacoes quanto ao seu desenvolvimento socioeconomico"
+  },
+  "policies_in_place": [
+    {
+      "name": "Politica Nacional de Seguranca Alimentar e Nutricional (PNSAN)",
+      "law": "Lei 11.346/2006 - LOSAN",
+      "year": 2006
+    },
+    {
+      "name": "Sisan (Sistema Nacional de Seguranca Alimentar e Nutricional)",
+      "description": "Instituido pela Lei 11.346/2006"
+    },
+    {
+      "name": "Programa Nacional de Alimentacao Escolar (PNAE)",
+      "description": "Referencia mundial em alimentacao escolar"
+    },
+    {
+      "name": "Estrategia Intersetorial para a Reducao de Perdas e Desperdicio de Alimentos",
+      "law": "Instituida em dezembro 2017 no ambito da CAISAN"
+    }
+  ],
+  "interpretation_summary": "Brasil apresenta retrocesso no ODS 2 ate 2022, com sinais de recuperacao em 2023. 54,7 milhoes de brasileiros em inseguranca alimentar (25,6% da populacao), dos quais 6,4 milhoes em situacao de fome (3,0% da populacao) - dados PNAD 2024. Contraste paradoxal: Brasil e um dos maiores produtores/exportadores agricolas do mundo simultaneamente com 1 em cada 4 brasileiros em inseguranca alimentar. Causa principal: desigualdade socioeconomica, nao indisponibilidade de alimentos. Vinculacao com ODS 12.3 (desperdicio): 23,6 milhoes t/ano desperdiçadas (Embrapa 2019) / 27 milhoes t/ano (cifra atualizada 2023) - a Estrategia Intersetorial CAISAN de 2017 ainda nao produziu meta quantitativa nacional para meta 12.3, deixando o pais em posicao de 'meta nao quantificada' ate 2024.",
+  "key_sources": ["ibge_pnad_2024", "ipea_ods2_2024", "embrapa_2019", "bancodealimentos_quemsomos_2025"]
+}

@@ -1,0 +1,446 @@
+{
+  "batch_id": "batch_06_regulatory",
+  "last_updated": "2026-06-03",
+  "version": "1.0",
+  "scope": "Arcabouco legal brasileiro aplicavel ao Waste Guardian: doacao de alimentos, LGPD, ANVISA, incentivos fiscais ESG, certificacoes, Marco Legal das Startups.",
+  "metrics": [
+    {
+      "id": "reg_001",
+      "name": "Lei 14.016/2020 — Imunidade civil do doador",
+      "value": "Sim — doador/intermediario respondem civil e administrativamente SOMENTE por dolo (art. 3º caput)",
+      "unit": "texto_legal",
+      "year": 2020,
+      "source_id": "planalto_l14016",
+      "confidence": "high",
+      "methodology": "Leitura integral do art. 3º e 4º da Lei 14.016/2020",
+      "limitations": "Lei REVOGADA pela Lei 15.224/2025. Jurisprudencia ainda em construcao"
+    },
+    {
+      "id": "reg_002",
+      "name": "Lei 14.016/2020 — Gratuidade obrigatoria da doacao",
+      "value": "Sim — doacao deve ser gratuita, sem qualquer encargo oneroso (art. 1º, §3º)",
+      "unit": "texto_legal",
+      "year": 2020,
+      "source_id": "planalto_l14016",
+      "confidence": "high",
+      "methodology": "Leitura integral do art. 1º §3º da Lei 14.016/2020",
+      "limitations": "Implicacoes fiscais do ICMS na doacao devem ser analisadas caso a caso"
+    },
+    {
+      "id": "reg_003",
+      "name": "Lei 14.016/2020 — Termo da responsabilidade do doador",
+      "value": "Na primeira entrega ao intermediario OU ao beneficiario final (art. 3º, §1º)",
+      "unit": "momento_juridico",
+      "year": 2020,
+      "source_id": "planalto_l14016",
+      "confidence": "high",
+      "methodology": "Leitura do art. 3º §1º e §2º",
+      "limitations": "Documentacao de evidencia (recibo de entrega) recomendada para evitar onus da prova"
+    },
+    {
+      "id": "reg_004",
+      "name": "Lei 14.016/2020 — Criterios sanitarios do alimento doado",
+      "value": "(I) dentro do prazo de validade; (II) integridade/seguranca sanitaria preservada; (III) propriedades nutricionais mantidas (art. 1º, incisos I, II, III)",
+      "unit": "requisitos_legais",
+      "year": 2020,
+      "source_id": "planalto_l14016",
+      "confidence": "high",
+      "methodology": "Leitura do art. 1º, incisos I, II, III",
+      "limitations": "Anexo tecnico do Ministerio da Saude detalha requisitos; verificar regulamentos ANVISA"
+    },
+    {
+      "id": "reg_005",
+      "name": "Lei 14.016/2020 — Estabelecimentos habilitados a doar",
+      "value": "Empresas, hospitais, supermercados, cooperativas, restaurantes, lanchonetes e todos os fornecedores de alimentos (art. 1º, §1º)",
+      "unit": "escopo_subjetivo",
+      "year": 2020,
+      "source_id": "planalto_l14016",
+      "confidence": "high",
+      "methodology": "Leitura do art. 1º, §1º",
+      "limitations": "Revogada — Lei 15.224/2025 mantem escopo similar"
+    },
+    {
+      "id": "reg_006",
+      "name": "Lei 14.016/2020 — Intermediarios da doacao",
+      "value": "Bancos de alimentos, entidades beneficentes de assistencia social certificadas, entidades religiosas (art. 1º, §2º)",
+      "unit": "lista_intermediarios",
+      "year": 2020,
+      "source_id": "planalto_l14016",
+      "confidence": "high",
+      "methodology": "Leitura do art. 1º, §2º",
+      "limitations": "Waste Guardian pode atuar como plataforma intermediadora digital (analisar enquadramento)"
+    },
+    {
+      "id": "reg_007",
+      "name": "Lei 14.016/2020 — Status legal atual",
+      "value": "REVOGADA pela Lei 15.224/2025 (citada em rodape do texto compilado Planalto)",
+      "unit": "status_vigencia",
+      "year": 2025,
+      "source_id": "planalto_l14016",
+      "confidence": "high",
+      "methodology": "Anotacao 'Revogado pela Lei nº 15.224, de 2025' presente no texto original no Planalto",
+      "limitations": "Texto da Lei 15.224/2025 nao foi lido integralmente nesta pesquisa — verificar conteudo substitutivo"
+    },
+    {
+      "id": "reg_008",
+      "name": "LGPD — Hipoteses de tratamento de dados aplicaveis ao app",
+      "value": "10 hipoteses no art. 7º: I)consentimento, II)obrigacao legal/regulatoria, III)politicas publicas, IV)estudos orgao de pesquisa, V)execucao de contrato, VI)processo judicial/arbitral, VII)protecao a vida, VIII)tutela saude, IX)interesse legitimo, X)protecao credito",
+      "unit": "bases_legais",
+      "year": 2018,
+      "source_id": "planalto_lgpd",
+      "confidence": "high",
+      "methodology": "Leitura integral do art. 7º da Lei 13.709/2018",
+      "limitations": "Art. 11º trata dados sensiveis separadamente (restricoes adicionais)"
+    },
+    {
+      "id": "reg_009",
+      "name": "LGPD — Base legal recomendada para Waste Guardian (cadastro doador/receptor)",
+      "value": "Art. 7º, V — execucao de contrato com o titular (cadastro + uso da plataforma)",
+      "unit": "base_legal_principal",
+      "year": 2018,
+      "source_id": "planalto_lgpd",
+      "confidence": "high",
+      "methodology": "Interpretacao do art. 7º V combinado com finalidade do app (matching de doacoes)",
+      "limitations": "Para funcionalidades de marketing, pode-se usar consentimento (art. 7º I) ou interesse legitimo (art. 7º IX)"
+    },
+    {
+      "id": "reg_010",
+      "name": "LGPD — Direitos do titular (art. 18)",
+      "value": "9 direitos: I)confirmacao, II)acesso, III)correcao, IV)anonimizacao/bloqueio/eliminacao, V)portabilidade, VI)eliminacao (com consentimento), VII)informacao sobre uso compartilhado, VIII)informacao sobre consequencias da negativa, IX)revogacao do consentimento",
+      "unit": "direitos_titular",
+      "year": 2018,
+      "source_id": "planalto_lgpd",
+      "confidence": "high",
+      "methodology": "Leitura integral do art. 18",
+      "limitations": "Prazo de atendimento: 15 dias para acesso (art. 19, II)"
+    },
+    {
+      "id": "reg_011",
+      "name": "LGPD — Principio da necessidade (minimizacao)",
+      "value": "Limitar tratamento ao minimo necessario para finalidade, com dados pertinentes, proporcionais e nao excessivos (art. 6º, III)",
+      "unit": "principio_legal",
+      "year": 2018,
+      "source_id": "planalto_lgpd",
+      "confidence": "high",
+      "methodology": "Leitura do art. 6º, III",
+      "limitations": "Aplicavel diretamente: Waste Guardian deve justificar cada dado coletado"
+    },
+    {
+      "id": "reg_012",
+      "name": "LGPD — Encarregado de dados (DPO)",
+      "value": "Obrigatorio para controladores — pessoa indicada que atua como canal entre controlador, titulares e ANPD (art. 5º, VIII)",
+      "unit": "obrigacao_legal",
+      "year": 2018,
+      "source_id": "planalto_lgpd",
+      "confidence": "high",
+      "methodology": "Leitura do art. 5º VIII e art. 41 (obrigatoriedade do encarregado)",
+      "limitations": "ANPD dispensa designacao de encarregado para microempresas e empresas de pequeno porte (Resolucao CD/ANPD 4/2023)"
+    },
+    {
+      "id": "reg_013",
+      "name": "LGPD — Dados sensiveis de doadores/receptores",
+      "value": "Nao se aplica diretamente (LGPD art. 11) salvo se coletar dados de saude, origem racial, religiosa, etc.",
+      "unit": "aplicabilidade_condicional",
+      "year": 2018,
+      "source_id": "planalto_lgpd",
+      "confidence": "medium",
+      "methodology": "Leitura do art. 11 (tratamento de dados sensiveis)",
+      "limitations": "Se Waste Guardian incluir perfil socioeconomico (vulnerabilidade), pode configurar dado sensivel (origem social)"
+    },
+    {
+      "id": "reg_014",
+      "name": "LGPD — Enquadramento de startups (ME/EPP)",
+      "value": "Dispensadas de designar encarregado (Resolucao CD/ANPD nº 4/2023) e de elaboracao de RIPD para casos de baixo risco",
+      "unit": "beneficio_regulatorio",
+      "year": 2023,
+      "source_id": "anpd_site",
+      "confidence": "medium",
+      "methodology": "Cruzamento de info do site ANPD + Resolucao 4/2023",
+      "limitations": "Verificar texto integral da Resolucao CD/ANPD 4/2023"
+    },
+    {
+      "id": "reg_015",
+      "name": "ANVISA — RDC 216/2004 (Boas Praticas para Servicos de Alimentacao)",
+      "value": "Aplica-se a manipulacao, preparacao, fracionamento, armazenamento, distribuicao, transporte e entrega de alimentos preparados (item 1.2)",
+      "unit": "regulamento_aplicavel",
+      "year": 2004,
+      "source_id": "anvisa_rdc_216",
+      "confidence": "high",
+      "methodology": "Leitura integral do Anexo da RDC 216/2004",
+      "limitations": "Nao se aplica a lactarios, TNE, bancos de leite, cozinhas de saude e industria (escopo definido)"
+    },
+    {
+      "id": "reg_016",
+      "name": "ANVISA — RDC 216/2004 — Temperatura de conservacao",
+      "value": "Quente: >60ºC por max 6h; Resfriamento: 60ºC -> 10ºC em ate 2h; Refrigeracao: <5ºC; Congelamento: <-18ºC; Validade sob refrigeracao 4ºC: 5 dias (item 4.8.15-4.8.17)",
+      "unit": "parametros_tecnicos",
+      "year": 2004,
+      "source_id": "anvisa_rdc_216",
+      "confidence": "high",
+      "methodology": "Leitura do item 4.8 do Anexo da RDC 216/2004",
+      "limitations": "Aplicavel a servicos de alimentacao que manipulam e servem diretamente; para doar so excedentes, validar com Visa local"
+    },
+    {
+      "id": "reg_017",
+      "name": "ANVISA — Obrigacao de Manual de Boas Praticas e POPs",
+      "value": "Servicos de alimentacao devem dispor de Manual de Boas Praticas + POPs (item 4.11.1) — registros minimos 30 dias (item 4.11.3)",
+      "unit": "obrigacao_documental",
+      "year": 2004,
+      "source_id": "anvisa_rdc_216",
+      "confidence": "high",
+      "methodology": "Leitura do item 4.11 do Anexo da RDC 216/2004",
+      "limitations": "POPs minimos: (a) higienizacao instalacoes, (b) controle de pragas, (c) higienizacao reservatorio, (d) higiene manipuladores"
+    },
+    {
+      "id": "reg_018",
+      "name": "ANVISA — Capacitacao de manipuladores",
+      "value": "Obrigatoria e periodica (item 4.6.7 e 4.12.2) — temas: contaminantes, doencas transmitidas, manipulacao higienica, boas praticas",
+      "unit": "obrigacao_treinamento",
+      "year": 2004,
+      "source_id": "anvisa_rdc_216",
+      "confidence": "high",
+      "methodology": "Leitura do item 4.6.7 e 4.12.2",
+      "limitations": "Carga horaria e conteudo minimo sob definicao do responsavel tecnico"
+    },
+    {
+      "id": "reg_019",
+      "name": "ANVISA — Sancoes (Lei 6.437/1977)",
+      "value": "Infracao sanitaria: advertencia, multa, apreensao, inutilizacao, interdir, cancelar registro, prohibicao (Lei 6.437/77 art. 2º)",
+      "unit": "regime_sancionatorio",
+      "year": 1977,
+      "source_id": "anvisa_rdc_216",
+      "confidence": "high",
+      "methodology": "Referencia expressa no art. 6º da RDC 216/2004",
+      "limitations": "Multa pode chegar a R$ 1,5 milhao para infracoes gravissimas (art. 4º Lei 6.437/77)"
+    },
+    {
+      "id": "reg_020",
+      "name": "Lei do Bem (Lei 11.196/2005) — Incentivo P&D",
+      "value": "Exclusao adicional no IRPJ de 60% a 100% das despesas com P&D (art. 17) + reducao de 50% IPI + depreciacao acelerada",
+      "unit": "incentivo_fiscal_percentual",
+      "year": 2005,
+      "source_id": "receita_federal_lei_bem",
+      "confidence": "medium",
+      "methodology": "Conhecimento da Lei 11.196/2005 (texto integral nao foi possivel carregar — Planalto retornou 404)",
+      "limitations": "VERIFICAR texto integral. Aplicavel a PJ com P&D em inovacao tecnologica"
+    },
+    {
+      "id": "reg_021",
+      "name": "Marco Legal das Startups (LC 182/2021) — Enquadramento",
+      "value": "Receita bruta ate R$ 16.000.000,00/ano + ate 10 anos de CNPJ + modelo de negocios inovador OU Inova Simples (art. 4º, §1º)",
+      "unit": "requisitos_enquadramento",
+      "year": 2021,
+      "source_id": "planalto_lcp182",
+      "confidence": "high",
+      "methodology": "Leitura integral do art. 4º da LC 182/2021",
+      "limitations": "Modelo de negocios inovador nos termos do art. 2º IV da Lei 10.973/2004 (Marco Legal de CTI)"
+    },
+    {
+      "id": "reg_022",
+      "name": "Marco Legal das Startups — Investidor-anjo",
+      "value": "Nao considerado socio, sem direito a voto/gerencia, sem responsabilidade por dividas da empresa (art. 8º, I e II)",
+      "unit": "regime_juridico_investidor",
+      "year": 2021,
+      "source_id": "planalto_lcp182",
+      "confidence": "high",
+      "methodology": "Leitura do art. 8º da LC 182/2021",
+      "limitations": "Excecao: dolo, fraude ou simulacao (paragrafo unico)"
+    },
+    {
+      "id": "reg_023",
+      "name": "Marco Legal das Startups — Contrato Publico para Solucao Inovadora (CPSI)",
+      "value": "Ate R$ 1.600.000,00 por CPSI, vigencia 12+12 meses, criterios de remuneracao flexiveis (art. 14, §2º e §3º)",
+      "unit": "limite_valor_contrato",
+      "year": 2021,
+      "source_id": "planalto_lcp182",
+      "confidence": "high",
+      "methodology": "Leitura do art. 14, §2º e §3º da LC 182/2021",
+      "limitations": "Apos CPSI, contrato de fornecimento pode ir ate 5x esse valor (art. 15, §3º)"
+    },
+    {
+      "id": "reg_024",
+      "name": "Marco Legal das Startups — Sandbox Regulatorio",
+      "value": "Orgaos regulatorios podem afastar normas em condicoes especiais (art. 11) — condicoes simplificadas para inovacao",
+      "unit": "instrumento_regulatorio",
+      "year": 2021,
+      "source_id": "planalto_lcp182",
+      "confidence": "high",
+      "methodology": "Leitura do art. 11 da LC 182/2021",
+      "limitations": "Aplicabilidade: depende de cada orgao regulador (ANVISA, ANPD, etc.)"
+    },
+    {
+      "id": "reg_025",
+      "name": "ISE B3 (Indice de Sustentabilidade Empresarial)",
+      "value": "Indice da B3 que mede desempenho ESG de empresas listadas; carteira com 30-40 ativos; base para ETFs/fundos ESG",
+      "unit": "indice_mercado",
+      "year": 2005,
+      "source_id": "b3_ise",
+      "confidence": "medium",
+      "methodology": "Conhecimento geral do ISE B3 (site B3 nao foi acessivel nesta sessao)",
+      "limitations": "VERIFICAR metodologia atualizada (site B3 retornou 404); dados de composicao podem estar desatualizados"
+    },
+    {
+      "id": "reg_026",
+      "name": "B Corp Certification — Requisitos",
+      "value": "5 areas de impacto: Governance, Workers, Human Rights, Environment, Customers/Community; auditoria ISO 17021-1; minimo 80 pontos",
+      "unit": "certificacao_internacional",
+      "year": 2026,
+      "source_id": "b_corp_site",
+      "confidence": "high",
+      "methodology": "Leitura da pagina oficial 'About B Corp Certification' da B Lab",
+      "limitations": "A partir de 2026, novas empresas certificam contra V2.1 dos Standards"
+    },
+    {
+      "id": "reg_027",
+      "name": "B Corp — Movimento global",
+      "value": "+10.000 empresas certificadas em 6 continentes; 1 em 4 consumidores ja ouviu falar de B Corp (Global North, 2024)",
+      "unit": "aderencia_mercado",
+      "year": 2024,
+      "source_id": "b_corp_site",
+      "confidence": "high",
+      "methodology": "Leitura da pagina oficial B Corp + B Corp Brand Awareness Report 2024",
+      "limitations": "Numero de B Corps no Brasil: verificar base local Sistema B"
+    },
+    {
+      "id": "reg_028",
+      "name": "Sistema B Brasil — Movimento local",
+      "value": "Representante do B Lab no Brasil; apoia certificacao B Corp + promove o movimento de empresas de impacto no pais",
+      "unit": "organizacao_setorial",
+      "year": 2024,
+      "source_id": "b_corp_site",
+      "confidence": "medium",
+      "methodology": "Inferencia do site B Lab (sistemabbrasil.com retornou erro de transporte)",
+      "limitations": "Verificar site oficial Sistema B Brasil para dados especificos (numero de B Corps BR, programas)"
+    },
+    {
+      "id": "reg_029",
+      "name": "ANPD — Encarregado de dados para ME/EPP",
+      "value": "Dispensada designacao obrigatoria para ME/EPP (Resolucao CD/ANPD nº 4/2023); startups enquadradas podem usar como beneficio",
+      "unit": "obrigacao_encarregado",
+      "year": 2023,
+      "source_id": "anpd_site",
+      "confidence": "medium",
+      "methodology": "Referencia cruzada com informacoes do site ANPD",
+      "limitations": "Verificar texto integral da Resolucao 4/2023; dispensa nao exime de outras obrigacoes LGPD"
+    },
+    {
+      "id": "reg_030",
+      "name": "ANPD — Sandbox regulatorio para IA",
+      "value": "ANPD abriu consulta publica (jun/2026) sobre Sandbox Regulatorio de IA; pode futuramente aplicar-se a apps com IA/ML",
+      "unit": "oportunidade_regulatoria",
+      "year": 2026,
+      "source_id": "anpd_site",
+      "confidence": "medium",
+      "methodology": "Leitura do portal de noticias ANPD em 03/06/2026",
+      "limitations": "Aplicabilidade especifica ao Waste Guardian (recomendacao de receitas via IA) dependera de regulamento final"
+    }
+  ],
+  "sources": [
+    {
+      "id": "planalto_l14016",
+      "name": "Planalto — Lei 14.016/2020 (doacao de alimentos)",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14016.htm",
+      "type": "lei_federal",
+      "date_consulted": "2026-06-03",
+      "what_extracted": "Texto integral: 6 artigos; ementa; revogacao pela Lei 15.224/2025"
+    },
+    {
+      "id": "planalto_lgpd",
+      "name": "Planalto — LGPD Lei 13.709/2018",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "type": "lei_federal",
+      "date_consulted": "2026-06-03",
+      "what_extracted": "Texto integral compilado: arts. 1-65, com atualizacoes ate Lei 15.352/2026"
+    },
+    {
+      "id": "planalto_lcp182",
+      "name": "Planalto — Marco Legal das Startups (LC 182/2021)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm",
+      "type": "lei_complementar",
+      "date_consulted": "2026-06-03",
+      "what_extracted": "Texto integral: 19 artigos; enquadramento startup, investidor-anjo, sandbox, CPSI"
+    },
+    {
+      "id": "anvisa_rdc_216",
+      "name": "ANVISA — RDC 216/2004 (Boas Praticas para Servicos de Alimentacao)",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2004/res0216_15_09_2004.html",
+      "type": "resolucao_diretoria_colegiada",
+      "date_consulted": "2026-06-03",
+      "what_extracted": "Texto integral do Anexo: 12 secoes, incluindo Manual de Boas Praticas, POPs, temperaturas"
+    },
+    {
+      "id": "anvisa_site",
+      "name": "ANVISA — Portal de legislacao de alimentos",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/alimentos/legislacao",
+      "type": "portal_regulador",
+      "date_consulted": "2026-06-03",
+      "what_extracted": "Estrutura regulatoria ANVISA para alimentos; secoes Rotulagem, BPA, POPs"
+    },
+    {
+      "id": "anpd_site",
+      "name": "ANPD — Autoridade Nacional de Protecao de Dados",
+      "url": "https://www.gov.br/anpd/pt-br",
+      "type": "portal_regulador",
+      "date_consulted": "2026-06-03",
+      "what_extracted": "Noticias institucionais; sandbox regulatorio de IA; obrigacoes do encarregado"
+    },
+    {
+      "id": "b_corp_site",
+      "name": "B Lab — B Corp Certification",
+      "url": "https://www.bcorporation.net/en-us/certification",
+      "type": "site_certificadora",
+      "date_consulted": "2026-06-03",
+      "what_extracted": "Processo de certificacao, areas de impacto, ISO 17021-1, B Impact Assessment"
+    },
+    {
+      "id": "receita_federal_lei_bem",
+      "name": "Lei do Bem (Lei 11.196/2005)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp182.htm",
+      "type": "lei_federal",
+      "date_consulted": "2026-06-03",
+      "what_extracted": "Texto nao foi possivel carregar diretamente (URL retornou 404). Dados consolidados via conhecimento previo da legislacao (cap. III, arts. 17-26)"
+    },
+    {
+      "id": "b3_ise",
+      "name": "B3 — ISE B3 (Indice de Sustentabilidade Empresarial)",
+      "url": "https://www.b3.com.br/",
+      "type": "site_bolsa",
+      "date_consulted": "2026-06-03",
+      "what_extracted": "Site retornou 404 para URLs especificas. Dados consolidados via conhecimento previo do indice (criado 2005, ~40 ativos, metodologia ESG)"
+    }
+  ],
+  "compliance_checklist_summary": {
+    "lei_14016": [
+      "Verificar requisitos de validade e integridade do alimento (art. 1º I-III)",
+      "Documentar primeira entrega (recibo/datacao) — onus da prova",
+      "Garantir gratuidade da doacao (art. 1º §3º)",
+      "Validar revogacao pela Lei 15.224/2025 (proxima legislacao)"
+    ],
+    "lgpd": [
+      "Definir base legal para cada fluxo (execucao de contrato para matching, consentimento para marketing)",
+      "Implementar politica de privacidade com 9 direitos do titular (art. 18)",
+      "Atender pedidos em 15 dias (art. 19 II)",
+      "Implementar DPO/encarregado OU comprovar enquadramento ME/EPP (Res. 4/2023)",
+      "Aplicar principio da necessidade — coletar apenas o minimo",
+      "Manter RIPD (Relatorio de Impacto a Protecao de Dados) se tratamento de alto risco"
+    ],
+    "anvisa_rdc_216": [
+      "Manual de Boas Praticas + POPs implementados pelos restaurantes/doadores",
+      "Capacitacao periodica de manipuladores (tema: contaminantes, DTA, BP)",
+      "Controle de temperatura: >60ºC quente, <5ºC refrigerado, <-18ºC congelado",
+      "Registros minimos mantidos por 30 dias (item 4.11.3)",
+      "Se Waste Guardian intermediar: garantir que doadores cumprem requisitos RDC 216"
+    ],
+    "marco_legal_startups": [
+      "Manter receita bruta <= R$ 16MM/ano e CNPJ <= 10 anos",
+      "Documentar modelo de negocios inovador no ato constitutivo",
+      "Considerar Inova Simples para formalizacao (art. 65-A LC 123/2006)",
+      "CPSI ate R$ 1,6M como contrato com a Uniao (art. 14 LC 182/2021)"
+    ]
+  },
+  "data_quality_notes": {
+    "high_confidence": ["reg_001-007 (Lei 14.016)", "reg_008-013 (LGPD)", "reg_015-019 (RDC 216)", "reg_021-024 (LC 182/2021)", "reg_026-027 (B Corp)"],
+    "medium_confidence": ["reg_014 (Res. ANPD 4/2023)", "reg_020 (Lei do Bem)", "reg_025 (ISE B3)", "reg_028 (Sistema B)", "reg_029 (Sandbox ANPD IA)", "reg_030 (Sandbox ANPD IA)"],
+    "not_consulted_indepth": ["Lei 15.224/2025 (revogadora de 14.016)", "Lei 11.196/2005 (Lei do Bem) — Planalto 404", "RDC 275/2002 (POPs) — citada mas nao lida", "RDC 26/2014 (rotulagem)"]
+  }
+}

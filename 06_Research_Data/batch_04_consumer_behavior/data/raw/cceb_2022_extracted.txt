@@ -1,0 +1,461 @@
+=== PAGE 1 ===
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Alterações na aplicação do Critério Brasil, válidas a partir de 01/06/2022 
+ 
+A metodologia de desenvolvime nto do Critério Brasil que entrou  em vigor no início de 2015 está  
+descrita no livro Estratificação Socioeconômica e Consumo no Brasil  dos professores Wagner 
+Kamakura (Rice University) e José Afonso Mazzon (FEA /USP), baseado na Pesquisa de Orçamento 
+Familiar (POF) do IBGE. 
+ 
+A regra operacional para classificação de domicílios, descrita a seguir, resulta da adaptação da 
+metodologia apresentada no livro às condições operacionais da pesquisa de mercado no Brasil. 
+ 
+As organizações que utilizam o Critério Brasil podem relatar suas experiências ao Comitê do CCEB. 
+Essas experiências serão valiosas para que o Critério Brasil seja permanentemente aprimorado. 
+ 
+A transformação operada atualmente no Critério Brasil foi possível graças a generosa contribuição 
+e intensa participação dos seguintes profissionais nas atividades do comitê: 
+ 
+Luis Pilli (Coordenador) - LARC Pesquisa de Marketing 
+Bianca Ambrósio - Kantar  
+Bruna Suzzara – IPEC  
+Luciano Pontes – Kantar IBOPE Media  
+Margareth Reis – GFK 
+Paula Yamakawa – IPEC   
+Renata Nunes - Datafolha  
+Sidney Fernandes - IRP   
+ 
+A ABEP, em nome de seus associados, registra o reconhecimento e  agradece o envolvime nto 
+desses profissionais. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ABEP - Associação Brasileira de Empresas de Pesquisa – 2022 – www.abep.org – abep@abep.org 1 
+
+=== PAGE 2 ===
+ 
+SISTEMA DE PONTOS 
+ 
+Variáveis 
+ 
+ 
+    Quantidade   
+  0 1 2  3 4 ou + 
+ Banheiros 0 3     7  10 14 
+ Trabalhadores domésticos 0 3  7  10 13 
+ Automóveis 0 3     5  8 11 
+ Microcomputador 0 3  6  8 11 
+ Lava louca 0 3     6  6 6 
+ Geladeira 0 2  3  5 5 
+ Freezer 0 2    4  6 6 
+ Lava roupa 0 2  4  6 6 
+ DVD 0 1     3  4 6 
+ Micro-ondas 0 2  4  4 4 
+ Motocicleta 0 1     3  3 3 
+ Secadora roupa 0 2  2  2 2 
+ 
+ 
+Grau de instrução do chefe de família e acesso a serviços públicos 
+ 
+ 
+ Grau de instrução do chefe da família  
+ Analfabeto / Fundamental I incompleto   0 
+ Fundamental I completo / Fundamental II incompleto  1 
+ Fundamental II completo / Médio incompleto  2 
+ Médio completo / Superior incompleto   4 
+ Superior completo   7 
+     
+ Serviços públicos  
+   Não Sim 
+ Água encanada 0  4 
+ Rua pavimentada  0  2 
+ 
+ 
+ 
+Distribuição das classes 
+ 
+As estimativas do tamanho dos estratos atualizados referem -se ao total Brasil e resultados 
+das macrorregiões, além do total das 9 Regiões Metropolitanas  (RMs) e resultados para cada uma 
+das RM's (Porto Alegre , C uritiba, São Paulo, Rio de Janeiro, Belo Horizonte, Brasília, Salvador, 
+Recife e Fortaleza). 
+ 
+ 
+ 
+ABEP - Associação Brasileira de Empresas de Pesquisa – 2022 – www.abep.org – abep@abep.org 2 
+ 
+
+=== PAGE 3 ===
+As estimativas para o total do Brasil e macrorregiões são baseadas em estudos 
+probabilísticos nacionais realizados no ano de 2021 pelo DataFolha e pelo  Ipec. E as es timativas 
+para as  9 RMs se baseiam no Levantamento Soci oeconômico (LSE) de 2021  do Kantar IBOPE 
+Media. 
+ 
+ 
+Classe BRASIL Sudeste Sul Nordeste Centro 
+Oeste Norte 
+1 – A 2,9% 3,6% 3,1% 1,3% 4,8% 1,4% 
+2 - B1 5,1% 6,4% 6,2% 2,8% 5,9% 2,3% 
+3 - B2 16,7% 20,9% 20,5% 9,2% 18,3% 9,6% 
+4 - C1 21,0% 24,2% 25,3% 14,7% 22,3% 15,7% 
+5 - C2 26,4% 26,4% 26,7% 25,7% 27,6% 26,9% 
+6 - D - E 27,9% 18,5% 18,2% 46,3% 21,1% 44,1% 
+Total 100,00% 100,00% 100,00% 100,00% 100,00% 100,00% 
+ 
+ 
+ 
+Classe 9 RMs POA CWB SP RJ BH BSB SSA REC FOR 
+ 
+   1 – A 6,7% 7,2% 8,4% 6,7% 4,8% 8,1% 16,6% 4,6% 2,4% 3,8%  
+2 - B1 8,0% 10,8% 11,4% 9,2% 5,4% 7,6% 11,9% 5,3% 6,5% 4,5%  
+3 - B2 21,0% 21,8% 26,4% 25,8% 18,2% 20,6% 25,3% 15,5% 13,1% 16,0%  
+4 - C1 21,4% 23,7% 22,3% 25,5% 20,5% 22,2% 18,5% 17,6% 17,3% 17,9%  
+5 - C2 24,3% 22,1% 22,0% 23,0% 28,0% 25,1% 18,4% 25,1% 28,0% 24,9%  
+6 – D-E 18,6% 14,4% 9,5% 9,8% 23,1% 16,4% 9,3% 31,9% 32,7% 32,9%  
+total  100,00% 100,00% 100,00% 100,00% 100,00% 100,00% 100,00% 100,00% 100,00% 100,00%  
+ 
+ 
+ 
+Cortes do Critério Brasil 
+ 
+Classe Pontos 
+       1 – A 45 – 100 
+2 - B1 38 – 44 
+3 - B2 29 – 37 
+4 - C1 23 - 28  
+5 - C2 17 – 22 
+ 6 - DE 0 – 16 
+ 
+ 
+ 
+ 
+ 
+ABEP - Associação Brasileira de Empresas de Pesquisa – 2022 – www.abep.org – abep@abep.org 3 
+ 
+ 
+
+=== PAGE 4 ===
+ 
+ 
+ 
+Estimativa para a Renda Média Domiciliar para os estratos do Critério Brasil 
+ 
+ 
+Abaixo são apresentadas as estimativas de  renda domiciliar mensal para os estratos 
+socioeconômicos. Os valores se baseiam na PNADC 2021 e representam aproximações dos valores 
+que pode m se r obtidos em amostras de pesquisas de mercado, mídia e opinião. A experiência 
+mostra que a variância observada  para as respostas à perg unta de renda é ele vada, com 
+sobreposições importantes nas rendas entre as clas ses. Isso significa que a pergunta de renda não 
+é um estimador eficiente de nível socioeconômico e não substitui ou complementa o questionário 
+sugerido abaixo. 
+O objetivo da divulgação dessas info rmações é oferecer uma ideia de característica dos estratos 
+socioeconômicos resultantes da aplicação do Critério Brasil. 
+ 
+ 
+ 
+Estrato Socio 
+Econômico 
+Renda 
+Média 
+A          21.826,74  
+B1          10.361,48  
+B2            5.755,23  
+C1            3.276,76  
+C2            1.965,87  
+DE                900,60  
+TOTAL             3.383,06 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ABEP - Associação Brasileira de Empresas de Pesquisa – 2022 – www.abep.org – abep@abep.org 4 
+ 
+
+=== PAGE 5 ===
+ 
+ 
+PROCEDIMENTO NA COLETA DOS ITENS 
+ 
+É importante e necessário que  o critério seja aplicado 
+de forma uniforme e precisa. Para tanto, é 
+fundamental aten der integr almente as d efinições e 
+procedimentos citados a seguir. 
+ 
+Para aparelhos domésticos em geral: 
+ 
+Devem ser considerados todos os bens que estão 
+dentro do domicílio em funcionamento (incluindo os 
+que estão gua rdados) independente da forma de 
+aquisição: compra,  empréstimo, aluguel, etc. S e o  
+domicílio possui um bem que emp restou a outro, este 
+não deve ser contado pois não está em seu domicílio 
+atualmente. Caso não este jam funcionando, considere 
+apenas se tiver i ntenção de consertar ou repor nos 
+próximos seis meses. 
+ 
+Banheiro  
+O que  define o b anheiro é a existência de vaso 
+sanitário. Considerar todos os banheiros e lavabos 
+com vaso sanitário, incluindo os de empregada, o s 
+localizados fora de casa e os da(s) suíte( s). Para ser 
+considerado, o banheiro tem que ser pr ivativo do 
+domicílio. Banhei ros coletivos (que servem a mais de  
+uma habitação) não devem ser considerados. 
+ 
+Trabalhador Doméstico  
+Considerar apenas os trabalhadores mensalistas, isto 
+é, aqueles que trabal ham pelo menos cinco dias por 
+semana, durmam ou não no emprego. Não esqueça de 
+incluir babás, motoristas, cozinhei ras, copeiras, 
+arrumadeiras, considerando sempre os mensalistas. 
+ 
+Note bem: o termo trabalhador mensalista se refere 
+aos trabalhadores que tra balham no domicílio de 
+forma permanente e/ou contínua, pelo menos cinco  
+dias po r semana , e  não ao regime de pagame nto do  
+salário. 
+ 
+Automóvel  
+Não considerar táxis, vans ou pick -ups usados para 
+fretes, ou qualquer veículo  usado para atividades 
+profissionais. Veículos de uso misto (pessoal e 
+profissional) não devem ser considerados. 
+ 
+Microcomputador 
+Considerar os comput adores de mesa, l aptops, 
+notebooks e netbooks. Não considerar: calculadoras, 
+ 
+ 
+agendas eletrônicas, table ts, palm s, s martphones e 
+outros aparelhos. 
+ 
+Lava-Louça 
+Considere a máquina com função de lavar as louças. 
+ 
+Geladeira e Freezer  
+No quadro de pontuação  há dua s l inhas 
+independentes para assinalar a posse de geladeira e 
+freezer respectivamente. A pontuação s erá apli cada 
+de forma independente:  
+Havendo uma geladeira no domicílio, serão atribuídos 
+os pontos (2) correspondentes a posse de geladeira; 
+Se a geladeira tiver um freezer incorporado – 2ª porta  
+– ou houver no domicílio um freezer independente 
+serão atr ibuídos os p ontos (2) correspondentes  ao 
+freezer. Dessa forma, esse domicílio totaliza  4 pontos 
+na soma desses dois bens. 
+ 
+Lava-Roupa  
+Considerar máqu ina de lavar r oupa, somente as 
+máquinas automáticas e/ou semiautomática. O 
+tanquinho NÃO deve ser considerado. 
+ 
+DVD  
+Considere como leitor de D VD (Disco Digital de Vídeo 
+ou Disco Digital Versá til) o acessório domé stico capaz 
+de re produzir mídias no formato  DVD ou  outros 
+formatos mais modernos, incluindo videogames, 
+computadores, notebooks. Inclua os aparelhos 
+portáteis e os acoplados em microcomputadores.  
+Não considere DVD de automóvel. 
+ 
+Micro-ondas  
+Considerar fo rno micr o-ondas e  aparelho com dupla 
+função (de micro-ondas e forno elétrico). 
+ 
+Motocicleta  
+Não considerar motocicletas usadas exclusivamente 
+para a tividades pr ofissionais. Motocicletas  apenas 
+para uso pessoal e de uso misto (pessoal e 
+profissional) devem ser consideradas. 
+ 
+Secadora de roupas  
+Considerar a máquina de secar roupa. Existem 
+máquinas que fazem duas funções, lavar e secar. 
+Nesses casos, de vemos co nsiderar esse equipamento 
+como uma máquina de lavar e como uma secadora. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ABEP - Associação Brasileira de Empresas de Pesquisa – 2022 – www.abep.org – abep@abep.org 5 
+
+=== PAGE 6 ===
+Modelo de Questionário sugerido para aplicação 
+ 
+P.XX Agora vou fazer a lgumas perguntas sobre itens do domicílio para e feito de classificação 
+econômica. Todos os itens de eletroeletrônicos que vou citar devem estar funcionando, incluindo 
+os que estão guardados. Caso não estejam funcionando,  considere a penas se tiver intenção de 
+consertar ou repor nos próximos seis meses. 
+ 
+INSTRUÇÃO: Todos os ite ns dev em ser p erguntados pelo entrevistad or e re spondidos pelo 
+entrevistado. 
+Vamos começar? No domicílio tem______ (LEIA CADA ITEM) 
+ 
+ 
+     QUANTIDADE QUE POSSUI  
+   NÃO          
+ ITENS DE CONFORTO  POSSUI  1  2  3  4+   
+Quantidade de automóveis de passeio exclusivamente para 
+uso particular  
+ 
+Quantidade de máquinas de lavar roupa, excluindo tanquinho  
+ 
+Quantidade de banheiros  
+DVD, incluindo qualquer dispositivo que leia DVD e desconsiderando 
+DVD de automóvel  
+Quantidade de geladeiras 
+ 
+Quantidade de freezers independentes ou parte da geladeira duplex 
+ 
+Quantidade de microcomputadores, considerando computadores 
+de mesa, laptops, notebooks e netbooks e desconsiderando tablets, 
+palms ou smartphones  
+Quantidade de lavadora de louças  
+Quantidade de fornos de micro-ondas 
+ 
+Quantidade de motocicletas, desconsiderando as 
+usadas exclusivamente para uso profissional  
+Quantidade de máquinas secadoras de roupas, considerando lava 
+e seca 
+ 
+ 
+Trabalhador Doméstico 
+ NÃO         
+ TEM  1  2  3  4+ 
+Quantidade de trabalhadores mensalistas, considerando apenas os  
+que trabalham pelo menos cinco dias por semana 
+     
+ 
+A água utilizada neste domicílio é proveniente de?  
+1 Rede geral de distribuição  
+2 Poço ou nascente  
+3 Outro meio 
+ 
+Considerando o trecho da rua do seu domicílio, você diria que a rua é:  
+1 Asfaltada/Pavimentada  
+2 Terra/Cascalho 
+ 
+ 
+ABEP - Associação Brasileira de Empresas de Pesquisa – 2022 – www.abep.org – abep@abep.org 6 
+
+=== PAGE 7 ===
+   
+Qual é o grau de instrução do chefe da família? Considere como chefe da família a pessoa que 
+contribui com a maior parte da renda do domicílio. 
+ 
+Nomenclatura atual Nomenclatura anterior 
+Analfabeto / Fundamental I incompleto Analfabeto/Primário Incompleto 
+Fundamental I completo / Fundamental II Primário Completo/Ginásio 
+Incompleto Incompleto 
+Fundamental completo/Médio Ginásio Completo/Colegial 
+Incompleto Incompleto 
+Médio completo/Superior incompleto Colegial Completo/Superior 
+ Incompleto 
+Superior completo Superior Completo 
+  
+ 
+ 
+OBSERVAÇÕES IMPORTANTES 
+Este critério foi const ruído para def inir grand es 
+classes que  atendam às necessidades de 
+segmentação (po r p oder aquisitivo) da grande 
+maioria das empresas. Não pode, entretanto, 
+como qualquer outr o critério, satisfazer todos os 
+usuários em todas as circunstâncias. Certamente 
+há muitos casos e m que o un iverso a ser 
+pesquisado é de pessoas, digamos, com  renda 
+pessoal mensal acima de R$ 30.000. Em casos 
+como esse, o pesqu isador deve procurar outros 
+critérios de seleção que não o CCEB.  
+A outra observação é que o CCEB, como os seus 
+antecessores, f oi constru ído co m a util ização de 
+técnicas estatísticas que,  como s e s abe, sempre 
+se baseiam em coletivos. Em uma determinada 
+amostra, de determinado tamanho, temos uma  
+determinada probabilidade de classificação 
+correta, (que, esperamos, seja  alta) e uma 
+probabilidade de erro de classificação (que, 
+esperamos, seja baixa).  
+Nenhum critério estatístico, entretanto, tem 
+validade sob um a análise individual. Afirmaçõ es 
+frequentes do tipo “... conheço um sujeito que é 
+obviamente classe  D, mas pelo c ritério é clas se 
+B...” não inv alidam o  critério que é feito para 
+funcionar estatisticamente. Servem, porém, para 
+nos alertar, quando trabalhamo s na análise 
+individual, ou qu ase indiv idual, d e 
+comportamentos e atitudes (entrevistas em 
+profundidade e discuss ões em  grupo 
+respectivamente). Numa discussão em grupo um 
+único caso de má  classificação pode pôr a perder 
+todo o grupo. No caso de entrevista em 
+profundidade os prejuízos s ão ainda mais óbvios. 
+Além disso, numa pesquisa qualitativa, 
+raramente uma definiçã o de c lasse 
+exclusivamente econômica será satisfatória. 
+ 
+ 
+ 
+Portanto, é de f undamental importância que 
+todo o mercado tenha ciência de que  o CCEB, ou 
+qualquer outro cri tério eco nômico, não é 
+suficiente para uma boa classificação em 
+pesquisas qualitati vas. N esses ca sos deve -se 
+obter além d o CC EB, o máximo de informações 
+(possível, viável, razoável) sobre os respondentes, 
+incluindo então seus comportamentos de 
+compra, pref erências e i nteresses, lazer e 
+hobbies e até características de personalidade.  
+Uma comprovação adicional da adequação do 
+Critério de Classificação Econômica Brasil é sua 
+discriminação efetiva do poder de compra entre 
+as diversas regiões brasileiras, revelando 
+importantes diferenças entre elas. 
+ 
+ 
+ABEP - Associação Brasileira de Empresas de Pesquisa – 2022 – www.abep.org – abep@abep.org 7 

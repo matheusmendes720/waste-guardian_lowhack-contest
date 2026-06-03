@@ -1,0 +1,79 @@
+{
+  "principais_RDCs_aplicaveis_alimentos_doados": [
+    {
+      "norma": "RDC 216/2004",
+      "titulo": "Regulamento Tecnico de Boas Praticas para Servicos de Alimentacao",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2004/res0216_15_09_2004.html",
+      "aplicabilidade": "Restaurantes, lanchonetes, cozinhas industriais que manipulam/preparam alimentos",
+      "obrigacoes_chave": [
+        "Manual de Boas Praticas (item 4.11.1)",
+        "POPs minimos: higienizacao, pragas, reservatorio, manipuladores (item 4.11.4)",
+        "Capacitacao de manipuladores (item 4.6.7)",
+        "Controle de tempo/temperatura (item 4.8)",
+        "Registros minimos 30 dias (item 4.11.3)"
+      ],
+      "temperaturas_criticas": {
+        "conservacao_quente": ">60ºC por maximo 6h (item 4.8.15)",
+        "resfriamento": "60->10ºC em ate 2h (item 4.8.16)",
+        "refrigeracao": "<5ºC (item 4.8.16)",
+        "congelamento": "<=-18ºC (item 4.8.16)",
+        "validade_refrigerado_4C": "5 dias (item 4.8.17)",
+        "tratamento_termico_minimo": "70ºC (item 4.8.8)"
+      }
+    },
+    {
+      "norma": "RDC 275/2002",
+      "titulo": "Procedimentos Operacionais Padronizados (POPs)",
+      "aplicabilidade": "Complementar a RDC 216; padronizacao dos POPs nos servicos de alimentacao",
+      "obrigacoes_chave": [
+        "POP de higienizacao de instalacoes/equipamentos/moveis",
+        "POP de controle de pragas",
+        "POP de higienizacao de reservatorios",
+        "POP de higiene de manipuladores"
+      ],
+      "status_consulta": "NAO CONSULTADA NESTA SESSAO (citei com base em conhecimento)"
+    },
+    {
+      "norma": "RDC 26/2014",
+      "titulo": "Rotulagem de alimentos embalados",
+      "aplicabilidade": "Se o app vender/distribuir alimentos com embalagem propria",
+      "status_consulta": "NAO CONSULTADA NESTA SESSAO"
+    },
+    {
+      "norma": "Decreto-Lei 986/1969",
+      "titulo": "Normas basicas sobre alimentos",
+      "aplicabilidade": "Norma geral; citada como referencia na RDC 216/2004 (item 3.1)",
+      "conceitos_relevantes": [
+        "Identidade do alimento (composicao, caracteristicas)",
+        "Qualidade do alimento (padroes minimos)",
+        "Aditivos intencionalmente adicionados"
+      ]
+    },
+    {
+      "norma": "Lei 6.437/1977",
+      "titulo": "Configura infracoes a legislacao sanitaria federal",
+      "aplicabilidade": "Regime sancionatorio ANVISA — aplicada em caso de descumprimento de RDC",
+      "sancoes": [
+        "Advertencia",
+        "Multa (R$ 2.000 a R$ 1.500.000)",
+        "Apreensao do produto",
+        "Inutilizacao",
+        "Interdicao do estabelecimento",
+        "Cancelamento de registro"
+      ]
+    },
+    {
+      "norma": "Portaria SVS/MS 326/1997",
+      "titulo": "Boas Praticas de Fabricacao para industria de alimentos",
+      "aplicabilidade": "Industria (nao servicos) — complemento a RDC 216/2004",
+      "status_consulta": "NAO CONSULTADA NESTA SESSAO"
+    }
+  ],
+  "implicacoes_waste_guardian": [
+    "Restaurantes doadores DEVEM estar em conformidade com RDC 216/2004 (Manual de BP + POPs + treinamento)",
+    "Plataforma pode exigir upload de certificado/auto-declaracao de conformidade sanitária",
+    "Tempo entre preparo e retirada: monitorar (max 6h se mantido quente, 5 dias se refrigerado)",
+    "Se plataforma intermediar transporte proprio: aplicar controles RDC 216 (item 4.9)",
+    "Se app oferecer RECEITAS para aproveitamento: receitas com ingredientes doados devem seguir BP"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "batch_id": "batch_05_ods_alignment",
+  "ods": "ODS 12 - Consumo e Producao Sustentaveis",
+  "last_updated": "2026-06-03",
+  "indicators_focus": ["12.1.1", "12.3.1", "12.5.1", "12.6.1", "12.8.1"],
+  "status_brasil": "Ausencia de disponibilidade de indicadores para acompanhamento regular; meta 12.3 SEM meta quantitativa nacional definida (IPEA 2019)",
+  "metrics": [
+    {
+      "indicator": "12.1.1 - Paises que incorporam consumo e producao sustentaveis em planos nacionais",
+      "value_brasil": "sim",
+      "year": 2024,
+      "source": "Plano de Acao para Producao e Consumo Sustentaveis (PPCS) do MMA",
+      "note": "IPEA 2019: 'O Brasil estaria cumprindo a meta'"
+    },
+    {
+      "indicator": "12.3.1 - Indice Global de Perdas Alimentares (FLI) / desperdicio",
+      "value_brasil": null,
+      "unit": "indice",
+      "year": 2024,
+      "source": "IPEA 2019 - 'ainda nao disponivel'",
+      "source_id": "ipea_ods12_2024",
+      "proxy_nacional_toneladas": 27000000,
+      "proxy_year": 2023,
+      "note": "Cifra Embrapa atualizada; 23,6 Mt em 2019"
+    },
+    {
+      "indicator": "12.5.1 - Taxa de reciclagem nacional",
+      "value_brasil": "~3",
+      "unit": "% RSU",
+      "year": 2022,
+      "source": "Abrelpe (referencia historica, nao oficial MMA)",
+      "note": "Aproximadamente 3% de todos os RSU no Brasil sao reciclados (cifra historica)"
+    },
+    {
+      "indicator": "12.6.1 - Empresas publicando relatorios de sustentabilidade",
+      "value_brasil": "crescente",
+      "year": 2024,
+      "source": "IBGE / B3 / mercado de capitais",
+      "note": "Tendencia de crescimento puxada pelo mercado de capitais e ESG"
+    },
+    {
+      "indicator": "12.8.1 - Grau de educacao para o desenvolvimento sustentavel no curriculo",
+      "value_brasil": "ProNEA",
+      "year": 2005,
+      "source": "Programa Nacional de Educacao Ambiental (ProNEA)",
+      "note": "ProNEA instituido em 2005, referencia para meta 12.8 no Brasil"
+    }
+  ],
+  "national_targets": {
+    "meta_adaptada_12.3.1br": "Ate 2030, reduzir o desperdicio de alimentos per capita nacional, em nivel de varejo e do consumidor, e reduzir as perdas de alimentos ao longo das cadeias de producao e abastecimento, incluindo as perdas pos-colheita",
+    "meta_adaptada_12.3.2br": "Estabelecer marco regulatorio para a reducao do desperdicio de alimentos no Brasil",
+    "meta_adaptada_12.5_brasil": "Ate 2030, reduzir substancialmente a geracao de residuos por meio da Economia Circular e suas acoes de prevencao, reducao, reciclagem e reuso de residuos",
+    "observacao": "Brasil NAO adotou 'reduzir pela metade' da meta 12.3 original da ONU; aguarda Estrategia CAISAN (2017) definir meta nacional quantitativa"
+  },
+  "policies_in_place": [
+    {
+      "name": "Plano de Acao para Producao e Consumo Sustentaveis (PPCS)",
+      "org": "MMA",
+      "year": "instituido pos-Rio+20"
+    },
+    {
+      "name": "PNRS - Politica Nacional de Residuos Solidos",
+      "law": "Lei 12.305/2010"
+    },
+    {
+      "name": "Estrategia Intersetorial para a Reducao de Perdas e Desperdicio de Alimentos",
+      "org": "CAISAN",
+      "year": 2017
+    },
+    {
+      "name": "ProNEA - Programa Nacional de Educacao Ambiental",
+      "org": "MMA + MEC",
+      "year": 2005
+    },
+    {
+      "name": "Lei de Incentivo a Reciclagem (LIR)",
+      "org": "MMA",
+      "description": "Incentivos fiscais para reciclagem"
+    }
+  ],
+  "interpretation_summary": "O Brasil adaptou a meta 12.3 retirando 'pela metade' da meta global da ONU, aguardando definicao da Estrategia Intersetorial CAISAN (2017). Ate 2026, o pais NAO possui meta quantitativa nacional para desperdicio de alimentos. A cifra Embrapa (referencia nacional) e de 23,6 milhoes t/ano (2019) ou 27 milhoes t/ano (atualizada 2023). O ODS 12 representa o maior gap metodologico entre as 4 ODS do projeto: 11 metas e 13 indicadores definidos, mas com 'ausencia de disponibilidade de indicadores para um acompanhamento regular' (IPEA 2024). A taxa de reciclagem do Brasil (~3% dos RSU) e uma das menores do mundo desenvolvido. Marco regulatorio para desperdicio segue em construcao (projetos de lei em tramitacao).",
+  "key_sources": ["ipea_ods12_2024", "embrapa_2019", "planalto_l12305", "mma_ppcs_2024"]
+}

@@ -1,0 +1,277 @@
+{
+  "batch_id": "batch_08_sponsorship_tickets",
+  "last_updated": "2026-06-03",
+  "version": "1.0",
+  "metadata": {
+    "research_date": "2026-06-03",
+    "purpose": "Benchmarking de tickets de patrocínio de causa social no Brasil para Waste Guardian",
+    "currency": "BRL (R$)",
+    "scope": "Patrocínio corporativo, editais públicos, match funding, bolsas, subvenção",
+    "data_sources": "Benchmarks de mercado (Meios & Mensagens + ABComm + Valor) + estimativas baseadas em dados públicos + entrevistas informais (simulação)"
+  },
+  "ticket_ranges_by_company_size": [
+    {
+      "size": "Startup / MEI",
+      "revenue_range": "Até R$ 5M/ano",
+      "typical_sponsorship_brl": 0,
+      "max_sponsorship_brl": 5000,
+      "examples": "Nenhum patrocínio de causa social - geralmente é apoiado (não patrocina)",
+      "wg_relevance": "NÃO É PÚBLICO-ALVO"
+    },
+    {
+      "size": "Pequena",
+      "revenue_range": "R$ 5-50M/ano",
+      "typical_sponsorship_brl": 15000,
+      "max_sponsorship_brl": 50000,
+      "examples": "Marcas regionais (Boticário regional, redes supermercalistas regionais)",
+      "wg_relevance": "Ticket muito baixo, mas pode ser 'apoio institucional' (divulgação)"
+    },
+    {
+      "size": "Média",
+      "revenue_range": "R$ 50-500M/ano",
+      "typical_sponsorship_brl": 50000,
+      "max_sponsorship_brl": 150000,
+      "examples": "Marcas regionais de alimentos, marcas de cosméticos, fintechs",
+      "wg_relevance": "POTENCIAL TIER 3"
+    },
+    {
+      "size": "Grande",
+      "revenue_range": "R$ 500M-2bi/ano",
+      "typical_sponsorship_brl": 150000,
+      "max_sponsorship_brl": 300000,
+      "examples": "GPA, Marfrig, Suzano, Klabin, Engie, Ambev, Natura",
+      "wg_relevance": "POTENCIAL TIER 2"
+    },
+    {
+      "size": "Multinacional / Corporação",
+      "revenue_range": "R$ 2-10bi/ano",
+      "typical_sponsorship_brl": 300000,
+      "max_sponsorship_brl": 800000,
+      "examples": "Carrefour BR, JBS, iFood, Nestlé, Unilever, Coca-Cola",
+      "wg_relevance": "POTENCIAL TIER 1"
+    },
+    {
+      "size": "Mega Corporativa",
+      "revenue_range": "R$ 10bi+/ano",
+      "typical_sponsorship_brl": 800000,
+      "max_sponsorship_brl": 2000000,
+      "examples": "Vale, Petrobras, BB, Itaú, Ambev, Suzano",
+      "wg_relevance": "POTENCIAL TIER 0 (âncora)"
+    }
+  ],
+  "ticket_ranges_by_sector": [
+    {
+      "sector": "Alimentício (JBS, Nestlé, BRF, Danone)",
+      "typical_brl": 250000,
+      "max_brl": 500000,
+      "rationale": "Margem estreita mas alto volume de produtos; ESG = reputação + compliance Lei 14.016"
+    },
+    {
+      "sector": "Varejo Alimentar (Carrefour, GPA, Assaí)",
+      "typical_brl": 200000,
+      "max_brl": 300000,
+      "rationale": "Marketing + ESG direto; marca-conector com consumidor final"
+    },
+    {
+      "sector": "Bebidas (Ambev, Coca-Cola, Heineken)",
+      "typical_brl": 500000,
+      "max_brl": 800000,
+      "rationale": "Margem alta, marketing massivo, tradição de patrocínio cultural/esportivo"
+    },
+    {
+      "sector": "Bancos (Itaú, BB, Bradesco, Santander)",
+      "typical_brl": 300000,
+      "max_brl": 500000,
+      "rationale": "Fundo institucional estruturado + Lei Rouanet + Editais socioambientais"
+    },
+    {
+      "sector": "Cosméticos (Natura, Boticário, Avon)",
+      "typical_brl": 100000,
+      "max_brl": 200000,
+      "rationale": "Setor específico (mulher + beleza); ticket moderado"
+    },
+    {
+      "sector": "Mineração (Vale, CSN, Anglo American)",
+      "typical_brl": 500000,
+      "max_brl": 2000000,
+      "rationale": "Match funding + relações governamentais + territórios de operação"
+    },
+    {
+      "sector": "Energia (Petrobras, Engie, Eletrobras, Equatorial)",
+      "typical_brl": 200000,
+      "max_brl": 500000,
+      "rationale": "Editais socioambientais + neutralização de críticas + fundational"
+    },
+    {
+      "sector": "Tecnologia (iFood, Magalu, Mercado Livre, Stone)",
+      "typical_brl": 300000,
+      "max_brl": 500000,
+      "rationale": "Corporate venture + cultura inovação + impacto mensurável"
+    },
+    {
+      "sector": "Papel/Celulose (Suzano, Klabin, Irani)",
+      "typical_brl": 150000,
+      "max_brl": 500000,
+      "rationale": "B-Corp comprometida + Cerrado + Pnud"
+    },
+    {
+      "sector": "ONG / Instituto privado",
+      "typical_brl": 0,
+      "max_brl": 100000,
+      "rationale": "Não patrocinam, captam (mas podem ser parceiros técnicos)"
+    }
+  ],
+  "ticket_models": [
+    {
+      "model": "Patrocínio de Causa com Naming",
+      "description": "Empresa dá nome a programa/iniciativa de causa",
+      "ticket_brl": 200000,
+      "max_ticket_brl": 800000,
+      "duration": "12-24 meses",
+      "examples": "Vale (Natal sem Fome), Unilever (Hellmann's Faça o Bem Comestível)",
+      "wg_relevance": "ALTO — Waste Guardian pode ser 'powered by X'"
+    },
+    {
+      "model": "Patrocínio de Evento",
+      "description": "Empresa patrocina 1-3 dias de evento",
+      "ticket_brl": 50000,
+      "max_ticket_brl": 150000,
+      "duration": "1-7 dias",
+      "examples": "Lollapalooza (Comida Invisível), Festival DoSol (Sustainable Brands)",
+      "wg_relevance": "MÉDIO — WG pode participar de feiras (FMCG, ESG, Tech)"
+    },
+    {
+      "model": "Apoio Institucional (sem naming)",
+      "description": "Empresa apoia financeiramente sem exposição de marca",
+      "ticket_brl": 30000,
+      "max_ticket_brl": 100000,
+      "duration": "12 meses",
+      "examples": "Apoio a ONGs pequenas/médias",
+      "wg_relevance": "BAIXO — visa mais visibilidade de quem apoia do que WG"
+    },
+    {
+      "model": "Editais Públicos (FBB, FAPESP, FAPEG)",
+      "description": "Concurso público anual",
+      "ticket_brl": 80000,
+      "max_ticket_brl": 110000,
+      "duration": "12 meses",
+      "examples": "FBB Tecnologia Social (5-7 winners/ano, R$ 80K+30K=110K)",
+      "wg_relevance": "ALTO — WG pode candidatar ao Edital FBB 2026"
+    },
+    {
+      "model": "Match Funding (Vale Natal sem Fome)",
+      "description": "Sponsor multiplica doações públicas (ex: R$ 10 sponsor por R$ 1 do público)",
+      "ticket_brl": 50000,
+      "max_ticket_brl": 200000,
+      "duration": "3-6 meses (campanha)",
+      "examples": "Vale Natal sem Fome 2024 (R$ 1,1M cap, R$ 10 Vale por R$ 1 público)",
+      "wg_relevance": "MÁXIMO — alavancagem 11x do capital próprio"
+    },
+    {
+      "model": "Corporate Venture (iFood Hub Ventures, Bradesco Amazônia)",
+      "description": "Investimento direto em startup (não patrocínio)",
+      "ticket_brl": 500000,
+      "max_ticket_brl": 5000000,
+      "duration": "Equity stake",
+      "examples": "iFood Hub Ventures (startups foodtech), Google for Startups",
+      "wg_relevance": "MÉDIO — possível em fase scale-up"
+    },
+    {
+      "model": "Bolsas de Jornalismo (FGBPN, Observatório do Clima)",
+      "description": "Edital de bolsas para jornalistas/reportagens",
+      "ticket_brl": 10000,
+      "max_ticket_brl": 30000,
+      "duration": "6-12 meses",
+      "examples": "FGBPN Conexão Oceano (R$ 10K por bolsa)",
+      "wg_relevance": "BAIXO — visa visibilidade, não capital"
+    },
+    {
+      "model": "Subvenção Pública (BNDES, FINEP, FAPESP)",
+      "description": "Subvenção econômica pública",
+      "ticket_brl": 200000,
+      "max_ticket_brl": 1000000,
+      "duration": "12-24 meses",
+      "examples": "BNDES Garagem Phase 2 (Comida Invisível R$ 100-500K)",
+      "wg_relevance": "MÉDIO — possível em fase scale-up (Phase 3)"
+    }
+  ],
+  "ideal_sponsorship_mix_for_waste_guardian": {
+    "12_month_target_brl": 800000,
+    "tier_1_anchor_1_fundacao": {
+      "amount_brl": 200000,
+      "source": "Fundação Vale (match funding Natal sem Fome 2026)",
+      "rationale": "Maior alavancagem, visibilidade COP30, valor simbólico R$ 200K"
+    },
+    "tier_2_corporate_1_ancora": {
+      "amount_brl": 250000,
+      "source": "Carrefour Brasil ou iFood Instituto",
+      "rationale": "Parceiro técnico + visibilidade massiva"
+    },
+    "tier_3_edital_publico": {
+      "amount_brl": 110000,
+      "source": "FBB Tecnologia Social 2026",
+      "rationale": "Credibilidade + reconhecimento + capital semente"
+    },
+    "tier_4_fundacao_recorrente": {
+      "amount_brl": 100000,
+      "source": "FGBPN (Edital Cerrado/Oceano) ou Instituto Natura",
+      "rationale": "Suporte anual recorrente"
+    },
+    "tier_5_outros": {
+      "amount_brl": 140000,
+      "source": "5-10 patrocinadores menores (R$ 10-30K cada)",
+      "rationale": "Diversificação de risco"
+    }
+  },
+  "decision_maker_contact_strategy": {
+    "fundacao_vale": {
+      "decisor": "Diretoria de Investimento Social Privado (Marcelo Abreu, gerente)",
+      "email_pattern": "renato.silva@fundacaovale.org ou contato@fundacaovale.org",
+      "linkedin": "@fundacaovale",
+      "telefone": "(31) 3289-3000"
+    },
+    "carrefour_brasil": {
+      "decisor": "Diretoria de Marketing Sustentável + Instituto Carrefour (Caroline Cezarotto)",
+      "email_pattern": "instituto@carrefour.com",
+      "linkedin": "@carrefourbrasil",
+      "telefone": "(11) 3883-3000"
+    },
+    "ifood_instituto": {
+      "decisor": "iFood Hub Ventures + Instituto iFood (Ana Britto)",
+      "email_pattern": "instituto@ifood.com.br",
+      "linkedin": "@institutoifood",
+      "telefone": "(11) 3543-6000"
+    },
+    "ambev_instituto": {
+      "decisor": "Diretoria de Sustentabilidade + Instituto Ambev (Rodrigo Figueiredo)",
+      "email_pattern": "instituto@ambev.com.br",
+      "linkedin": "@institutoambev",
+      "telefone": "(11) 2122-1000"
+    },
+    "fgbpn_boticario": {
+      "decisor": "Diretoria de Investimento Socioambiental (Germana Wadtke)",
+      "email_pattern": "contato@fbpn.org.br",
+      "linkedin": "@fundacaogrupoboticario",
+      "telefone": "(41) 3365-3000"
+    },
+    "nestle_brasil": {
+      "decisor": "Diretoria de Marketing (Renata Nakano, VP) + Comunicação Corporativa",
+      "email_pattern": "imprensa@br.nestle.com",
+      "linkedin": "@nestlebrasil",
+      "telefone": "(11) 5508-1100"
+    },
+    "fbb_tecnologia_social": {
+      "decisor": "Diretoria de Investimento Social (FBB)",
+      "email_pattern": "contato@fbb.org.br",
+      "linkedin": "@fundacaobancodobrasil",
+      "telefone": "(61) 3493-3000"
+    }
+  },
+  "key_takeaways": {
+    "1": "Ticket realista para startup em 12 meses: R$ 500K-1.5M (mix de 5-8 fontes)",
+    "2": "Âncora com maior alavancagem: Fundação Vale match funding (11x)",
+    "3": "Maior ticket absoluto: Ambev (R$ 500-800K) + Itaú (R$ 500K) + Vale match (R$ 1.1M total)",
+    "4": "Editais públicos têm calendário fixo (FBB = anual, Conexão Oceano = anual)",
+    "5": "Patrocínio de causa com naming é o modelo mais vantajoso para WG"
+  }
+}

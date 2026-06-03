@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__chrome-devtools__take_screenshot",
+      "Bash(dir)",
+      "mcp__chrome-devtools__list_console_messages",
+      "mcp__chrome-devtools__evaluate_script",
+      "mcp__filesystem__directory_tree",
+      "mcp__filesystem__list_allowed_directories"
+    ]
+  }
+}

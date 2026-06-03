@@ -1,0 +1,137 @@
+{
+  "batch_id": "batch_05_ods_alignment",
+  "scope": "Metas nacionais brasileiras aplicaveis as 4 ODS do projeto (2, 11, 12, 13)",
+  "last_updated": "2026-06-03",
+  "documents": [
+    {
+      "name": "Politica Nacional sobre Mudanca do Clima (PNMC)",
+      "law": "Lei 12.187/2009",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/constituicao/Lei/L12187.htm",
+      "ods_relation": "ODS 13 - meta 13.2",
+      "year": 2009,
+      "key_content": "Voluntariamente, o Brasil compromete-se a acoes de mitigacao e adaptacao. Define NDC. Base para o PlanClima"
+    },
+    {
+      "name": "Plano Nacional sobre Mudanca do Clima",
+      "decree": "Decreto 6.263/2007",
+      "ods_relation": "ODS 13 - meta 13.2",
+      "year": 2007,
+      "key_content": "Primeiro plano nacional; previsao de planos setoriais de mitigacao e adaptacao"
+    },
+    {
+      "name": "PlanClima (Plano Clima)",
+      "org": "MMA - Secretaria Nacional de Mudanca do Clima",
+      "url": "https://www.gov.br/mma/pt-br/composicao/smc/plano-clima",
+      "ods_relation": "ODS 13 - meta 13.1, 13.2, 13.3",
+      "year": "2024-2028 (atualizacao)",
+      "key_content": "Vinculado a COP 30 (Belem 2025); eixos: mitigacao, adaptacao, e meios de implementacao"
+    },
+    {
+      "name": "NDC - Contribuicao Nacionalmente Determinada",
+      "org": "MMA",
+      "ods_relation": "ODS 13 - meta 13.2",
+      "year": 2022,
+      "key_content": "Reducao de 48,4% a 53,1% nas emissoes de GEE ate 2025 (base 2005); 53% a 59% em 2030; meta de desmatamento zero ate 2030 na Amazonia"
+    },
+    {
+      "name": "Politica Nacional de Residuos Solidos (PNRS)",
+      "law": "Lei 12.305/2010",
+      "decree_regulator": "Decreto 7.404/2010",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12305.htm",
+      "ods_relation": "ODS 11 (meta 11.6) e ODS 12 (metas 12.3, 12.5)",
+      "year": 2010,
+      "key_content": "Ordem de prioridade (Art. 9o): nao geracao, reducao, reutilizacao, reciclagem, tratamento, disposicao final. Plano Nacional com horizonte 20 anos, revisao a cada 4 anos. Logistica reversa obrigatoria para 6 cadeias (Art. 33): agrotoxicos, pilhas/baterias, pneus, oleos, lampadas, eletroeletronicos"
+    },
+    {
+      "name": "Plano Nacional de Residuos Solidos (PLANARES)",
+      "org": "MMA",
+      "url": "https://www.gov.br/mma/pt-br/assuntos/meio-ambiente-urbano-recursos-hidricos-qualidade-ambiental/plano-nacional-de-residuos-solidos",
+      "ods_relation": "ODS 11 (meta 11.6) e ODS 12 (metas 12.3, 12.5)",
+      "year": "2022 (atualizacao)",
+      "key_content": "Integra a PNRS; horizonte 20 anos. Diagnostico, cenarios, metas de reducao/reutilizacao/reciclagem"
+    },
+    {
+      "name": "Lei Organica de Seguranca Alimentar e Nutricional (LOSAN)",
+      "law": "Lei 11.346/2006",
+      "ods_relation": "ODS 2 - meta 2.1",
+      "year": 2006,
+      "key_content": "Cria Sisan; define SAN como direito fundamental; base para o PNAE, PAA, restaurantes populares"
+    },
+    {
+      "name": "Programa Nacional de Alimentacao Escolar (PNAE)",
+      "law": "Lei 11.947/2009",
+      "ods_relation": "ODS 2 - meta 2.1",
+      "year": 2009,
+      "key_content": "Garantia de alimentacao escolar a todos os alunos da educacao basica publica; 30% minimo de compras da agricultura familiar"
+    },
+    {
+      "name": "Programa de Aquisicao de Alimentos (PAA)",
+      "org": "MDS / CAISAN",
+      "ods_relation": "ODS 2 - meta 2.1, 2.3",
+      "year": 2003,
+      "key_content": "Compra publica de alimentos da agricultura familiar para doacao"
+    },
+    {
+      "name": "Estrategia Intersetorial para a Reducao de Perdas e Desperdicio de Alimentos",
+      "org": "CAISAN",
+      "ods_relation": "ODS 12 - meta 12.3",
+      "year": 2017,
+      "key_content": "Instituida em dezembro/2017 no ambito da Camara Interministerial de Seguranca Alimentar e Nutricional (CAISAN). Define politica nacional para reduzir desperdicio - meta quantitativa em construcao"
+    },
+    {
+      "name": "Plano de Acao para Producao e Consumo Sustentaveis (PPCS)",
+      "org": "MMA",
+      "ods_relation": "ODS 12 - meta 12.1",
+      "year": "pos-Rio+20 (2012)",
+      "key_content": "Implementa o Plano Decenal da ONU; eixos: compras publicas sustentaveis, educacao para consumo sustentavel, rotulagem ambiental"
+    },
+    {
+      "name": "Programa Nacional de Educacao Ambiental (ProNEA)",
+      "org": "MMA + MEC",
+      "ods_relation": "ODS 12 meta 12.8, ODS 13 meta 13.3",
+      "year": 2005,
+      "key_content": "Eixo orientador da educacao ambiental no Brasil; instituido em 2005 com vigencia indeterminada"
+    },
+    {
+      "name": "Politica Nacional de Educacao Ambiental (PNEA)",
+      "law": "Lei 9.795/1999",
+      "ods_relation": "ODS 12 meta 12.8, ODS 13 meta 13.3",
+      "year": 1999,
+      "key_content": "Institui educacao ambiental formal e nao-formal em todos os niveis de ensino e na gestao publica"
+    },
+    {
+      "name": "Politica Nacional de Mobilidade Urbana",
+      "law": "Lei 12.587/2012",
+      "ods_relation": "ODS 11 - meta 11.2",
+      "year": 2012,
+      "key_content": "Prioridade para transporte coletivo e modos ativos; base para adaptacao da meta 11.2"
+    },
+    {
+      "name": "Estatuto da Cidade",
+      "law": "Lei 10.257/2001",
+      "ods_relation": "ODS 11 - meta 11.3",
+      "year": 2001,
+      "key_content": "Funcao social da propriedade; gestao democratica das cidades"
+    },
+    {
+      "name": "Plano Nacional de Habitacao (PlanHab)",
+      "org": "Ministerio das Cidades",
+      "ods_relation": "ODS 11 - meta 11.1",
+      "key_content": "Referencia para adaptacao da meta 11.1 (moradia digna)"
+    }
+  ],
+  "key_cronograma_synthesys": {
+    "1999": "Lei 9.795 (PNEA)",
+    "2003": "PAA (Programa de Aquisicao de Alimentos)",
+    "2005": "ProNEA",
+    "2006": "LOSAN (Lei 11.346)",
+    "2007": "Decreto 6.263 (Plano Nacional Mudanca do Clima)",
+    "2009": "Lei 12.187 (PNMC) + Lei 11.947 (PNAE)",
+    "2010": "Lei 12.305 (PNRS)",
+    "2012": "PPCS + Lei 12.587 (Mobilidade Urbana)",
+    "2017": "Estrategia Intersetorial CAISAN",
+    "2022": "NDC atualizada",
+    "2024": "PlanClima (atualizacao)",
+    "2025": "COP 30 em Belem-PA"
+  }
+}

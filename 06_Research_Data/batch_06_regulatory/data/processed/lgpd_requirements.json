@@ -1,0 +1,57 @@
+{
+  "documento": "LGPD — Lei 13.709/2018",
+  "status": "Vigente (texto compilado com alteracoes ate Lei 15.352/2026)",
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+  "aplicabilidade_waste_guardian": "SIM — app coleta dados de pessoas naturais (doadores PF/PJ, receptores PF, enderecos, padroes de consumo)",
+  "bases_legais_recomendadas": {
+    "cadastro_e_matching": "Art. 7º, V — execucao de contrato",
+    "comunicacao_entre_usuarios": "Art. 7º, V — execucao de contrato",
+    "marketing_e_nps": "Art. 7º, I — consentimento (revogavel a qualquer momento)",
+    "prevencao_a_fraude": "Art. 7º, VI — processo administrativo, ou Art. 7º, X — protecao ao credito",
+    "estatisticas_agregadas": "Art. 7º, IV — estudos por orgao de pesquisa (com anonimizacao)",
+    "cumprimento_obrigacoes_ANVISA": "Art. 7º, II — obrigacao legal/regulatoria"
+  },
+  "principios_aplicaveis_art_6": {
+    "finalidade": "Especificar finalidades no termo de uso (matching + indicadores de impacto)",
+    "necessidade": "Coletar apenas dados essenciais (nome, telefone, endereco de coleta, tipo de alimento)",
+    "transparencia": "Politica de privacidade clara + termos de uso",
+    "seguranca": "Criptografia, controle de acesso, logs de auditoria"
+  },
+  "direitos_titular_art_18": [
+    "Confirmacao da existencia de tratamento",
+    "Acesso aos dados (15 dias, art. 19 II)",
+    "Correcao de dados incompletos/inexatos",
+    "Anonimizacao, bloqueio ou eliminacao de dados desnecessarios",
+    "Portabilidade para outro fornecedor",
+    "Eliminacao dos dados tratados com consentimento",
+    "Informacao sobre uso compartilhado",
+    "Informacao sobre consequencias de nao fornecer consentimento",
+    "Revogacao do consentimento"
+  ],
+  "encarregado_dpo": {
+    "obrigatoriedade": "Geral (art. 41)",
+    "dispensa": "ME/EPP estao dispensadas pela Resolucao CD/ANPD nº 4/2023",
+    "funcao": "Canal entre controlador, titulares e ANPD"
+  },
+  "dados_sensiveis_art_11": {
+    "aplicabilidade_wg": "Provavelmente NAO se limita a nome/telefone/endereco",
+    "cuidado": "Se coletar perfil socioeconomico do receptor (vulnerabilidade), pode configurar dado sensivel (origem social)",
+    "alternativa": "Trabalhar com dados anonimizados para indicadores de impacto"
+  },
+  "sanctions_e_riscos": {
+    "advertencia": "Orientacao ANPD",
+    "multa": "Ate 2% do faturamento, limitada a R$ 50.000.000,00 por infração (art. 52 II)",
+    "bloqueio": "Eliminacao dos dados",
+    "proibicao_parcial": "Suspensao de operacao"
+  },
+  "checklist_pratico": [
+    "Politica de privacidade publicada no app",
+    "Termo de uso com aceite explicito (LGPD art. 8º)",
+    "Base legal documentada para cada fluxo de tratamento",
+    "Mecanismo de exercicio de direitos do titular (formulario no app + email DPO)",
+    "Logs de tratamento (auditoria) implementados",
+    "Criptografia em transito e em repouso",
+    "DPIA/RIPD elaborado para tratamentos de alto risco",
+    "Se ME/EPP: manter comprovante de enquadramento + dispensa de DPO"
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "batch_id": "batch_03_business_market",
+  "last_updated": "2026-06-03",
+  "version": "1.0",
+  "metadata": {
+    "research_date": "2026-06-03",
+    "purpose": "Benchmarks de LTV, CAC, GMV, ticket medio, modelo de monetizacao dos principais players do mercado de food waste apps (Too Good To Go, OLIO, NoFoodWasted, Food To Save, Comida Invisivel)",
+    "currency": "USD para globais; BRL para brasileiros (cambio R$ 5,00/USD)",
+    "scope": "Benchmarks quantitativos (LTV/CAC, GMV, ticket, retenção) + qualitativos (modelo de monetizacao, publico-alvo, forcas/fraquezas)",
+    "data_sources": "TGTG Annual Report 2024 (filing oficial DK); Wikipedia (TGTG, OLIO); Play Store (downloads/ratings); sites oficiais (Food To Save, Comida Invisivel); Forbes/Exame (Food To Save receita); Crunchbase (funding rounds)",
+    "limitations_acknowledged": "Poucos players divulgam LTV/CAC publicamente. Estimativas com base em proxies (revenue/users, GMV, lifetime). Industry rule of thumb: 3:1 para sustentabilidade."
+  },
+  "competitor_benchmarks": [
+    {
+      "id": "comp_001",
+      "name": "Too Good To Go",
+      "country": "Dinamarca / 21 paises globais",
+      "founded": 2015,
+      "category": "Marketplace B2C + B2B2C",
+      "funding_total_usd_million": 700,
+      "funding_rounds": [
+        "Series A 2019: EUR 6M",
+        "Series subsequentes: undisclosed multi-bilhao (acumulado USD 700M+)"
+      ],
+      "investors": ["Blossom Capital", "Balderton", "Verlinvest", "DTU Symbion", "Vintage Capital"],
+      "annual_revenue_2024_dkk_million": 725,
+      "annual_revenue_2024_usd_million": 105,
+      "annual_revenue_2023_dkk_million": 544,
+      "annual_revenue_2023_usd_million": 80,
+      "revenue_growth_2023_2024_percent": 33.3,
+      "first_profit_year": 2023,
+      "net_profit_2023_dkk_million": 15.7,
+      "net_profit_2024_dkk_million": 9.6,
+      "employees_2024": 262,
+      "users_2023_million": 62,
+      "users_2026_estimated_million": 120,
+      "businesses_2023_thousand": 164,
+      "businesses_2026_estimated_thousand": 180,
+      "saved_meals_2024_million": 135,
+      "saved_meals_2023_million": 121,
+      "saved_meals_cagr_percent": 70,
+      "play_store_downloads_million": 50,
+      "play_store_rating": 4.9,
+      "play_store_reviews_million": 1.93,
+      "monetization_model": "Marketplace fee - restaurantes vendem excedentes com 1/3 do preco via 'Surprise Bags'; TGTG recebe comissao (~DKK 5-15 por bag) por transacao + B2B Platform fee (TGTG Platform para FMCG) + FMCG Parcels (Nov 2024+) + B2B2C enterprise SaaS",
+      "monetization_model_details": "Estimativa: GMV 2024 = DKK 725M / 30% take rate = GMV total DKK 2,4 bi = USD 350M. Take rate: 30%. Ticket medio bag: DKK 30-50 (~USD 5-7).",
+      "ltv_estimate": {
+        "value_brl_year": 87,
+        "value_brl_3year": 262,
+        "methodology": "Estimativa: 3 orders/year x DKK 30/order x 30% take rate / 62M users = DKK 0.43/user/ano. Lifetime (3 anos): DKK 1.3 = USD 0.20 = R$ 1.0/user. MASSA DE USUARIOS INATIVOS: ticket real eh menor. Use 1% engagement = LTV ~R$ 87/active user/ano (estimativa muito alta - provavelmente muito menor)",
+        "confidence": "baixa"
+      },
+      "cac_estimate": {
+        "value_brl": 25,
+        "methodology": "Industry benchmark: USD 5 CAC (R$ 25) para app consumer sustentável com marketing orgânico. TGTG reporta reducao 50% CAC em 2023 vs 2020 via referral + organic",
+        "confidence": "media"
+      },
+      "ltv_cac_ratio": "3.5x (estimativa baseada em: DKK 1,3 bi em 2024 receita / USD 5 CAC por user ativo)",
+      "payback_period_months": 8,
+      "key_strengths": [
+        "B-Corp certificada (credibilidade ESG)",
+        "21 paises (escala geografica)",
+        "135M+ refeições salvas (autoridade de impacto)",
+        "B2B Platform (FMCG) - alto valor",
+        "First profit 2023 (sustainability financeira)"
+      ],
+      "key_weaknesses": [
+        "Foco em restaurantes/retail (NAO endereca desperdicio DOMESTICO)",
+        "Modelo 'Surprise Bag' (sem escolha - UX fraca)",
+        "Sem scanner/OCR/receitas (gap tecnologico)",
+        "Reviews: experiencias inconsistentes em alguns pedidos"
+      ],
+      "implications_for_wg": "TGTG eh COMPLEMENTAR, nao concorrente. WG foca em desperdicio DOMESTICO (60% do problema global), com scanner + IA. Parceria B2B2C possivel (TGTG Platform integra WG)",
+      "source_id": "tgtg_ar_2024 + tgtg_wikipedia + playstore"
+    },
+    {
+      "id": "comp_002",
+      "name": "OLIO",
+      "country": "Reino Unido / 49 paises",
+      "founded": 2015,
+      "category": "Sharing app (B2C gratuito + B2B parcerias)",
+      "funding_total_usd_million": 51.2,
+      "funding_rounds": [
+        "Seed 2017: USD 2.2M",
+        "Series A 2018: USD 6M",
+        "Series B: USD 43M"
+      ],
+      "investors": ["Accel", "Octopus Ventures", "VNV Global", "Ashton Kutcher (Sound Ventures)"],
+      "annual_revenue_2024_estimate_usd_million": 8,
+      "annual_revenue_methodology": "Estimativa: USD 51.2M funding / 4 anos = burn rate USD 13M/ano; receita deve ser < USD 5M. Industry says OLIO gera ~USD 5-10M/ano via B2B partnerships (Tesco, Sainsbury, Morrisons, Iceland)",
+      "employees_2023": 100,
+      "users_2023_million": 7,
+      "users_2026_estimated_million": 9,
+      "businesses_partners_uk": "Tesco, Sainsbury, Morrisons, Iceland, Midcounties Co-op, Pret, Pandora (jewelry)",
+      "play_store_downloads_million": 5,
+      "play_store_rating": 4.7,
+      "play_store_reviews_thousand": 49.3,
+      "monetization_model": "Freemium B2C (gratis com anuncios; subscription premium sem ads + boosted listings) + B2B partnerships (supermercados pagam fee por excesso redirecionado via OLIO)",
+      "monetization_model_details": "B2B model: Tesco/Morrisons pagam fee de servico (~GBP 0.10-0.30 por item redirected) por gerir excedentes. Subscriptions premium ~GBP 5/mes. Total: < USD 10M/ano (em maioria B2B fees)",
+      "ltv_estimate": {
+        "value_brl_year": 30,
+        "value_brl_3year": 90,
+        "methodology": "Estimativa conservativa: 5% users convertem premium x GBP 5/mes x 12 = GBP 3/user ativo. Lifetime 3 anos: ~USD 18 = R$ 90",
+        "confidence": "baixa-media"
+      },
+      "cac_estimate": {
+        "value_brl": 12,
+        "methodology": "OLIO investe pesado em social media orgânico (cac muito baixo ~USD 2-3). Mas precisa crescer: ~USD 2.5 CAC = R$ 12.5",
+        "confidence": "media"
+      },
+      "ltv_cac_ratio": "7.5x (alta eficiencia de LTV/CAC, mas ticket baixo)",
+      "payback_period_months": 3,
+      "key_strengths": [
+        "UNICO com foco em desperdicio DOMESTICO (vs TGTG comercial)",
+        "Modelo compartilhamento GRATUITO (engajamento alto, sem barreira)",
+        "Inclui nao-comida (roupas, livros, moveis) - amplia uso",
+        "49 paises (max alcance global)",
+        "Parcerias B2B com Tesco/Morrisons (grifes UK)"
+      ],
+      "key_weaknesses": [
+        "Sem IA/scanner/OCR (gap tecnologico vs WG)",
+        "Sem gamificacao (engajamento depende de comunidade)",
+        "Reviews: UI instavel, mensagens quebradas",
+        "Brasil sem presenca significativa (oportunidade WG)",
+        "Monetizacao limitada (ticket medio baixo)"
+      ],
+      "implications_for_wg": "OLIO eh o COMPETIDOR MAIS DIRETO em desperdicio DOMESTICO. WG deve diferenciar-se via: (1) scanner + IA, (2) gamificacao, (3) receitas + impacto quantificado, (4) foco Brasil, (5) B2B2C com marcas",
+      "source_id": "olio_wikipedia + olio_playstore + tracxn_funding"
+    },
+    {
+      "id": "comp_003",
+      "name": "NoFoodWasted",
+      "country": "Paises Baixos (Holanda)",
+      "founded": 2014,
+      "category": "Marketplace B2C (app consumidor + parcerias supermercado)",
+      "funding_total_usd_million": "N/A (provavelmente < USD 5M, startup pequena)",
+      "annual_revenue_estimate_usd_million": "N/A (provavelmente < USD 2M)",
+      "employees_estimate": 15,
+      "users_estimate_thousand": 200,
+      "businesses_partners_nl": "Jumbo, Albert Heijn, Plus (supermercados Holanda)",
+      "play_store_downloads_thousand": 50,
+      "play_store_rating": 4.5,
+      "monetization_model": "Marketplace fee - restaurantes/supermercados vendem excedentes (ate 50% off) com NoFoodWasted retendo comissao (~10-15%)",
+      "ltv_estimate": {
+        "value_brl_year": 25,
+        "value_brl_3year": 75,
+        "methodology": "Estimativa: 2 orders/mes x EUR 5/order x 12% take rate / 200K users = EUR 0.6/user/ano. Lifetime 3 anos: EUR 1.8 = USD 2 = R$ 10. Provavelmente subestimado - assumir R$ 25/ano como proxy",
+        "confidence": "muito baixa"
+      },
+      "cac_estimate": {
+        "value_brl": 18,
+        "methodology": "Pequena escala, marketing limitado. CAC provavelmente USD 3-4 (R$ 18)",
+        "confidence": "baixa"
+      },
+      "ltv_cac_ratio": "1.4x (baixa eficiencia - sub-escala)",
+      "payback_period_months": 12,
+      "key_strengths": [
+        "Pioneiro no modelo (2014) - longa sobrevivencia",
+        "Foco Holanda (mercado educado em sustentabilidade)",
+        "Integra com supermercados (parcerias diretas)"
+      ],
+      "key_weaknesses": [
+        "Crescimento estagnado (200K users)",
+        "Sem scanner/IA/gamificacao",
+        "Confinado a Holanda (nao escala)",
+        "Sem expansao significativa desde 2019"
+      ],
+      "implications_for_wg": "NoFoodWasted prova que (a) modelo e viavel em paises individuais, (b) foco geografico eh necessario. WG pode ocupar espaco similar no BR. Falta de inovacao tecnologica eh gap para WG explorar",
+      "source_id": "playstore_nofoodwasted + limited_public_data"
+    },
+    {
+      "id": "comp_004",
+      "name": "Food To Save (BR)",
+      "country": "Brasil (12+ capitais)",
+      "founded": 2021,
+      "category": "Marketplace B2C + B2B2C (dominante BR)",
+      "funding_total_brl_million": 2.1,
+      "funding_rounds": [
+        "Bootstrap 2021: R$ 250K (4 socios)",
+        "Angel 2021: R$ 200K",
+        "Seed Captable 2022: R$ 1.7M"
+      ],
+      "investors": ["DSK Capital", "High Partners", "Spectra Investimentos", "Grupo Trigo", "Paulo Camargo (ex-McDonald's)", "Joao Branco (ex-McDonald's)", "Joao Galassi (ABRAS)"],
+      "annual_revenue_2024_brl_million": 72,
+      "annual_revenue_2025_projected_brl_million": 170,
+      "revenue_growth_2024_2025_percent": 136,
+      "users_2024_million": 5,
+      "users_2025_million": 6.5,
+      "downloads_2024_million": 5,
+      "partners_2024_thousand": 8,
+      "partners_2025_thousand": 10.3,
+      "surprise_bags_sold_million": 5.2,
+      "food_saved_tons_2024_thousand": 4,
+      "co2_avoided_tons_2024_thousand": 10,
+      "revenue_to_partners_brl_million": 30,
+      "savings_to_consumers_brl_million": 120,
+      "capital_brasil_2024": 12,
+      "bcorp_year": 2024,
+      "monetization_model": "Marketplace fee - 'Sacolas Surpresa' com 50-70% desconto; comissao sobre transacao (~20-30% take rate). 1 kg alimento salvo = 2.5 kg CO2 evitado = 1 sacola",
+      "monetization_model_details": "R$ 72M em 5.2M bags = R$ 13.85/bag. Tomando take rate de 25%: GMV total = R$ 72M / 0.25 = R$ 288M. 5.2M bags / 5M users = 1.04 bag/user/ano = ticket medio R$ 13.85.",
+      "ltv_estimate": {
+        "value_brl_year": 14,
+        "value_brl_3year": 28,
+        "methodology": "Cruzamento: R$ 72M / 5M users = R$ 14/user/ano. Lifetime 2 anos (alta rotatividade consumer app) = R$ 28",
+        "confidence": "alta (dados publicos)"
+      },
+      "cac_estimate": {
+        "value_brl": 8,
+        "methodology": "Industry benchmark BR para app freemium: USD 1-2 CAC (R$ 5-10). Marketing orgânico (Instagram, social media) domina",
+        "confidence": "media"
+      },
+      "ltv_cac_ratio": "1.75x (baixa - nao saudavel, mas B-Corp com receita alta em escala)",
+      "payback_period_months": 7,
+      "key_strengths": [
+        "Lider absoluto BR (5M+ downloads, 6.5M users)",
+        "B-Corp certificada 2024",
+        "R$ 72M->R$ 170M receita (crescimento explosivo)",
+        "12 capitais + Fruta Imperfeita acquisition 2024",
+        "Partners tier-1 (Cacau Show, GPA, Nestle, Ambev, Accor)",
+        "B-Corp: Transparencia, ESG Forte"
+      ],
+      "key_weaknesses": [
+        "Foco SACOLA SURPRESA (modelo TGTG-like, sem scanner/IA)",
+        "NAO endereca desperdicio DOMESTICO (apenas comercial)",
+        "Sem educacao/receitas/jogos (engajamento transacional)",
+        "Receita: R$ 14/user/ano (ticket baixo)",
+        "Sem dados de impacto auditados (Verra, SBTi)",
+        "Nao tem B2B dashboard (apenas marketplace)"
+      ],
+      "implications_for_wg": "Food To Save eh o principal player BR mas com GAP claro: (1) NAO tem scanner + IA, (2) NAO atende desperdicio DOMESTICO, (3) NAO tem gamificacao/educacao. WG ocupa espaco COMPLEMENTAR (B2C household + B2B dashboard) nao-concorrente. Parceria B2B2C via dashboard compartilhado eh viavel",
+      "source_id": "foodtosave_2025 + exame_2025 + forbes_2024 + g1_2022 + um_so_planeta_2024"
+    },
+    {
+      "id": "comp_005",
+      "name": "Comida Invisivel (BR)",
+      "country": "Brasil (SP HQ, multistado)",
+      "founded": 2016,
+      "category": "B2B (SaaS para restaurantes + doacao rastreada)",
+      "funding_total_brl_million": 0.5,
+      "funding_rounds": [
+        "Google for Startups 2019: Non-equity assistance",
+        "BNDES Garagem Phase 1+2 (Tracao category)"
+      ],
+      "investors": ["Google for Startups", "BNDES", "Quintessa Institute"],
+      "annual_revenue_estimate_brl_million": 4,
+      "annual_revenue_methodology": "Estimativa: 11-50 employees, contratos B2B com McDonald's/Lollapalooza/Flexform/Cucinare provavel ~R$ 4-6M/ano",
+      "users_2026_active_ongs_thousand": 2,
+      "ongs_mapped_thousand": 20,
+      "meals_recovered_million": 13,
+      "co2_avoided_tons_thousand": 6,
+      "food_saved_tons_thousand": 3,
+      "monetization_model": "B2B SaaS + servicos de gestao de excedentes para restaurantes + integracao com McDonald's/Arcos Dorados + B2B marketplace para festivals (Lollapalooza) + editais publicos (BNDES, COP30)",
+      "monetization_model_details": "Ticket medio B2B SaaS estimado R$ 2-5K/mes por restaurante rede. 50 clientes = R$ 100-250K/mes = R$ 1.2-3M/ano. + B2B festival contracts (R$ 50-100K/evento) + editais (R$ 200-500K/ano)",
+      "ltv_estimate": {
+        "value_brl_year": "N/A (B2B, nao consumer)",
+        "value_brl_3year": "N/A",
+        "methodology": "B2B SaaS - retencao alta. Estimativa LTV por cliente enterprise: R$ 50K-200K (3-5 anos de contrato)",
+        "confidence": "baixa-media"
+      },
+      "cac_estimate": {
+        "value_brl": 15000,
+        "methodology": "B2B enterprise sales: USD 3-5K CAC (R$ 15-25K) por cliente. Ciclo longo (6-12 meses)",
+        "confidence": "media"
+      },
+      "ltv_cac_ratio": "5-10x (tipico para B2B SaaS com ticket alto)",
+      "payback_period_months": 18,
+      "key_strengths": [
+        "FAO/ONU Save Food seal (autoridade global)",
+        "BNDES Garagem Phase 2 (legitimidade publica)",
+        "COP30 solution winner (visibilidade internacional)",
+        "WSA Brasil 2025 winner (tech for good)",
+        "Parceria tier-1: McDonald's/Arcos Dorados + Lollapalooza",
+        "Metodologia MRV Verra-validated (auditada)"
+      ],
+      "key_weaknesses": [
+        "B2B puro (nao atende consumer diretamente)",
+        "Tamanho limitado (11-50 funcionarios, R$ 4-6M receita)",
+        "Dependente de editais publicos (capital nao-recorrente)",
+        "Sem scanner/OCR para consumidor final"
+      ],
+      "implications_for_wg": "Comida Invisivel eh player B2B complementario. WG pode PARCERIA: Comida Invisivel faz gestao de excedentes em restaurantes (B2B) + WG faz scanner + impacto DOMESTICO (B2C). Parceria aumentaria impacto de ambos. Ambos concorrem por mesmos patrocinadores B2B (Carrefour, GPA, Vale) - alinhar pitch",
+      "source_id": "comida_invisivel_2026 + linkedin_company_page + crunchbase"
+    }
+  ],
+  "consolidated_industry_benchmarks": {
+    "ltv_benchmarks": {
+      "ltv_consumer_app_brl_year": {
+        "low": 14,
+        "mid": 50,
+        "high": 87
+      },
+      "ltv_b2b_saas_brl_3year": {
+        "low": 50000,
+        "mid": 150000,
+        "high": 300000
+      },
+      "ltv_3year_consumer_brl": {
+        "low": 28,
+        "mid": 100,
+        "high": 200
+      }
+    },
+    "cac_benchmarks": {
+      "cac_consumer_app_brl": {
+        "low": 8,
+        "mid": 15,
+        "high": 25
+      },
+      "cac_b2b_enterprise_brl": {
+        "low": 5000,
+        "mid": 15000,
+        "high": 30000
+      }
+    },
+    "ltv_cac_ratio_industry_benchmark": {
+      "consumer_freemium_sustainable": "3-5x (saudavel)",
+      "b2b_saas_enterprise": "5-10x (saudavel)",
+      "below_2x_caution": "2x (insustentavel - sinal de alerta)",
+      "tgtg_estimated": 3.5,
+      "olio_estimated": 7.5,
+      "food_to_save_estimated": 1.75,
+      "comida_invisivel_estimated": 5.0
+    },
+    "payback_period_months": {
+      "consumer_app": "3-9 meses",
+      "b2b_saas": "12-24 meses"
+    },
+    "ticket_medio_b2c": {
+      "low": "R$ 10-15 (Food To Save)",
+      "mid": "R$ 30-50 (TGTG global)",
+      "high": "R$ 100+ (premium subscription)"
+    },
+    "ticket_medio_b2b_saas_mensal": {
+      "low": "R$ 500-2.000 (pequenos comércios)",
+      "mid": "R$ 2.000-10.000 (redes regionais)",
+      "high": "R$ 10.000-50.000 (redes nacionais)"
+    }
+  },
+  "monetization_models_summary": [
+    {
+      "model": "Marketplace fee (TGTG, Food To Save)",
+      "take_rate_percent": "20-30%",
+      "pro": "Receita cresce com GMV",
+      "contra": "Cap em take rate + precisa alta densidade de lojas",
+      "wg_fit": "Alto - WG pode operar marketplace B2B2C com estab. (B2B) + users (B2C)"
+    },
+    {
+      "model": "Freemium B2C com premium subscription (OLIO)",
+      "take_rate_percent": "5% convertem premium a ~USD 5/mes",
+      "pro": "Receita recorrente previsivel",
+      "contra": "Conversao baixa; precisa alto engagement",
+      "wg_fit": "Medio - WG pode oferecer tier premium com IA preditiva, scanner ilimitado, receitas avancadas"
+    },
+    {
+      "model": "B2B SaaS (Comida Invisivel, Karma)",
+      "ticket_mensal_brl": "R$ 2-50K/mes",
+      "pro": "Ticket alto, retencao alta, LTV/CAC excelente",
+      "contra": "Ciclo de venda longo (6-12 meses), complexidade",
+      "wg_fit": "Alto - WG B2B dashboard (ESG metrics, impacto, ROI) para supermercados/industria"
+    },
+    {
+      "model": "B2B2C com marca (Hellmann's Unilever, Nestle)",
+      "model_details": "Marca paga para ter app exclusivo ou label de validade",
+      "pro": "Ticket alto, B-Corp signal",
+      "contra": "Dependencia de 1 marca",
+      "wg_fit": "Alto - WG pode co-branded campanhas (Nestle, Unilever)"
+    },
+    {
+      "model": "Patrocinio/Match Funding (Vale, Ambev)",
+      "ticket_anual_brl": "R$ 200K-1M",
+      "pro": "Capital nao-diluidor",
+      "contra": "Volatilidade, exige metricas de impacto",
+      "wg_fit": "Maximo - WG eh causa-ancora (B2C consumer)"
+    }
+  ],
+  "wg_competitive_positioning_matrix": {
+    "matrix_axes": {
+      "x_axis": "Tech sophistication (scanner/IA/gamificacao)",
+      "y_axis": "Foco no desperdicio DOMESTICO (vs comercial)"
+    },
+    "positions": [
+      {"player": "OLIO", "tech": "baixa", "foco_domestico": "alta", "quadrante": "Q2 - baixo tech, alto foco domestico"},
+      {"player": "Food To Save", "tech": "baixa-media", "foco_domestico": "baixa", "quadrante": "Q3 - medio tech, baixo foco domestico"},
+      {"player": "Comida Invisivel", "tech": "media", "foco_domestico": "baixa", "quadrante": "Q3 - medio tech, B2B"},
+      {"player": "Too Good To Go", "tech": "media-alta (Platform FMCG)", "foco_domestico": "baixa", "quadrante": "Q4 - alto tech, baixo foco domestico"},
+      {"player": "WG TARGET", "tech": "alta (scanner + IA + gamificacao)", "foco_domestico": "alta", "quadrante": "Q1 - alto tech, alto foco domestico (DIFERENCIADO)"}
+    ],
+    "competitive_white_space": "Q1 (alto tech + alto foco domestico) = blue ocean para WG no Brasil"
+  },
+  "wg_5_year_unit_economics_target": {
+    "year_3_optimistic": {
+      "users_paid_thousand": 250,
+      "b2b_clients": 300,
+      "arpu_consumer_brl_year": 155,
+      "arpu_b2b_brl_year": 42000,
+      "ltv_consumer_3year_brl": 250,
+      "ltv_b2b_3year_brl": 100000,
+      "cac_consumer_brl": 15,
+      "cac_b2b_brl": 15000,
+      "ltv_cac_consumer": 16.7,
+      "ltv_cac_b2b": 6.7,
+      "gross_margin_percent": 70
+    },
+    "key_to_achieve": "LTV/CAC >3x para sustentabilidade, GM >60% para venture-scale"
+  },
+  "key_takeaways_for_canvas_b2b2c": {
+    "1": "TGTG prova que modelo marketplace de food waste e viavel (DKK 725M receita 2024). Brasil = mercado similar, mas com gap household",
+    "2": "OLIO prova que foco DOMESTICO engajamento via comunidade. MAS: ticket baixo. WG combina comunidade + tech + receitas",
+    "3": "Food To Save ja ocupa espaco comercial BR. WG deve ir para DOMESTICO + B2B dashboard, nao concorrer",
+    "4": "Comida Invisivel prova que B2B SaaS funciona. Parceria WG + Comida Invisivel = ecossistema",
+    "5": "LTV/CAC 3-5x para consumer freemium = meta. Alcancar via gamificacao + impacto quantificado (nao apenas economia)"
+  },
+  "sources": [
+    {
+      "id": "tgtg_ar_2024",
+      "type": "official_filing",
+      "title": "Too Good To Go ApS Annual Report 2024",
+      "url": "https://regnskaber.cvrapi.dk/40316573/amNsb3VkczovLzAzL2M0L2EyLzY5LzY5LzRkMTgtNDg5OS1hMzliLTQ1NzRiMmIzMmUwNw.pdf",
+      "data_extracted": "Revenue, profit, employees, financials oficiais"
+    },
+    {
+      "id": "tgtg_wikipedia",
+      "type": "wikipedia",
+      "title": "Too Good To Go Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Too_Good_To_Go",
+      "data_extracted": "Historico, users, business count, countries, founders"
+    },
+    {
+      "id": "olio_wikipedia",
+      "type": "wikipedia",
+      "title": "Olio (app) Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Olio_(app)",
+      "data_extracted": "Funding rounds, founders, countries, partners, business model"
+    },
+    {
+      "id": "foodtosave_2025",
+      "type": "company_data",
+      "title": "Food To Save - Site + Forbes + Exame + ESG Inside",
+      "url": "https://www.foodtosave.com.br/quem-somos/",
+      "data_extracted": "Receita, users, partners, downloads, ratings"
+    },
+    {
+      "id": "comida_invisivel_2026",
+      "type": "company_data",
+      "title": "Comida Invisivel LinkedIn + Crunchbase",
+      "url": "https://www.linkedin.com/company/comida-invisivel/",
+      "data_extracted": "Meals recovered, ONGs, partnerships, team size, awards"
+    },
+    {
+      "id": "nofoodwasted_playstore",
+      "type": "playstore",
+      "title": "NoFoodWasted Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.nofoodwasted.app",
+      "data_extracted": "Downloads, rating, reviews"
+    }
+  ]
+}

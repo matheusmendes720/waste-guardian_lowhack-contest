@@ -1,0 +1,469 @@
+{
+  "batch_id": "batch_07_competitors",
+  "last_updated": "2026-06-03",
+  "version": "1.0",
+  "metadata": {
+    "research_date": "2026-06-03",
+    "research_focus": "Mapear players globais e brasileiros do mercado anti-desperdicio alimentar",
+    "data_sources_count": 17,
+    "competitors_documented": 12,
+    "geographic_coverage": ["Global", "Europa", "Brasil", "Canada", "EUA", "Suecia", "Finlandia", "Tailandia", "Singapura"],
+    "currency_note": "Valores em USD exceto quando indicado; cotacoes de funding podem estar agregadas em milhoes"
+  },
+  "competitors": [
+    {
+      "id": "comp_001",
+      "name": "Too Good To Go",
+      "tagline": "Save good food from going to waste",
+      "country": "Dinamarca / Global (21 paises)",
+      "founded": 2015,
+      "founders": ["Thomas Bjorn Momsen", "Stian M. H. Olesen", "Klaus Bagge Pedersen", "Adam Sigbrand", "Brian Christensen"],
+      "ceo": "Mette Lykke (desde 2017, ex-Endomondo/UnderArmour)",
+      "revenue_model": "Marketplace fee (restaurantes vendem excedentes com 1/3 do preco original via Surprise Bags; app recebe comissao ~R$3,50 por bag)",
+      "user_count_estimate": 120000000,
+      "user_count_source": "Site oficial toogoodtogo.com (2024)",
+      "business_count": 180000,
+      "countries_operated": 21,
+      "downloads_play_store": "50M+",
+      "rating_play_store": 4.9,
+      "reviews_play_store": 1930000,
+      "funding_total_usd": 700000000,
+      "funding_rounds": ["Series A 2019 EUR 6M", "Series subsequentes multi-bilhoes"],
+      "revenue_2024_dkk_m": 725,
+      "revenue_2023_dkk_m": 544,
+      "employees_2024": 262,
+      "key_features": [
+        "Marketplace de excedentes de restaurantes (Surprise Bags)",
+        "Reserva + pagamento in-app",
+        "Geolocalizacao + raio de busca",
+        "Push notifications para bags disponiveis",
+        "Modo empresa (Too Good To Go Platform / Look-Smell-Taste)",
+        "Date Labeling Initiative com FMCGs globais",
+        "Categorias: pizza, sushi, padaria, groceries, saladas, vegano"
+      ],
+      "diferentials": "Maior marketplace do mundo (120M usuarios), primeiro a escalar modelo marketplace, 180K+ lojas, B-Corp certificada",
+      "limitations": "Foco em restaurantes/retail, NAO endereca desperdicio domestico; modelo 'Surprise Bag' nao permite escolha; sem scanner OCR ou IA de receitas; experiencias reportadas de baixa qualidade em alguns pedidos",
+      "source_id": "tgtg_official + wikipedia + playstore"
+    },
+    {
+      "id": "comp_002",
+      "name": "OLIO",
+      "tagline": "Share More, Waste Less",
+      "country": "Reino Unido (49 paises)",
+      "founded": 2015,
+      "founders": ["Tessa Clarke", "Saasha Celestial-One"],
+      "hq": "Londres, UK",
+      "revenue_model": "Freemium (gratis com anuncios; subscription premium sem ads + boosted listings); parcerias B2B com supermercados (Tesco, Sainsbury, Morrisons, Iceland, Midcounties Co-op)",
+      "user_count_estimate": 9000000,
+      "user_count_source": "App store description (jun/2026); Wikipedia indica 7M em 2023",
+      "downloads_play_store": "5M+",
+      "rating_play_store": 4.7,
+      "reviews_play_store": 49300,
+      "funding_total_usd": 51200000,
+      "funding_rounds": ["Seed 2017 USD 2.2M", "Series A 2018 USD 6M", "Series B USD 43M"],
+      "investors": ["Accel", "Octopus Ventures", "VNV Global"],
+      "key_features": [
+        "Compartilhamento GRATUITO entre vizinhos (food + non-food)",
+        "Listing de excedentes domesticos + supermercados",
+        "Reduced Food: descontos em lojas locais",
+        "Mensagens in-app + combinacao de pickup",
+        "Funciona em 49 paises (alcance global)",
+        "Sistema de ratings/confianca entre vizinhos",
+        "Nao e marketplace comercial, e comunidade"
+      ],
+      "diferentials": "UNICO com foco em desperdicio DOMESTICO; modelo de compartilhamento gratuito (nao desconto); inclui nao-comida (roupas, livros, moveis)",
+      "limitations": "Nao tem IA/scanner/OCR; sem gamificacao; reviews negativas sobre UI instavel e mensagens quebradas; limitado em paises de baixa densidade (Brasil ainda sem presenca significativa)",
+      "source_id": "olio_wikipedia + playstore + bbc_feature"
+    },
+    {
+      "id": "comp_003",
+      "name": "Karma",
+      "tagline": "Surplus - Turn leftovers into revenue",
+      "country": "Suecia (Estocolmo)",
+      "founded": 2015,
+      "hq": "Stockholm, Sweden (Karmalicious AB, Org.nr 559020-0050)",
+      "revenue_model": "B2B SaaS - plataforma all-in-one para restaurantes (POS + Online Ordering + Loyalty + Kiosks + Surplus); preco por funcionalidade/modulo",
+      "user_count_estimate": 10000000,
+      "user_count_source": "Site oficial - 'leading restaurants in the Nordics' (nao divulga MAU exato)",
+      "funding_total_usd": 1100000,
+      "funding_round_2026_sek": 10500000,
+      "key_clients": ["Stureplansgruppen", "Liseberg", "Urban Deli", "Tugg Burgers", "Miss Voon", "Popina", "Bröd & Salt"],
+      "key_features": [
+        "Karma POS (sistema de ponto de venda)",
+        "Karma OS 26 - 'AI-first restaurant platform'",
+        "KAIA - AI Engine (previsão de demanda)",
+        "Surplus Module - venda de excedentes no fim do dia",
+        "Online Ordering (QR + web)",
+        "KDS (Kitchen Display System)",
+        "Loyalty Program + Marketing automatizado",
+        "99.9% uptime cloud-native"
+      ],
+      "diferentials": "B2B puro (NAO atende consumidor final diretamente); AI Engine KAIA para previsão de desperdício; ecossistema integrado (POS + Marketing + Loyalty); foco em ROI do restaurante, nao em 'doacao'",
+      "limitations": "Foco geografico Nordic; cliente = restaurante, nao household; sem componente de gamificação/educação para consumidor final; menor awareness de marca vs TGTG",
+      "source_id": "karma_official + karma_press_release_2026"
+    },
+    {
+      "id": "comp_004",
+      "name": "Flashfood",
+      "tagline": "Feed families not landfills",
+      "country": "Canada / EUA",
+      "founded": 2015,
+      "hq": "Toronto, Canada",
+      "revenue_model": "B2B2C marketplace - grocer paga taxa para listar excedentes; consumidor paga 50% off; receita vem de fee do varejista + parcerias",
+      "user_count_estimate": 500000,
+      "user_count_source": "Site oficial - 'loved by over half a million families'",
+      "rating_play_store": 4.5,
+      "key_clients": ["Kroger", "Loblaws", "Meijer", "Gelson's", "Family Fare", "Piggly Wiggly", "Martin's", "VG's", "Lucky California", "Tops", "Giant Eagle"],
+      "countries_operated": 2,
+      "key_features": [
+        "Marketplace de excedentes de supermercados (ate 50% off)",
+        "App com mapa + lista de produtos",
+        "Pickup in-store (coleta na loja, mesmo dia)",
+        "Categorias: frutas, vegetais, carnes, lacticinios, padaria",
+        "B-Corp certificada",
+        "Notificacoes personalizadas por preferencias",
+        "Programa de indicacao (Give $5, Get $5)"
+      ],
+      "diferentials": "Foco EXCLUSIVO em supermercados (NAO restaurantes); grande B2B (Kroger, Loblaws = gigantes); Canada + EUA (mercado anglo-saxon); metricas publicas de impacto (milhoes de libras salvas)",
+      "limitations": "Foco restrito a grocery retail; nao atende household direto; sem IA de receitas/scanner; sem gamificação; modelo 'coleta' exige deslocamento do cliente",
+      "source_id": "flashfood_official + impact_report_2024"
+    },
+    {
+      "id": "comp_005",
+      "name": "Food To Save",
+      "tagline": "Sacola Surpresa ate 70% OFF",
+      "country": "Brasil (Sao Paulo HQ, 14+ estados)",
+      "founded": null,
+      "hq": "Sao Paulo, SP (CNPJ 41.643.020/0001-68)",
+      "revenue_model": "Marketplace fee - restaurantes/padarias/mercados listam Sacolas Surpresa; app recebe comissao sobre venda; aceita Pix, cartao, vale-refeição",
+      "user_count_estimate": 6500000,
+      "user_count_source": "Site oficial - 'mais de 6.5 milhoes de pessoas' (foodsavers)",
+      "downloads_play_store": "1M+",
+      "rating_play_store": 4.7,
+      "reviews_play_store": 49300,
+      "establishments": 10285,
+      "bags_saved": 5207351,
+      "co2_avoided_tons": 13018,
+      "certifications": ["B-Corp", "Great Place to Work", "RA1000", "Endeavor"],
+      "key_features": [
+        "Sacola Surpresa (Doce/Salgada/Mista)",
+        "Geolocalizacao + mapa",
+        "Pagamento: Pix + cartao + vale-refeicao (UNICO BR)",
+        "Delivery + Pickup",
+        "Categorias: padarias, restaurantes, hortifruti, supermercados, docerias",
+        "Calculadora de CO2 (educacao)",
+        "Programa de indicacao (Indique e Multiplique)",
+        "Submarca: Fruta Imperfeita",
+        "Impact dashboard"
+      ],
+      "diferentials": "LIDER NO BRASIL (reconhecimento Forbes/Exame); aceita vale-refeição (vantagem B2B); calculadora de CO2 publica; B-Corp + Endeavor; 10K+ estabelecimentos; adquiriu Fruta Imperfeita (2024)",
+      "limitations": "Foco em restaurantes/padarias/mercados (NAO desperdicio domestico); sem scanner OCR; sem IA de receitas; NAO e gratuito (doadores de marcas precisam ser rastreadas); modelo 'surpresa' impede escolha",
+      "source_id": "foodtosave_official + linkedin + forbes_br"
+    },
+    {
+      "id": "comp_006",
+      "name": "Comida Invisivel",
+      "tagline": "Conexoes que alimentam",
+      "country": "Brasil (Sao Paulo)",
+      "founded": 2016,
+      "hq": "Sao Paulo, SP (11-50 funcionarios)",
+      "ceo": "Daniela Leite",
+      "revenue_model": "B2B2C - infraestrutura tecnologica para GESTAO de excedentes + rastreabilidade de doacoes + dashboards de impacto para empresas (ESG/MRV)",
+      "user_count_estimate": null,
+      "meals_recovered": 13000000,
+      "ngos_mapped": 20000,
+      "ngos_active": 2000,
+      "funding_total_usd": null,
+      "funding_round": "Google for Startups (2019) + BNDES Garagem Phase 2 (2025-2026)",
+      "key_clients": ["Arcos Dorados (McDonald's Brasil)", "Lollapalooza Brasil", "Flexform", "Cucinare Gastronomia", "Grupo Raizes", "iFood (parceria IFB)"],
+      "key_features": [
+        "Tecnologia de gestao de excedentes (B2B)",
+        "Rastreabilidade de doacoes (blockchain-like audit trail)",
+        "MRV (Monitoring, Reporting, Verification) de impacto",
+        "Mapeamento de 20.000 ONGs (2.000 ativas)",
+        "Metodologia de inventario de carbono validada (Verra)",
+        "Selo Save Food (FAO/ONU)",
+        "Selecionada para COP30 (Brasil)",
+        "Dashboards de impacto socioambiental",
+        "Educacao + cursos + palestras"
+      ],
+      "diferentials": "UNICA B2B RASTREAVEL no BR (auditoria para ESG); UNICA com COP30 selection; parcerias com McDonald's BR (escala industrial); gera dados de impacto para NDC brasileira; NAO e app de consumidor - e plataforma para empresas",
+      "limitations": "NAO e app de consumidor final; modelo B2B puro (improvavel que usuario domestico baixe); sem gamificacao; receita menos visivel (provavelmente fees corporativos)",
+      "source_id": "linkedin_comidainvisivel + cnn + bndes_garagem + cop30"
+    },
+    {
+      "id": "comp_007",
+      "name": "Refood (BR)",
+      "tagline": "Salve refeicoes",
+      "country": "Brasil (origem Portugal, expandido para SP)",
+      "founded": null,
+      "hq": "Sao Paulo, SP (Av. Brigadeiro Luis Antonio 4980)",
+      "revenue_model": "Marketplace fee - 'triplo da quantidade pelo preco de um' (cliente recebe 3x a refeicao pelo mesmo preco); comissao sobre transacao",
+      "downloads_play_store": "50K+",
+      "rating_play_store": 4.0,
+      "reviews_play_store": 251,
+      "key_features": [
+        "Reserva in-app de refeicoes",
+        "Pickup em horario especifico",
+        "Mapa de lojas proximas",
+        "Categorias: restaurantes, padarias, supermercados",
+        "Notificacoes de promocoes",
+        "Perfil de Impacto (recurso novo 2026)",
+        "Versao Lojas (app separado B2B)"
+      ],
+      "diferentials": "Proposta de valor agressiva: 'triplo da refeicao pelo mesmo preco' (unico BR com esse claim); origem portuguesa (ecosistema de doacao europeu)",
+      "limitations": "Pequeno (50K downloads vs 1M+ Food To Save); rating 4.0 (menor satisfacao); baixa presenca geografica; sem scanner/IA/gamificacao; modelo surpresa sem escolha",
+      "source_id": "playstore_refood"
+    },
+    {
+      "id": "comp_008",
+      "name": "Desperdiça Não",
+      "tagline": "Good, cheap food with a purpose",
+      "country": "Brasil (Belo Horizonte, MG)",
+      "founded": null,
+      "developer": "Hyago Silva Ferreira",
+      "revenue_model": "Marketplace fee (modelo TGTG-like, replica brasileira)",
+      "downloads_play_store": "10+",
+      "phone": "+55 31 3157-5671",
+      "email": "contato@desperdicanao.com.br",
+      "website": "desperdicanao.com.br",
+      "key_features": [
+        "Reserva de Sacolas Surpresa",
+        "Geolocalizacao",
+        "Categorias: padarias, hortifruti, mercados, cafeterias, restaurantes",
+        "Descontos ate 70%",
+        "Pickup em horario especifico"
+      ],
+      "diferentials": "Foco regional (BH/MG); desenvolvedor independente; copia do modelo TGTG adaptado para o BR; baixo custo de entrada para parceiros",
+      "limitations": "Escala muito pequena (10+ downloads); marca fraca; sem gamificacao; sem IA; sem diferencial competitivo claro vs Food To Save; possivel falha de execucao",
+      "source_id": "playstore_desperdicanao"
+    },
+    {
+      "id": "comp_009",
+      "name": "Phenix",
+      "tagline": "Anti-waste groceries",
+      "country": "Franca (França, Belgica, Espanha, Portugal)",
+      "founded": 2014,
+      "hq": "Paris, França (PHENIX SAS, 43-45 Av. de Clichy)",
+      "revenue_model": "B2B2C - ajuda varejistas a vender excedentes; 50 toneladas/dia salvas; marketplace fee + servicos de gestao de residuos para empresas",
+      "downloads_play_store": "1M+",
+      "rating_play_store": 4.4,
+      "reviews_play_store": 63100,
+      "key_features": [
+        "Baskets categorizadas (Cook / Eat / Vegetarian)",
+        "Filtros por tipo de cesta + notificacoes",
+        "Geolocalizacao (comercios proximos)",
+        "Push notifications",
+        "Supermarkets + grocery + caterers",
+        "Servicos B2B de gestao de residuos para empresas"
+      ],
+      "diferentials": "Foco B2B duplo (marketplace + consultoria para varejistas na gestao de residuos); pioneiro no modelo 'basket' vs 'bag'; presente em 4 paises (Fr, Be, Es, Pt)",
+      "limitations": "Reviews criticas sobre UI lenta (comparado a TGTG); impossivel cancelar pedidos; descricoes de basket muito vagas (cliente nao sabe o que vem); sem IA/scanner; sem gamificação",
+      "source_id": "playstore_phenix"
+    },
+    {
+      "id": "comp_010",
+      "name": "ResQ Club",
+      "tagline": "Rescue food and flowers",
+      "country": "Finlandia (Helsinque)",
+      "founded": null,
+      "hq": "Lapinlahdenkatu 16E, 00180 Helsinki, Finland (ResQ Club Oy)",
+      "revenue_model": "Marketplace fee - conecta usuarios com restaurantes, cafes, mercados e floristas com excedentes (tambem flores!)",
+      "downloads_play_store": "1M+",
+      "rating_play_store": 4.6,
+      "reviews_play_store": 19900,
+      "key_features": [
+        "Mapa interativo + lista",
+        "Categorias: restaurantes, cafes, grocery, floristas",
+        "Best of ResQ (selo de qualidade da comunidade)",
+        "Favoritos + notificacoes",
+        "Pagamento in-app",
+        "Pickup window"
+      ],
+      "diferentials": "UNICO a incluir FLORES alem de comida (resíduo floral); presente em Finlandia + outros Nordic; selo 'Best of ResQ' (rating pela comunidade)",
+      "limitations": "Reviews criticas apos UI rework (Abr/2025 - app mais lento/dificil); crashes no pagamento; foco Nordic (baixa presenca global); sem IA/scanner/gamificacao",
+      "source_id": "playstore_resq + resq_website"
+    },
+    {
+      "id": "comp_011",
+      "name": "Yindii",
+      "tagline": "Save Food. Save Money. Save the Planet.",
+      "country": "Tailandia (Bangkok) / Singapura / Hong Kong",
+      "founded": null,
+      "developer": "WATAWASTE PTE. LTD. (Singapore, 160 Robinson Road #14-04)",
+      "revenue_model": "Marketplace fee - 'Yindii Box' ate 80% desconto; gamificacao 'Food Hero' + 'Food Waste Fight Club'",
+      "downloads_play_store": "100K+",
+      "key_features": [
+        "Yindii Box (surpresa com ate 80% off)",
+        "Geolocalizacao",
+        "Happy hour pickup window",
+        "Sistema gamificado 'Food Hero' (pontos + ranking)",
+        "Ambassador program (indicar lojas)",
+        "Categorias: restaurantes, cafes, grocery"
+      ],
+      "diferenciais_chave_unicos": "UNICO com gamificacao ativa (Food Hero); UNICO com ate 80% desconto (vs 50-70% dos outros); presenca em Sudeste Asiatico (mercado subatendido)",
+      "limitations": "Escala menor (100K+ vs 50M+ TGTG); modelo surpresa sem escolha; sem IA/scanner; sem B2B dashboards; cobertura geografica limitada",
+      "source_id": "playstore_yindii + yindii_website"
+    },
+    {
+      "id": "comp_012",
+      "name": "Nosh Technologies",
+      "tagline": "AI to help people and businesses cut down food waste",
+      "country": "Reino Unido (Manchester/Essex)",
+      "founded": 2019,
+      "founders": ["Somdip Dey", "Suman Saha"],
+      "revenue_model": "Freemium (free basico com 13K usuarios + service charge 10% no Nosh Shop; 3% para caridade)",
+      "user_count_estimate": 13000,
+      "funding_total_usd": 41000,
+      "funding_round": "Pre-seed GBP 33K (2021)",
+      "employees": 9,
+      "key_features": [
+        "OCR de barcodes de produtos",
+        "OCR de notas fiscais (receipt scanning)",
+        "Tracking de data de validade",
+        "AI que aprende habitos de consumo/desperdicio",
+        "Weekly analytics de economia",
+        "Busca de receitas baseadas no estoque da despensa",
+        "AI recipe generator (premium planejado)",
+        "Nosh Shop (venda de excedentes de restaurantes ate 70% off)",
+        "Nosh Daily (blog + receitas)"
+      ],
+      "diferenciais_chave_unicos": "UNICO com AI/OCR de receipts; UNICO focado em desperdicio DOMESTICO com tecnologia de IA; permite vender excedentes a preco MAIOR que TGTG (ate 70% vs 33% do TGTG); preprint-only academic background (university spin-off)",
+      "limitations": "Escala muito pequena (13K usuarios); pre-seed; UI basica; sem gamificacao; UK-only; modelo de receita nao validado; modelo hibrido (consumer + B2B)",
+      "source_id": "techcrunch_2021 + nosh_website"
+    }
+  ],
+  "categories": {
+    "global_marketplace": ["Too Good To Go", "OLIO", "Flashfood", "Phenix", "ResQ Club", "Yindii", "Food To Save", "Refood", "Desperdiça Não"],
+    "b2b_saas": ["Karma", "Comida Invisível"],
+    "ai_household_focus": ["Nosh Technologies"],
+    "regional_emerging": ["Food To Save", "Refood", "Desperdiça Não", "Comida Invisível", "Yindii"]
+  },
+  "sources": [
+    {
+      "id": "tgtg_official",
+      "url": "https://www.toogoodtogo.com/",
+      "type": "site_oficial",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "120M usuarios, 180K lojas, 21 paises, B-Corp, modelo marketplace"
+    },
+    {
+      "id": "tgtg_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Too_Good_To_Go",
+      "type": "wikipedia",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "Revenue 2017-2024, fundadores, 2015 fundacao, 262 employees"
+    },
+    {
+      "id": "tgtg_playstore",
+      "url": "https://play.google.com/store/apps/details?id=com.app.tgtg",
+      "type": "playstore",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "50M+ downloads, 4.9 stars, 1.93M reviews"
+    },
+    {
+      "id": "olio_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Olio_(app)",
+      "type": "wikipedia",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "7M usuarios, USD 51.2M funding, 49 paises, Accel+Octopus+VNV"
+    },
+    {
+      "id": "olio_playstore",
+      "url": "https://play.google.com/store/apps/details?id=com.olioex.android",
+      "type": "playstore",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "5M+ downloads, 4.7 stars, 49.3K reviews"
+    },
+    {
+      "id": "karma_official",
+      "url": "https://karma.life/",
+      "type": "site_oficial",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "Karma OS 26, SEK 10.5M funding 2026, AI Engine KAIA, Nordic B2B"
+    },
+    {
+      "id": "flashfood_official",
+      "url": "https://www.flashfood.com/",
+      "type": "site_oficial",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "500K+ familias, 50% desconto, B2B com Kroger/Loblaws, B-Corp"
+    },
+    {
+      "id": "foodtosave_official",
+      "url": "https://www.foodtosave.com.br/",
+      "type": "site_oficial",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "6.5M pessoas, 10285 estabelecimentos, 5.2M bags, 13K tons CO2"
+    },
+    {
+      "id": "foodtosave_playstore",
+      "url": "https://play.google.com/store/apps/details?id=com.foodtosave.foodtosave",
+      "type": "playstore",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "1M+ downloads, 4.7 stars, 49.3K reviews, #7 top free food & drink BR"
+    },
+    {
+      "id": "comidainvisivel_linkedin",
+      "url": "https://www.linkedin.com/company/comida-invisivel/",
+      "type": "linkedin",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "B2B2C, 13M refeicoes, 20K ONGs, COP30, BNDES Garagem, McDonald's BR"
+    },
+    {
+      "id": "refood_playstore",
+      "url": "https://play.google.com/store/apps/details?id=br.app.refood.customers",
+      "type": "playstore",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "50K+ downloads, 4.0 stars, 251 reviews, SP HQ"
+    },
+    {
+      "id": "desperdicanao_playstore",
+      "url": "https://play.google.com/store/apps/details?id=com.desperdicanao.app",
+      "type": "playstore",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "10+ downloads, desenvolvedor independente BH/MG"
+    },
+    {
+      "id": "phenix_playstore",
+      "url": "https://play.google.com/store/apps/details?id=com.phenix.cajou",
+      "type": "playstore",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "1M+ downloads, 4.4 stars, 63.1K reviews, FR/BE/ES/PT"
+    },
+    {
+      "id": "resq_playstore",
+      "url": "https://play.google.com/store/apps/details?id=club.resq.android",
+      "type": "playstore",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "1M+ downloads, 4.6 stars, 19.9K reviews, Helsinki, flores+comida"
+    },
+    {
+      "id": "yindii_playstore",
+      "url": "https://play.google.com/store/apps/details?id=co.yindii",
+      "type": "playstore",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "100K+ downloads, gamificação 'Food Hero', Thailand/Singapore"
+    },
+    {
+      "id": "nosh_techcrunch",
+      "url": "https://techcrunch.com/2021/09/23/nosh-uses-ai-to-help-people-and-businesses-cut-down-on-their-food-waste/",
+      "type": "techcrunch",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "13K usuarios, GBP 33K pre-seed, AI/OCR, 10% service charge"
+    },
+    {
+      "id": "food_waste_wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Food_loss_and_waste",
+      "type": "wikipedia",
+      "date_consulted": "2026-06-03",
+      "data_extracted": "931M ton/ano global, 61% households, 26% food service, 13% retail"
+    }
+  ],
+  "brazil_specific_landscape": {
+    "household_food_waste_brazil": "27 milhoes ton/ano (Movimento Brasil Sem Desperdicio)",
+    "household_focus": "Zero dos apps BR documentados foca em desperdicio DOMESTICO (todos sao B2B marketplace)",
+    "gap_identified": "GAP CRITICO: Nenhum app BR combina scanner OCR + IA receitas + gamificacao + foco household",
+    "waste_guardian_positioning": "UNICO a atacar o gap de desperdicio DOMESTICO com IA no BR"
+  }
+}

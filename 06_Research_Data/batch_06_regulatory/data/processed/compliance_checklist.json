@@ -1,0 +1,69 @@
+{
+  "checklist_id": "compliance_wg_v1",
+  "data_criacao": "2026-06-03",
+  "versao": "1.0",
+  "categorias": {
+    "A_lei_14016_doacao": {
+      "itens": [
+        {"id": "A1", "check": "Verificar se Lei 15.224/2025 (revogadora) mantem regime similar de imunidade civil", "obrigatorio": true, "status": "pendente"},
+        {"id": "A2", "check": "Documentar em cada transacao: (a) doador, (b) alimento, (c) timestamp, (d) receptor — para evidencia de primeira entrega", "obrigatorio": true, "status": "pendente"},
+        {"id": "A3", "check": "Garantir gratuidade total da doacao (sem taxas, sem comissoes sobre o alimento)", "obrigatorio": true, "status": "pendente"},
+        {"id": "A4", "check": "Aceitar somente alimentos com prazo de validade dentro da vigencia", "obrigatorio": true, "status": "pendente"},
+        {"id": "A5", "check": "Bloquear publicacao de doacoes com prazo de validade expirado", "obrigatorio": true, "status": "pendente"}
+      ]
+    },
+    "B_lgpd": {
+      "itens": [
+        {"id": "B1", "check": "Politica de privacidade publicada e acessivel", "obrigatorio": true, "status": "pendente"},
+        {"id": "B2", "check": "Termo de uso com aceite explicito (checkbox ou equivalente)", "obrigatorio": true, "status": "pendente"},
+        {"id": "B3", "check": "Definir base legal por fluxo (consentimento, execucao de contrato, obrigacao legal)", "obrigatorio": true, "status": "pendente"},
+        {"id": "B4", "check": "Mecanismo de exercicio de direitos do titular (formulario, email DPO)", "obrigatorio": true, "status": "pendente"},
+        {"id": "B5", "check": "Logs de tratamento de dados (auditoria)", "obrigatorio": true, "status": "pendente"},
+        {"id": "B6", "check": "Criptografia em transito (HTTPS) e em repouso (banco de dados)", "obrigatorio": true, "status": "pendente"},
+        {"id": "B7", "check": "Se ME/EPP: documentar enquadramento + dispensa de DPO (Res. CD/ANPD 4/2023)", "obrigatorio": true, "status": "pendente"},
+        {"id": "B8", "check": "RIPD elaborado para fluxos de maior risco (geolocalizacao, perfil socioeconomico)", "obrigatorio": "condicional", "status": "pendente"},
+        {"id": "B9", "check": "Anonimizacao de dados para indicadores de impacto (LGPD art. 12)", "obrigatorio": true, "status": "pendente"},
+        {"id": "B10", "check": "Revisao anual da politica de privacidade", "obrigatorio": true, "status": "pendente"}
+      ]
+    },
+    "C_anvisa_rdc_216": {
+      "itens": [
+        {"id": "C1", "check": "Onboarding de restaurantes exige declaracao de conformidade com RDC 216/2004", "obrigatorio": true, "status": "pendente"},
+        {"id": "C2", "check": "Restaurantes tem Manual de Boas Praticas + POPs implementados", "obrigatorio": "validar_em_cada_restaurante", "status": "pendente"},
+        {"id": "C3", "check": "Capacitacao periodica de manipuladores (registro de treinamentos)", "obrigatorio": "validar_em_cada_restaurante", "status": "pendente"},
+        {"id": "C4", "check": "Controle de tempo/temperatura entre preparo e retirada (max 6h quente, 5 dias refrigerado)", "obrigatorio": true, "status": "pendente"},
+        {"id": "C5", "check": "Bloqueio de publicacao de alimentos com mais de 4h apos saida de linha de producao (regra de seguranca)", "obrigatorio": true, "status": "pendente"},
+        {"id": "C6", "check": "Veiculos de transporte (se plataforma) higienizados e identificados", "obrigatorio": "se_houver_frota_propria", "status": "pendente"},
+        {"id": "C7", "check": "Se app oferecer RECEITAS: receitas devem ser avaliadas quanto a BP e seguranca alimentar", "obrigatorio": true, "status": "pendente"}
+      ]
+    },
+    "D_marco_legal_startups": {
+      "itens": [
+        {"id": "D1", "check": "Documentar modelo de negocios inovador no ato constitutivo (estatuto/contrato social)", "obrigatorio": true, "status": "pendente"},
+        {"id": "D2", "check": "Considerar adesao ao Inova Simples (LC 123/2006 art. 65-A) para simplificacao", "obrigatorio": "opcional", "status": "pendente"},
+        {"id": "D3", "check": "Manter receita bruta <= R$ 16MM/ano (requisito de enquadramento)", "obrigatorio": "monitorar", "status": "pendente"},
+        {"id": "D4", "check": "Atualizar CNPJ a cada alteracao de status de startup", "obrigatorio": "se_alterar", "status": "pendente"},
+        {"id": "D5", "check": "Estruturar contrato de investidor-anjo conforme art. 5º LC 182/2021", "obrigatorio": "se_captar_investimento", "status": "pendente"}
+      ]
+    },
+    "E_certificacoes_esg": {
+      "itens": [
+        {"id": "E1", "check": "Iniciar B Impact Assessment (gratuito) em bcorporation.net", "obrigatorio": "estrategico", "status": "pendente"},
+        {"id": "E2", "check": "Quantificar CO2 evitado por tonelada de alimento (metodologia GHG Protocol)", "obrigatorio": "estrategico", "status": "pendente"},
+        {"id": "E3", "check": "Reportar KPIs ESG (ISO 26000 ou GRI Standards) para stakeholders", "obrigatorio": "estrategico", "status": "pendente"},
+        {"id": "E4", "check": "Pesquisar incentivos fiscais municipais para doacao de alimentos (ICMS/ISS)", "obrigatorio": "estrategico", "status": "pendente"}
+      ]
+    }
+  },
+  "score_resumo": {
+    "total_itens": 31,
+    "obrigatorios": 21,
+    "estrategicos": 4,
+    "condicionais": 2,
+    "se_houver_frota_propria": 1,
+    "se_captar_investimento": 1,
+    "se_alterar_cnpj": 1,
+    "se_houver_frota_propria": 1,
+    "validar_em_cada_restaurante": 2
+  }
+}

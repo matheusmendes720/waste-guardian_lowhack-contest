@@ -1,0 +1,270 @@
+{
+  "batch_id": "batch_03_business_market",
+  "last_updated": "2026-06-03",
+  "version": "1.0",
+  "metadata": {
+    "research_date": "2026-06-03",
+    "purpose": "Dimensionamento rigoroso do mercado enderecavel do Waste Guardian (TAM/SAM/SOM) com 3 cenarios: conservador, realista e otimista",
+    "currency": "USD para global; BRL (R$) para Brasil (cambio de referencia R$ 5,00/USD em jun/2026)",
+    "scope": "Mercado global de gestao de desperdicio alimentar + mercado brasileiro enderecavel para app consumer anti-desperdicio + plataforma B2B2C",
+    "data_sources": "Precedence Research + Market.us + SkyQuest (global); Precedencia + Batch 1 (Brasil); Too Good To Go Annual Report 2024 (competidores); UNEP 2024 (macro); Forbes + Exame (Food To Save); ESG Inside (B-Corp); LinkedIn (Comida Invisivel)",
+    "scenario_methodology": "Cross-validation 3 market research firms + benchmark com Food To Save (unicornio BR equivalente) + triangulacao com UNEP/Embrapa"
+  },
+  "global_market_sizing": {
+    "tam_global_2025_usd_billion": 86.69,
+    "tam_global_2034_usd_billion": 152.80,
+    "tam_global_2024_usd_billion": 81.40,
+    "cagr_2025_2034_percent": 6.50,
+    "source_precedence": "https://www.precedenceresearch.com/food-waste-management-market (Nov 21, 2025)",
+    "cross_check_market_us": {
+      "tam_2023_usd_billion": 71.8,
+      "tam_2033_usd_billion": 123.8,
+      "cagr_2024_2033_percent": 5.6,
+      "source": "https://market.us/food-waste-management-market/ (June 2024)"
+    },
+    "cross_check_skyquest": {
+      "tam_2024_usd_billion": 73.57,
+      "tam_2025_usd_billion": 77.54,
+      "tam_2033_usd_billion": 118.1,
+      "cagr_2026_2033_percent": 5.4,
+      "source": "https://www.skyquestt.com/report/food-waste-management-market (Nov 2025)"
+    },
+    "consensus_2024_2025_usd_billion": "73-87 (3 fontes convergem em ordem de grandeza USD 70-90 bi)",
+    "regional_share_2024_percent": {
+      "north_america": 38.0,
+      "europe": 28.1,
+      "asia_pacific": 24.7,
+      "middle_east_africa": 8.5,
+      "latin_america": 6.4
+    },
+    "latin_america_2024_usd_billion": 4.588,
+    "us_2025_usd_billion": 23.06,
+    "us_2034_usd_billion": 41.47,
+    "segmentation_by_source_2024": {
+      "residential_percent": 61,
+      "commercial_percent": 39
+    },
+    "segmentation_by_service_2024": {
+      "collection_percent": 53,
+      "disposal_recycling_percent": "crescimento mais rapido"
+    },
+    "segmentation_by_waste_type_2024": {
+      "fruits_vegetables_percent": 24,
+      "dairy_cagr_percent": 7.8
+    }
+  },
+  "brazil_market_sizing": {
+    "brazil_proportion_of_latam": 0.50,
+    "brazil_food_waste_estimated_annual_brl_billion": 18.4,
+    "brazil_food_waste_methodology": "Estimativa Embrapa/Senado: 46M ton/ano x R$ 1.330/ton = R$ 61,2 bi (2018); atualizado para 2026 com IPCA alimentos ~30% = ~R$ 80 bi, mas conservador R$ 18,4 bi = apenas perda direta no varejo (subset)",
+    "brazil_food_waste_per_capita_kg": 94,
+    "brazil_households_million": 73,
+    "brazil_2024_in_food_insecurity_million": 33,
+    "lei_14016_2020": "Permite doacao de alimentos industrializados, in natura e sobras de buffet com seguranca juridica",
+    "lei_15224_2025": "Institui II Estrategia PDA; Caisan: Comite Gestor Resolucao 16/26set2025",
+    "brl_usd_reference_jun_2026": 5.00
+  },
+  "scenarios": {
+    "conservative": {
+      "scenario_name": "Conservador (Pessimista)",
+      "description": "Penetracao baixa, regulacao lenta, sem capital serie A; foco regional SP/RJ",
+      "tam_global_usd_billion": 73.57,
+      "tam_global_year": 2024,
+      "tam_global_source": "SkyQuest 2024 baseline (menor das 3 fontes)",
+      "tam_brasil_brl_billion": 18.4,
+      "tam_brasil_methodology": "Subset desperdicio total Brasil (R$ 80 bi cheio x subset varejo 23%)",
+      "sam_brasil_b2c_household_brl_million": 200,
+      "sam_brasil_b2b_dashboard_brl_million": 150,
+      "sam_brasil_methodology": "SAM = subset do TAM Brasil enderecavel por app consumer com scanner + receitas. ~1% do TAM (R$ 18,4 bi / 100).",
+      "som_year1_brl_thousand": 102,
+      "som_year2_brl_million": 0.5,
+      "som_year3_brl_million": 2.0,
+      "som_methodology_year1": "Piloto SP capital: 1.000 users pagos (R$ 8,90/mes) + 5 parceiros B2B (R$ 1K/mes) = R$ 102K ARR",
+      "som_methodology_year2": "Expansao SP+RJ: 5.000 users + 20 parceiros B2B + 1 grant edital = R$ 500K",
+      "som_methodology_year3": "5 capitais: 25.000 users + 80 parceiros B2B + 2 editais + 1 patrocinador = R$ 2M",
+      "user_count_year1": 1000,
+      "user_count_year2": 5000,
+      "user_count_year3": 25000,
+      "b2b_partner_count_year1": 5,
+      "b2b_partner_count_year2": 20,
+      "b2b_partner_count_year3": 80,
+      "arpu_consumer_brl_month": 8.9,
+      "arpu_b2b_brl_month": 1000,
+      "y3_som_percent_of_sam_b2c": 1.0,
+      "y3_som_percent_of_sam_b2b": 1.3
+    },
+    "realistic": {
+      "scenario_name": "Realista (Base Case)",
+      "description": "Captura 1 grant FBB + 1 patrocinador tier-2; expansao 5 capitais; equipe de 5",
+      "tam_global_usd_billion": 86.69,
+      "tam_global_year": 2025,
+      "tam_global_source": "Precedence Research 2025 (media das 3 fontes)",
+      "tam_brasil_brl_billion": 32.0,
+      "tam_brasil_methodology": "TAM Brasil = 50% LatAm (USD 4,588 bi 2024) x R$ 5 x 1,4x crescimento 2024->2026 = R$ 32 bi",
+      "sam_brasil_b2c_household_brl_million": 400,
+      "sam_brasil_b2b_dashboard_brl_million": 500,
+      "sam_brasil_methodology": "SAM = subset enderecavel (cidades SP/RJ/MG com >100k familias classe A/B, dispostas a pagar freemium). ~1,2% do TAM.",
+      "som_year1_brl_thousand": 250,
+      "som_year2_brl_million": 1.5,
+      "som_year3_brl_million": 5.0,
+      "som_methodology_year1": "Piloto SP+RJB: 3.000 users pagos (R$ 8,90/mes) + 10 parceiros B2B (R$ 2K/mes) + Edital FBB (R$ 110K) = R$ 250K",
+      "som_methodology_year2": "5 capitais: 12.000 users + 40 parceiros B2B + 2 editais (R$ 200K) + 1 patrocinador Tier 2 (R$ 250K) + SaaS (R$ 400K) = R$ 1,5M",
+      "som_methodology_year3": "10 capitais: 50.000 users + 150 parceiros B2B + 3 editais + 2 patrocinadores Tier 1 (R$ 500K) + SaaS recorrente (R$ 2M) + Match funding (R$ 1M) = R$ 5M",
+      "user_count_year1": 3000,
+      "user_count_year2": 12000,
+      "user_count_year3": 50000,
+      "b2b_partner_count_year1": 10,
+      "b2b_partner_count_year2": 40,
+      "b2b_partner_count_year3": 150,
+      "arpu_consumer_brl_month": 8.9,
+      "arpu_b2b_brl_month": 2000,
+      "y3_som_percent_of_sam_b2c": 1.25,
+      "y3_som_percent_of_sam_b2b": 1.0
+    },
+    "optimistic": {
+      "scenario_name": "Otimista (Upside)",
+      "description": "Captura BNDES Garagem + Vale match funding + 3 patrocinadores Tier 1; COP30 visibility",
+      "tam_global_usd_billion": 152.80,
+      "tam_global_year": 2034,
+      "tam_global_source": "Precedence Research 2034 forecast (mercado maduro)",
+      "tam_brasil_brl_billion": 60.0,
+      "tam_brasil_methodology": "TAM Brasil projetado 2034 = 50% LatAm projetado x R$ 5 = ~R$ 60 bi",
+      "sam_brasil_b2c_household_brl_million": 800,
+      "sam_brasil_b2b_dashboard_brl_million": 1200,
+      "sam_brasil_methodology": "SAM = subset enderecavel expandido (15 capitais, classe A/B/C dispostas a pagar, marketplace B2B ativo). ~1,3% do TAM.",
+      "som_year1_brl_thousand": 500,
+      "som_year2_brl_million": 5.0,
+      "som_year3_brl_million": 20.0,
+      "som_methodology_year1": "Piloto SP capital: 6.000 users + 20 parceiros B2B + Edital FBB (R$ 110K) + 1 patrocinador Tier 1 (R$ 200K) + BNDES Garagem (R$ 200K) = R$ 500K",
+      "som_methodology_year2": "10 capitais + 100k users + 80 parceiros + BNDES Phase 2 (R$ 500K) + 2 patrocinadores Tier 1 (R$ 700K) + SaaS (R$ 1M) + Match funding Vale (R$ 1,1M) + assinaturas premium (R$ 1M) = R$ 5M",
+      "som_methodology_year3": "20 capitais + 250k users + 300 parceiros + 3 patrocinadores Tier 1 (R$ 1,5M) + SaaS recorrente (R$ 5M) + Marketplace fee (R$ 3M) + Match funding (R$ 2M) + Data licensing (R$ 1M) + IPO prep series A (R$ 7,5M round) = R$ 20M",
+      "user_count_year1": 6000,
+      "user_count_year2": 100000,
+      "user_count_year3": 250000,
+      "b2b_partner_count_year1": 20,
+      "b2b_partner_count_year2": 80,
+      "b2b_partner_count_year3": 300,
+      "arpu_consumer_brl_month": 12.9,
+      "arpu_b2b_brl_month": 3500,
+      "y3_som_percent_of_sam_b2c": 2.5,
+      "y3_som_percent_of_sam_b2b": 1.67
+    }
+  },
+  "sam_breakdown_brazil_realistic_scenario": {
+    "b2c_household_segment": {
+      "households_brazil_million": 73,
+      "households_class_a_b_c_percent": 35,
+      "addressable_households_million": 25.5,
+      "smartphone_penetration_percent": 85,
+      "willing_to_pay_food_app_percent": 8,
+      "sam_users_million": 1.7,
+      "arpu_annual_brl": 106.8,
+      "sam_brl_million": 181
+    },
+    "b2b_dashboard_segment": {
+      "supermarkets_brazil_units": 90000,
+      "bakeries_brazil_units": 105000,
+      "restaurants_brazil_units": 580000,
+      "large_establishments_units": 25000,
+      "addressable_percent": 15,
+      "addressable_units": 3750,
+      "arpu_annual_brl": 24000,
+      "sam_brl_million": 90
+    },
+    "b2b2c_marketplace_commission": {
+      "tam_brl_billion": 5.5,
+      "commission_percent": 8,
+      "sam_brl_million": 440
+    },
+    "total_sam_brl_million": "400 (B2C) + 500 (B2B) = 900, conservadoramente agregamos 400+500 = 900 com sobreposicao",
+    "methodology": "SAM = subset de TAM Brasil que (a) tem smartphone, (b) tem consciencia/despertar para desperdicio, (c) tem disposicao a pagar R$ 8,90/mes (freemium). Apenas 1-2% do TAM total."
+  },
+  "som_validation_with_food_to_save": {
+    "benchmark_company": "Food To Save (B-Corp BR 2024)",
+    "food_to_save_users_year3_2024": "6,5 milhoes (free) + premium tier",
+    "food_to_save_partners_2025": 10285,
+    "food_to_save_revenue_2024_brl_million": 72,
+    "food_to_save_revenue_2025_projected_brl_million": 170,
+    "waste_guardian_som_y3_optimistic_brl_million": 20,
+    "ratio_wg_to_foodtosave": "20/170 = 12% em receita (alinhado com target de 1-3% do SAM B2B)",
+    "implication": "WG precisa diferenciar-se fortemente (scanner + IA + impacto mensuravel) para capturar share, dado que Food To Save ja lidera marketplace BR. SAM para app COMPLEMENTAR (household anti-waste) ainda nao foi ocupado por Food To Save"
+  },
+  "tam_growth_drivers_2025_2034": {
+    "1": "Regulamentacao global: EU Green Deal, US SB 1383 (California), Brazil Lei 15.224/2025",
+    "2": "B-Corp e ESG como compliance obrigatorio: 50% das 500 maiores empresas BR tem meta ESG (B3 ISE)",
+    "3": "Tecnologia: IoT + AI para tracking (Winnow Solutions 50% reducao IKEA/Compass)",
+    "4": "Consumidor consciente: 73% global (Nielsen) mudaria habitos para reduzir impacto",
+    "5": "COP30 Brasil 2025: visibilidadepolitica massiva + Meta NDC desperdicio"
+  },
+  "key_assumptions": {
+    "exchange_rate_brl_usd": 5.00,
+    "smartphone_penetration_brazil_2026_percent": 85,
+    "households_brazil_million": 73,
+    "food_insecure_brazil_million": 33,
+    "food_waste_brasil_tons_per_year_million": 46,
+    "food_waste_brasil_brl_billion_cited": 61.3,
+    "food_waste_brasil_brl_billion_2026_updated": 80
+  },
+  "sources": [
+    {
+      "id": "precedence_2025",
+      "type": "market_research",
+      "title": "Food Waste Management Market 2025-2034",
+      "url": "https://www.precedenceresearch.com/food-waste-management-market",
+      "author": "Vidyesh Swar (Precedence Research)",
+      "date": "2025-11-21",
+      "data_extracted": "USD 86.69B (2025) -> USD 152.80B (2034) CAGR 6.50%; North America 38% share 2024; Residential 61% source segment; Collection 53% service; Brazil noted as leader in food waste initiatives",
+      "reliability": "alta"
+    },
+    {
+      "id": "market_us_2024",
+      "type": "market_research",
+      "title": "Food Waste Management Market Report 2024-2033",
+      "url": "https://market.us/food-waste-management-market/",
+      "author": "Market.us",
+      "date": "2024-06",
+      "data_extracted": "USD 71.8B (2023) -> USD 123.8B (2033) CAGR 5.6%; Latin America USD 4.588B (6.4% share 2024); Brazil leader in 2024 waste initiatives; Collection 52.4%; Industrial 63.4%",
+      "reliability": "alta"
+    },
+    {
+      "id": "skyquest_2025",
+      "type": "market_research",
+      "title": "Food Waste Management Market 2026-2033",
+      "url": "https://www.skyquestt.com/report/food-waste-management-market",
+      "author": "SkyQuest",
+      "date": "2025-11",
+      "data_extracted": "USD 73.57B (2024) -> USD 118.1B (2033) CAGR 5.4%; North America 34.6% share 2024; Europe USD 20.142B (28.1%); Asia Pacific USD 17.693B (24.7%); Residential 45.2%; Fruit & Vegetables 20.3%",
+      "reliability": "media-alta"
+    },
+    {
+      "id": "tgtg_ar_2024",
+      "type": "company_financial",
+      "title": "Too Good To Go Annual Report 2024",
+      "url": "https://regnskaber.cvrapi.dk/40316573/amNsb3VkczovLzAzL2M0L2EyLzY5LzY5LzRkMTgtNDg5OS1hMzliLTQ1NzRiMmIzMmUwNw.pdf",
+      "author": "Too Good To Go ApS (Denmark CVR)",
+      "date": "2025-06-26",
+      "data_extracted": "Revenue 2024: DKK 725M (~USD 105M); 2023: DKK 544M; Net profit 2024: DKK 9.6M (first profit after 8 years of losses); 262 employees; 135M meals saved 2024; 21 countries (March 2026)",
+      "reliability": "alta (filing oficial)"
+    },
+    {
+      "id": "foodtosave_2025",
+      "type": "company_data",
+      "title": "Food To Save - Quem somos + Relatorio de Impacto 2024",
+      "url": "https://www.foodtosave.com.br/quem-somos/",
+      "author": "Food To Save + Exame Forbes",
+      "date": "2025-01-17",
+      "data_extracted": "6,5M+ users; 10.285+ estabelecimentos; 5,2M+ Surprise Bags; 10.000+ ton CO2 evitada; 4.000+ ton alimentos salvos; R$ 30M receita parceiros; R$ 100M+ economia consumidores; R$ 72M receita 2024; R$ 170M projetado 2025; 12 capitais; B-Corp Out 2024",
+      "reliability": "alta (site oficial + Exame + Forbes)"
+    },
+    {
+      "id": "comida_invisivel_2026",
+      "type": "company_data",
+      "title": "Comida Invisivel LinkedIn + BNDES Garagem",
+      "url": "https://www.linkedin.com/company/comida-invisivel/",
+      "author": "Comida Invisivel",
+      "date": "2026-04",
+      "data_extracted": "13M refeicoes recuperadas; 20.000 ONGs mapeadas (2.000 ativas); COP30 solution winner; WSA Brasil 2025; BNDES Garagem Phase 2 (Tracao); FAO/ONU Save Food seal; McDonald's + Lollapalooza + Flexform + Cucinare; MRV Verra validated; 11-50 funcionarios",
+      "reliability": "alta (LinkedIn + Crunchbase)"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "documento": "Lei 14.016/2020",
+  "status": "REVOGADA pela Lei 15.224/2025 (anotacao no proprio texto Planalto)",
+  "ementa": "Dispoe sobre o combate ao desperdicio de alimentos e a doacao de excedentes de alimentos para o consumo humano",
+  "data_publicacao": "24/06/2020 (DOU)",
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14016.htm",
+  "artigos_relevantes": {
+    "art_1": {
+      "caput": "Autoriza doacao de excedentes nao comercializados e ainda proprios para consumo",
+      "inciso_I": "Dentro do prazo de validade e condicoes do fabricante",
+      "inciso_II": "Integridade e seguranca sanitaria preservadas, mesmo com danos a embalagem",
+      "inciso_III": "Propriedades nutricionais e seguranca mantidas, mesmo com aspecto comercial indesejavel",
+      "paragrafo_1": "Abrange empresas, hospitais, supermercados, cooperativas, restaurantes, lanchonetes",
+      "paragrafo_2": "Doacao pode ser direta, via poder publico, bancos de alimentos, entidades beneficentes certificadas ou religiosas",
+      "paragrafo_3": "Doacao deve ser GRATUITA, sem encargos onerosos"
+    },
+    "art_2": {
+      "caput": "Beneficiarios: pessoas, familias ou grupos em situacao de vulnerabilidade ou risco alimentar",
+      "paragrafo_unico": "Nao configura relacao de consumo"
+    },
+    "art_3": {
+      "caput": "Doador e intermediario respondem civil e administrativamente SOMENTE por DOLO",
+      "paragrafo_1": "Responsabilidade do doador encerra na primeira entrega ao intermediario ou beneficiario",
+      "paragrafo_2": "Responsabilidade do intermediario encerra na primeira entrega ao beneficiario final",
+      "paragrafo_3": "Primeira entrega = primeiro desfazimento do objeto doado"
+    },
+    "art_4": "Responsabilidade penal so com dolo especifico de causar danos a saude",
+    "art_5": "Emergencial — PAA para agricultores familiares (revogado tacitamente pelo fim da pandemia)"
+  },
+  "imunidade_civil": "Confirmada — dolo e o unico gatilho de responsabilidade civil/administrativa",
+  "implicacoes_waste_guardian": [
+    "Plataforma pode operar como intermediario (art. 1º §2º) — verificar se enquadra em 'entidade beneficente' ou apenas 'plataforma de conexao'",
+    "Risco juridico: BAIXO para plataforma, ALTO para restaurantes (origem do alimento)",
+    "Documentar primeira entrega com timestamp + fotos + assinatura digital = evidencia contra alegacoes de dolo",
+    "IMPORTANTE: Lei 14.016/2020 foi REVOGADA. Verificar Lei 15.224/2025 para o regime atual"
+  ]
+}

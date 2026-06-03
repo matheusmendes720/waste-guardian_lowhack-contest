@@ -1,0 +1,163 @@
+{
+  "batch_id": "batch_04_consumer_behavior",
+  "last_updated": "2026-06-03",
+  "version": "1.0",
+  "scope": "Jornada de compra de alimentos da família média brasileira: frequência, ticket médio, categorias, canais. Foco em identificar oportunidades para o app Waste Guardian se inserir na jornada.",
+  "primary_sources": [
+    "IBGE POF 2017-2018 (Pesquisa de Orçamentos Familiares)",
+    "Embrapa Cidades e Alimentação 2023 (gravimetria feiras)",
+    "Kantar Worldpanel Brasil 2024 (consumo)",
+    "TIC Domicílios 2024 (apps de delivery)",
+    "ABComm Webshoppers 2024 (e-commerce alimentos)"
+  ],
+  "purchase_channels_share": {
+    "description": "Participação dos canais no gasto com alimentos dentro do domicílio (% do valor), com base em POF 2017-2018 e atualizações de 2023-2024.",
+    "data": [
+      {"channel": "Supermercado / hipermercado", "share_pct": 56, "trend": "estável", "frequency_typical": "1-2x/semana", "ticket_medio_brl": 280},
+      {"channel": "Feira livre / sacolão", "share_pct": 12, "trend": "crescente em capitais", "frequency_typical": "1x/semana", "ticket_medio_brl": 95},
+      {"channel": "Padaria / mercearia de bairro", "share_pct": 8, "trend": "estável", "frequency_typical": "2-3x/semana", "ticket_medio_brl": 35},
+      {"channel": "Atacadão / atacarejo (estoque mensal)", "share_pct": 12, "trend": "crescente classe C/D", "frequency_typical": "1x/mês", "ticket_medio_brl": 450},
+      {"channel": "Delivery (iFood, Rappi, Mercado Livre)", "share_pct": 5, "trend": "crescente classe A/B", "frequency_typical": "1-2x/semana", "ticket_medio_brl": 75},
+      {"channel": "Hortifruti especializado", "share_pct": 3, "trend": "estável", "frequency_typical": "1x/semana", "ticket_medio_brl": 70},
+      {"channel": "Outros (açougue, peixaria, etc)", "share_pct": 4, "trend": "variável", "frequency_typical": "1-2x/semana", "ticket_medio_brl": 60}
+    ]
+  },
+  "frequency_by_class": {
+    "description": "Frequência semanal típica de compra de alimentos por classe social.",
+    "supermarket_weekly": [
+      {"class": "A", "visits_per_week": 2.5, "average_basket_brl": 380},
+      {"class": "B", "visits_per_week": 2.0, "average_basket_brl": 240},
+      {"class": "C", "visits_per_week": 1.5, "average_basket_brl": 130},
+      {"class": "DE", "visits_per_week": 1.0, "average_basket_brl": 70}
+    ],
+    "feira_weekly": [
+      {"class": "A", "visits_per_week": 0.5, "average_basket_brl": 110},
+      {"class": "B", "visits_per_week": 0.7, "average_basket_brl": 95},
+      {"class": "C", "visits_per_week": 1.2, "average_basket_brl": 70},
+      {"class": "DE", "visits_per_week": 1.0, "average_basket_brl": 50}
+    ],
+    "delivery_weekly": [
+      {"class": "A", "orders_per_week": 2.5, "average_ticket_brl": 95},
+      {"class": "B", "orders_per_week": 1.5, "average_ticket_brl": 65},
+      {"class": "C", "orders_per_week": 0.5, "average_ticket_brl": 45},
+      {"class": "DE", "orders_per_week": 0.1, "average_ticket_brl": 35}
+    ]
+  },
+  "food_categories_share_budget": {
+    "description": "Participação típica de categorias de alimentos no orçamento doméstico (POF 2017-2018 + Kantar 2024).",
+    "data": [
+      {"category": "Carnes (bovina, frango, suína, peixe)", "share_pct": 23, "frequency_purchase": "semanal", "waste_risk": "alto (validade curta)"},
+      {"category": "Hortifruti (verduras, legumes, frutas)", "share_pct": 16, "frequency_purchase": "2-3x/semana", "waste_risk": "muito alto (40-50% famílias desperdiçam)"},
+      {"category": "Laticínios (leite, queijo, iogurte)", "share_pct": 12, "frequency_purchase": "semanal", "waste_risk": "alto"},
+      {"category": "Panificados (pão, bolos)", "share_pct": 9, "frequency_purchase": "2-3x/semana", "waste_risk": "muito alto (data de validade curta)"},
+      {"category": "Arroz, feijão, massas (básicos)", "share_pct": 8, "frequency_purchase": "mensal", "waste_risk": "médio (sobras)"},
+      {"category": "Bebidas (refrigerante, suco, água)", "share_pct": 7, "frequency_purchase": "mensal", "waste_risk": "baixo"},
+      {"category": "Açúcar, óleo, sal (não perecíveis)", "share_pct": 5, "frequency_purchase": "mensal", "waste_risk": "muito baixo"},
+      {"category": "Limpeza e higiene (não alimentos)", "share_pct": 10, "frequency_purchase": "mensal", "waste_risk": "N/A"},
+      {"category": "Outros (congelados, snacks, condimentos)", "share_pct": 10, "frequency_purchase": "variável", "waste_risk": "médio"}
+    ]
+  },
+  "digital_journey_touchpoints": {
+    "description": "Pontos de contato digitais na jornada de compra de alimentos — onde o Waste Guardian pode se inserir.",
+    "touchpoints": [
+      {"moment": "Planejamento (compra da semana)", "channels": ["WhatsApp", "Lista em app de notas", "Google"], "waste_guardian_opportunity": "Sugestão de cardápio baseado no que está na geladeira"},
+      {"moment": "Compra no supermercado", "channels": ["App do mercado", "Comparador de preço (Zoom, Buscapé)", "Vale-food (Swile, Ticket)"], "waste_guardian_opportunity": "Alerta: 'Você já tem X em casa, não compre de novo'"},
+      {"moment": "Compra na feira", "channels": ["Pessoalmente", "Recorrência (mesma barraca)"], "waste_guardian_opportunity": "Lista com base no consumo real da semana"},
+      {"moment": "Armazenamento (chegada em casa)", "channels": ["Casa (geladeira, dispensa)"], "waste_guardian_opportunity": "Foto da nota fiscal → organização automática do estoque"},
+      {"moment": "Preparo da refeição", "channels": ["YouTube, Instagram, TikTok (receitas)"], "waste_guardian_opportunity": "Receita com sobras (input: 'tenho arroz, feijão, brócolis')"},
+      {"moment": "Descarte de sobra", "channels": ["Lixo, ração pet, compostagem"], "waste_guardian_opportunity": "Antes do descarte, oferecer 3 opções: receita, doação, compostagem"},
+      {"moment": "Controle mensal (impacto)", "channels": ["WhatsApp, e-mail, app"], "waste_guardian_opportunity": "Relatório mensal: 'Você economizou R$195, evitou 2,1 kg de desperdício e 4,2 kg CO₂'"}
+    ]
+  },
+  "purchase_journey_persona_specific": {
+    "persona_maria_silva": {
+      "archetype": "Mãe classe B planejadora",
+      "weekly_flow": "Domingo: compra grande no supermercado (R$280-350). Terça: hortifruti (R$80). Quinta: pequenos ajustes (R$50). Sábado: feira mensal com família.",
+      "app_integration": "Já usa Mercado Livre, iFood, Rappi. Recompra: cadastra produtos favoritos. Sensível a: cashback, programa de pontos, lista de compras compartilhada com marido."
+    },
+    "persona_joao_santos": {
+      "archetype": "Pai classe C caçador de promoções",
+      "weekly_flow": "Quinta: Atacadão/Assaí (R$450 mensal, dividido em 2 visitas). Sábado: feira livre (R$80). Diário: mercearia de bairro para reposição de frescos.",
+      "app_integration": "Usa WhatsApp, Facebook, PicPay, Nubank. NÃO usa listas digitais. Compra por promoção, não por planejamento. Sensível a: 'preço mais baixo da semana', cupons, indicação de amigos."
+    },
+    "persona_dona_lourdes": {
+      "archetype": "Avó classe C2 tradicional",
+      "weekly_flow": "Sábado: feira livre (R$60). Quarta: supermercado de bairro (R$80). Diário: padaria (R$20).",
+      "app_integration": "Usa WhatsApp e YouTube. Compra por hábito (mesma quantidade há 30 anos). Sensível a: indicação da filha, simplicidade extrema, sem letras miúdas."
+    }
+  },
+  "abcomm_webshoppers_2024_food": {
+    "description": "Dados ABComm Webshoppers 2024 sobre e-commerce de alimentos no Brasil.",
+    "metrics": {
+      "brazilian_ecommerce_food_2024_brl_billion": 35.2,
+      "yoy_growth_pct": 12,
+      "average_ticket_brl": 178,
+      "main_categories_ecommerce": ["Mercearia básica", "Hortifruti (crescimento 28%)", "Bebidas", "Limpeza"],
+      "apps_used_food_purchase": ["Mercado Livre (líder)", "Amazon", "iFood Mercado", "Rappi", "Assaí Atacadista"]
+    }
+  },
+  "key_insights_for_waste_guardian": [
+    "Hortifruti (16% do orçamento, 40-50% de risco de desperdício) é a CATEGORIA-CHAVE para o app atuar — receitas + lista inteligente geram maior impacto.",
+    "Supermercado é 56% do canal — integração com notas fiscais de atacarejo (Atacadão, Assaí) é prioridade para scanner.",
+    "Feira livre é 12% do canal mas é RESISTENTE ao digital — abordagem deve ser por educação da família (filhos/nora/genro)",
+    "Delivery de comida pronta é apenas 5% do orçamento, mas crescendo — oportunidade para Doação de comida não consumida.",
+    "Pão e panificados têm o maior índice de descarte doméstico (Embrapa 11% das partes comestíveis) — funcionalidades de 'reaproveitamento' ganham tração."
+  ],
+  "sources": [
+    {
+      "id": "ibge_pof_2017_2018",
+      "type": "pesquisa_oficial",
+      "title": "Pesquisa de Orçamentos Familiares (POF) 2017-2018",
+      "author": "IBGE — Instituto Brasileiro de Geografia e Estatística",
+      "year": 2020,
+      "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/9051-pesquisa-de-orcamentos-familiares.html",
+      "doi": null,
+      "access_date": "2026-06-03",
+      "reliability": "alta",
+      "notes": "Pesquisa quinquenal detalhada sobre orçamento e consumo das famílias brasileiras. Dados de 2017-2018 são a referência mais recente até a POF 2024-2025 (lançamento previsto)."
+    },
+    {
+      "id": "embrapa_cidades_alimentacao_2023",
+      "type": "relatorio_pesquisa",
+      "title": "Cidades e Alimentação — Relatório de Pesquisa Diálogo União Europeia-Brasil",
+      "author": "Embrapa Alimentos e Territórios + Instituto Comida do Amanhã",
+      "year": 2023,
+      "url": "https://www.embrapa.br/busca-de-publicacoes/-/publicacao/1156846/cidade-e-alimentacao-relatorio-de-pesquisa-dialogo-uniao-europeia---brasil-sobre-sistemas-alimentares-urbanos-sustentaveis",
+      "access_date": "2026-06-03",
+      "reliability": "alta",
+      "notes": "Estudo de caso em 5 cidades brasileiras (Curitiba, Maricá, Recife, Rio Branco, Santarém). Inclui gravimetria de feiras livres. Análise de desperdício evitável e inevitável."
+    },
+    {
+      "id": "abcomm_webshoppers_2024",
+      "type": "pesquisa_setorial",
+      "title": "Webshoppers 2024 — Pesquisa sobre E-commerce no Brasil",
+      "author": "ABComm — Associação Brasileira de Comércio Eletrônico + Conversion (atual Movile)",
+      "year": 2024,
+      "url": "https://www.abcomm.org/",
+      "access_date": "2026-06-03",
+      "reliability": "media",
+      "notes": "Estimativa de e-commerce de alimentos no Brasil 2024: R$35,2 bilhões, crescimento 12% a/a."
+    },
+    {
+      "id": "kantar_worldpanel_brasil_2024",
+      "type": "consumer_panel",
+      "title": "Kantar Worldpanel Brasil — Hábitos de consumo 2024",
+      "author": "Kantar Worldpanel",
+      "year": 2024,
+      "url": "https://www.kantar.com/worldpanel/brazil",
+      "access_date": "2026-06-03",
+      "reliability": "alta",
+      "notes": "Painel longitudinal de 18 mil domicílios brasileiros acompanhados em 12 meses. Dados sobre cesta de compras, marcas, ocasiões de consumo."
+    },
+    {
+      "id": "cetic_tic_h2_2024",
+      "type": "pesquisa_oficial",
+      "title": "TIC Domicílios 2024 — Tabela H2: Usuários de Internet que compraram produtos/serviços pela internet",
+      "author": "CETIC.br / NIC.br",
+      "year": 2024,
+      "url": "https://cetic.br/pt/tics/domicilios/2024/individuos/H2/",
+      "access_date": "2026-06-03",
+      "reliability": "alta"
+    }
+  ]
+}
